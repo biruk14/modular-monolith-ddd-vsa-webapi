@@ -1,0 +1,2597 @@
+{
+  "communities": {
+    "0": [
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_buildconsumer",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_builddlqproducer",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_consumeloop",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_executeasync",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logalreadyprocesseddb",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logalreadyprocessedpayload",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logconcurrencyconflict",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logconsumeerror",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logconsumeloopcancelled",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logconsumeloopfinished",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logconsumersubscribed",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logdlqcancelled",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logdlqconfigured",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logdlqfailure",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logdlqsuccess",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logdlqunexpectederror",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logfatalcommiterror",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logfatalconsumeerror",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logfataldlqcommiterror",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logfataldlqproduceerror",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logkafkaconsumererror",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logkafkaconsumerlog",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logmessageconsumed",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logmessagenotfound",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_lognonfatalcommiterror",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_lognonfatalconsumeerror",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_lognonfataldlqcommiterror",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_lognullmessage",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logoffsetcommitted",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logpartitioneof",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logprocessconcurrencyerror",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logprocesserrornullresult",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logprocessingerror",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logprocessingerrornullconsumeresult",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logprocesssuccess",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logproducedtodlq",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logretrydelaycancelled",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logsendingtodlq",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logstarting",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logstartprocessing",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logstopasynccalled",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logstopasyncfinished",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logstopped",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logstopping",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_logunhandledexception",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_parseloglevel",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_processmessageasync",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_sendtodlqasync",
+      "outbox_outboxkafkaprocessor_outboxkafkaprocessor_stopasync",
+      "outboxoptions",
+      "src_modules_outbox_outbox_outboxkafkaprocessor_cs"
+    ],
+    "1": [
+      "auditlog_auditlogretentionservice_auditlogretentionservice",
+      "auditlog_auditlogretentionservice_auditlogretentionservice_logretentioncomplete",
+      "auditlog_auditlogretentionservice_auditlogretentionservice_logretentionstart",
+      "auditlog_auditlogretentionservice_auditlogretentionservice_logschemaretention",
+      "auditlog_auditlogretentionservice_auditlogretentionservice_purgeexpiredentriesasync",
+      "decimal",
+      "identity_constants_constants",
+      "imiddleware",
+      "int",
+      "middlewares_enrichlogswithuserinfomiddleware_enrichlogswithuserinfomiddleware",
+      "middlewares_enrichlogswithuserinfomiddleware_enrichlogswithuserinfomiddleware_invokeasync",
+      "middlewares_globalexceptionhandlingmiddleware_globalexceptionhandlingmiddleware",
+      "middlewares_globalexceptionhandlingmiddleware_globalexceptionhandlingmiddleware_handleexceptionasync",
+      "middlewares_globalexceptionhandlingmiddleware_globalexceptionhandlingmiddleware_invokeasync",
+      "middlewares_globalexceptionhandlingmiddleware_globalexceptionhandlingmiddleware_logcantwriteresponse",
+      "middlewares_globalexceptionhandlingmiddleware_globalexceptionhandlingmiddleware_logerror",
+      "middlewares_requestresponseloggingmiddleware_requestresponseloggingmiddleware",
+      "middlewares_requestresponseloggingmiddleware_requestresponseloggingmiddleware_invokeasync",
+      "middlewares_requestresponseloggingmiddleware_requestresponseloggingmiddleware_logcriticalresponse",
+      "middlewares_requestresponseloggingmiddleware_requestresponseloggingmiddleware_logerrorresponse",
+      "middlewares_requestresponseloggingmiddleware_requestresponseloggingmiddleware_loginformationresponse",
+      "middlewares_requestresponseloggingmiddleware_requestresponseloggingmiddleware_logresponse",
+      "middlewares_requestresponseloggingmiddleware_requestresponseloggingmiddleware_logwarningresponse",
+      "pagination_paginationrequestvalidator_paginationrequestvalidator",
+      "products_constants_constants",
+      "products_producttests_producttests",
+      "products_producttests_producttests_create_withvalidparameters_returnsproductandraisesevent",
+      "products_producttests_producttests_update_decreasequantityandprice_updatespropertiesandraisesdecreasedevents",
+      "products_producttests_producttests_update_increasequantityandprice_updatespropertiesandraisesincreasedevents",
+      "products_producttests_producttests_update_nameanddescription_updatespropertiesandraisesevents",
+      "products_producttests_producttests_update_withsamevalues_doesnotraiseevents",
+      "producttemplateid",
+      "producttemplates_constants_constants",
+      "src_common_common_application_pagination_paginationrequestvalidator_cs",
+      "src_common_common_infrastructure_persistence_auditlog_auditlogretentionservice_cs",
+      "src_host_host_middlewares_enrichlogswithuserinfomiddleware_cs",
+      "src_host_host_middlewares_globalexceptionhandlingmiddleware_cs",
+      "src_host_host_middlewares_requestresponseloggingmiddleware_cs",
+      "src_modules_iam_iam_domain_identity_constants_cs",
+      "src_modules_products_products_domain_products_constants_cs",
+      "src_modules_products_products_domain_producttemplates_constants_cs",
+      "src_modules_products_products_domain_stores_constants_cs",
+      "src_modules_products_products_tests_products_producttests_cs",
+      "storeid",
+      "stores_constants_constants"
+    ],
+    "2": [
+      "aggregates_aggregateroot_aggregateroot",
+      "aggregates_aggregateroot_aggregateroot_addevent",
+      "aggregates_aggregateroot_aggregateroot_applyevent",
+      "aggregates_aggregateroot_aggregateroot_clearevents",
+      "aggregates_aggregateroot_aggregateroot_loadfromhistory",
+      "aggregates_aggregateroot_aggregateroot_raiseevent",
+      "auditableentity",
+      "entities_auditlogentry_auditlogentry",
+      "entities_auditlogentry_auditlogentry_create",
+      "iaggregateroot",
+      "identity_applicationuser_aggregateroot_applicationuser",
+      "identity_applicationuser_aggregateroot_applicationuser_addevent",
+      "identity_applicationuser_aggregateroot_applicationuser_clearevents",
+      "identity_applicationuser_aggregateroot_applicationuser_loadfromhistory",
+      "identity_applicationuser_aggregateroot_applicationuser_raiseevent",
+      "identity_applicationuser_applicationuser",
+      "identity_applicationuser_applicationuser_apply",
+      "identity_applicationuser_applicationuser_applyevent",
+      "identity_applicationuser_applicationuser_create",
+      "identity_applicationuser_applicationuser_revokerefreshtoken",
+      "identity_applicationuser_applicationuser_updateimageurl",
+      "identity_applicationuser_applicationuser_updaterefreshtoken",
+      "identityuser",
+      "list",
+      "producttemplates_producttemplate_new",
+      "producttemplates_producttemplate_producttemplate",
+      "producttemplates_producttemplate_producttemplate_activate",
+      "producttemplates_producttemplate_producttemplate_create",
+      "producttemplates_producttemplate_producttemplate_deactivate",
+      "producttemplates_producttemplate_tostring",
+      "producttemplates_producttemplate_tryparse",
+      "src_common_common_domain_aggregates_aggregateroot_cs",
+      "src_common_common_domain_entities_auditlogentry_cs",
+      "src_modules_iam_iam_domain_identity_applicationuser_aggregateroot_cs",
+      "src_modules_iam_iam_domain_identity_applicationuser_cs",
+      "src_modules_products_products_domain_producttemplates_producttemplate_cs"
+    ],
+    "3": [
+      "seeding_seeder_products_seeder",
+      "seeding_seeder_products_seeder_seedproductasync",
+      "seeding_seeder_producttemplates_seeder",
+      "seeding_seeder_producttemplates_seeder_seedproductsasync",
+      "seeding_seeder_producttemplates_seeder_seedproducttemplatesasync",
+      "seeding_seeder_roles_seeder",
+      "seeding_seeder_roles_seeder_logrolecreation",
+      "seeding_seeder_roles_seeder_seedroleasync",
+      "seeding_seeder_roles_seeder_seedrolesasync",
+      "seeding_seeder_seeder",
+      "seeding_seeder_seeder_logiammodulenotavailable",
+      "seeding_seeder_seeder_seeddbasync",
+      "seeding_seeder_stores_seeder",
+      "seeding_seeder_stores_seeder_seedstore",
+      "seeding_seeder_stores_seeder_seedstoresasync",
+      "seeding_seeder_users_seeder",
+      "seeding_seeder_users_seeder_logseedingadminuser",
+      "seeding_seeder_users_seeder_logseedingbasicuser",
+      "seeding_seeder_users_seeder_logseedingroletoadmin",
+      "seeding_seeder_users_seeder_logseedingroletobasic",
+      "seeding_seeder_users_seeder_seedadmintoallrolesasync",
+      "seeding_seeder_users_seeder_seedadminuserasync",
+      "seeding_seeder_users_seeder_seedbasicusersasync",
+      "seeding_seeder_users_seeder_seedbasicusertobasicroleasync",
+      "seeding_seeder_users_seeder_seeduser",
+      "seeding_seeder_users_seeder_seedusersasync",
+      "src_modules_iam_iam_infrastructure_persistence_seeding_seeder_cs",
+      "src_modules_iam_iam_infrastructure_persistence_seeding_seeder_roles_cs",
+      "src_modules_iam_iam_infrastructure_persistence_seeding_seeder_users_cs",
+      "src_modules_products_products_infrastructure_persistence_seeding_seeder_cs",
+      "src_modules_products_products_infrastructure_persistence_seeding_seeder_products_cs",
+      "src_modules_products_products_infrastructure_persistence_seeding_seeder_producttemplates_cs",
+      "src_modules_products_products_infrastructure_persistence_seeding_seeder_stores_cs"
+    ],
+    "4": [
+      "claude_backgroundjobs_module",
+      "claude_claude_code_instructions",
+      "claude_common_integration_events",
+      "claude_common_intermodule_requests",
+      "claude_iam_module",
+      "claude_notifications_module",
+      "claude_outbox_module",
+      "claude_products_module",
+      "dockercompose_host_service",
+      "dockercompose_init_db_publication",
+      "dockercompose_init_debezium_connector",
+      "dockercompose_init_kafka_topics",
+      "dockercompose_mm_debezium",
+      "dockercompose_mm_grafana",
+      "dockercompose_mm_jaeger",
+      "dockercompose_mm_kafka",
+      "dockercompose_mm_postgres",
+      "dockercompose_mm_postgres_exporter",
+      "dockercompose_mm_prometheus",
+      "dockercompose_mm_seq",
+      "gemini_antigravity_agent_instructions",
+      "gemini_backgroundjobs_module",
+      "gemini_common_integration_events",
+      "gemini_common_intermodule_requests",
+      "gemini_iam_module",
+      "gemini_notifications_module",
+      "gemini_outbox_module",
+      "gemini_products_module",
+      "readme_cdc_kafka_debezium",
+      "readme_hangfire",
+      "readme_mass_transit_rabbitmq",
+      "readme_modular_monolith_ddd_vsa_webapi_boilerplate",
+      "readme_transactional_outbox_pattern"
+    ],
+    "5": [
+      "captcha_captchaerrors_captchaerrors",
+      "common_tests_aggregatetests_aggregatetests",
+      "common_tests_aggregatetests_aggregatetests_then",
+      "common_tests_aggregatetests_aggregatetests_thenerror",
+      "common_tests_aggregatetests_aggregatetests_thennoeventsoftype",
+      "common_tests_aggregatetests_aggregatetests_when",
+      "error",
+      "errors_identityerrors_identityerrors",
+      "errors_identityerrors_identityerrors_some",
+      "errors_otperrors_otperrors",
+      "object",
+      "result",
+      "resultmonad_resultextensions_asyncextensions",
+      "resultmonad_resultextensions_asyncextensions_bindasync",
+      "resultmonad_resultextensions_asyncextensions_combineasync",
+      "resultmonad_resultextensions_asyncextensions_mapasync",
+      "resultmonad_resultextensions_asyncextensions_tapasync",
+      "resultmonad_resultextensions_asyncextensions_tapwhenasync",
+      "resultmonad_resultextensions_syncextensions",
+      "resultmonad_resultextensions_syncextensions_apply",
+      "resultmonad_resultextensions_syncextensions_bind",
+      "resultmonad_resultextensions_syncextensions_map",
+      "resultmonad_resultextensions_syncextensions_match",
+      "resultmonad_resultextensions_syncextensions_tap",
+      "resultmonad_resultextensions_syncextensions_tapwhen",
+      "src_common_common_domain_resultmonad_resultextensions_cs",
+      "src_common_common_tests_aggregatetests_cs",
+      "src_modules_iam_iam_domain_captcha_captchaerrors_cs",
+      "src_modules_iam_iam_domain_errors_identityerrors_cs",
+      "src_modules_iam_iam_domain_errors_otperrors_cs",
+      "taggregate"
+    ],
+    "6": [
+      "aggregateroot",
+      "products_product_new",
+      "products_product_product",
+      "products_product_product_apply",
+      "products_product_product_applyevent",
+      "products_product_product_create",
+      "products_product_product_update",
+      "products_product_product_updatedescription",
+      "products_product_product_updatename",
+      "products_product_product_updateprice",
+      "products_product_product_updatequantity",
+      "products_product_tostring",
+      "products_product_tryparse",
+      "src_modules_products_products_domain_products_product_cs",
+      "src_modules_products_products_domain_stores_store_cs",
+      "stores_store_new",
+      "stores_store_store",
+      "stores_store_store_addproduct",
+      "stores_store_store_apply",
+      "stores_store_store_applyevent",
+      "stores_store_store_create",
+      "stores_store_store_removeproduct",
+      "stores_store_store_update",
+      "stores_store_store_updateaddress",
+      "stores_store_store_updatedescription",
+      "stores_store_store_updatename",
+      "stores_store_tostring",
+      "stores_store_tryparse"
+    ],
+    "7": [
+      "jsonconverter",
+      "jsonconverterfactory",
+      "jsonconverters_stronglytypedidreadonlyjsonconverter_stronglytypedidreadonlyjsonconverter",
+      "jsonconverters_stronglytypedidreadonlyjsonconverter_stronglytypedidreadonlyjsonconverter_canconvert",
+      "jsonconverters_stronglytypedidreadonlyjsonconverter_stronglytypedidreadonlyjsonconverter_read",
+      "jsonconverters_stronglytypedidreadonlyjsonconverter_stronglytypedidreadonlyjsonconverter_write",
+      "jsonconverters_stronglytypedidwriteonlyjsonconverter_stronglytypedidwriteonlyjsonconverter",
+      "jsonconverters_stronglytypedidwriteonlyjsonconverter_stronglytypedidwriteonlyjsonconverter_canconvert",
+      "jsonconverters_stronglytypedidwriteonlyjsonconverter_stronglytypedidwriteonlyjsonconverter_read",
+      "jsonconverters_stronglytypedidwriteonlyjsonconverter_stronglytypedidwriteonlyjsonconverter_write",
+      "src_common_common_application_jsonconverters_stronglytypedidreadonlyjsonconverter_cs",
+      "src_common_common_application_jsonconverters_stronglytypedidwriteonlyjsonconverter_cs",
+      "src_common_common_infrastructure_persistence_valueconverters_polymorphiceventconverter_cs",
+      "src_common_common_tests_systemtextjson_nullablestronglytypedidreadonlyjsonconverter_cs",
+      "systemtextjson_nullablestronglytypedidreadonlyjsonconverter_nonnullableconverter",
+      "systemtextjson_nullablestronglytypedidreadonlyjsonconverter_nonnullableconverter_read",
+      "systemtextjson_nullablestronglytypedidreadonlyjsonconverter_nonnullableconverter_write",
+      "systemtextjson_nullablestronglytypedidreadonlyjsonconverter_nullableconverter",
+      "systemtextjson_nullablestronglytypedidreadonlyjsonconverter_nullableconverter_read",
+      "systemtextjson_nullablestronglytypedidreadonlyjsonconverter_nullableconverter_write",
+      "systemtextjson_nullablestronglytypedidreadonlyjsonconverter_nullablestronglytypedidreadonlyjsonconverter",
+      "systemtextjson_nullablestronglytypedidreadonlyjsonconverter_nullablestronglytypedidreadonlyjsonconverter_canconvert",
+      "systemtextjson_nullablestronglytypedidreadonlyjsonconverter_nullablestronglytypedidreadonlyjsonconverter_createconverter",
+      "systemtextjson_nullablestronglytypedidreadonlyjsonconverter_nullablestronglytypedidreadonlyjsonconverter_parsestronglytypedid",
+      "valueconverters_polymorphiceventconverter_polymorphiceventconverter",
+      "valueconverters_polymorphiceventconverter_polymorphiceventconverter_read",
+      "valueconverters_polymorphiceventconverter_polymorphiceventconverter_write"
+    ],
+    "8": [
+      "backgroundjobs_backgroundjobsmodule_backgroundjobsmodule",
+      "backgroundjobs_backgroundjobsmodule_backgroundjobsmodule_addservices",
+      "backgroundjobs_backgroundjobsmodule_backgroundjobsmodule_mapendpoints",
+      "backgroundjobs_backgroundjobsmodule_backgroundjobsmodule_usemodule",
+      "iam_endpoints_iammodule_iammodule",
+      "iam_endpoints_iammodule_iammodule_addservices",
+      "iam_endpoints_iammodule_iammodule_mapendpoints",
+      "iam_endpoints_iammodule_iammodule_usemodule",
+      "imodule",
+      "notifications_infrastructure_notificationsmodule_notificationsmodule",
+      "notifications_infrastructure_notificationsmodule_notificationsmodule_addservices",
+      "notifications_infrastructure_notificationsmodule_notificationsmodule_mapendpoints",
+      "notifications_infrastructure_notificationsmodule_notificationsmodule_usemodule",
+      "outbox_outboxmodule_outboxmodule",
+      "outbox_outboxmodule_outboxmodule_addservices",
+      "outbox_outboxmodule_outboxmodule_logsql",
+      "outbox_outboxmodule_outboxmodule_mapendpoints",
+      "outbox_outboxmodule_outboxmodule_usemodule",
+      "products_endpoints_productsmodule_productsmodule",
+      "products_endpoints_productsmodule_productsmodule_addservices",
+      "products_endpoints_productsmodule_productsmodule_mapendpoints",
+      "products_endpoints_productsmodule_productsmodule_usemodule",
+      "src_modules_backgroundjobs_backgroundjobs_backgroundjobsmodule_cs",
+      "src_modules_iam_iam_endpoints_iammodule_cs",
+      "src_modules_notifications_notifications_infrastructure_notificationsmodule_cs",
+      "src_modules_outbox_outbox_outboxmodule_cs",
+      "src_modules_products_products_endpoints_productsmodule_cs"
+    ],
+    "9": [
+      "aggregatetests",
+      "applicationuserid",
+      "common_tests_aggregatetests_aggregatetests_given",
+      "dateonly",
+      "identity_applicationusertests_applicationusertests",
+      "identity_applicationusertests_applicationusertests_createusershouldraiseuserregistereddomainevent",
+      "identity_applicationusertests_applicationusertests_revokerefreshtokenshouldcleartokenfieldsandraiseevent",
+      "identity_applicationusertests_applicationusertests_updateimageurlshouldraiseuserimageurlupdateddomainevent",
+      "identity_applicationusertests_applicationusertests_updaterefreshtokenshouldraiserefreshtokenupdateddomainevent",
+      "products_tests_storetests_storetests",
+      "products_tests_storetests_storetests_addproductshouldaddproductandraiseproductaddedtostoredomainevent",
+      "products_tests_storetests_storetests_createstoreshouldraisestorecreateddomainevent",
+      "products_tests_storetests_storetests_removeproductfromstoreshouldremoveandraiseproductremovedfromstoredomainevent",
+      "products_tests_storetests_storetests_updatestoreshouldupdatedescriptionandraisestoredescriptionupdateddomaineventwhendifferentdescriptionisgiven",
+      "products_tests_storetests_storetests_updatestoreshouldupdatenameandraisestorenameupdateddomaineventwhendifferentnameisgiven",
+      "producttemplate",
+      "src_modules_iam_iam_tests_identity_applicationusertests_cs",
+      "src_modules_products_products_tests_stores_storetests_cs",
+      "src_modules_products_products_tests_storetests_cs",
+      "stores_storetests_storetests",
+      "stores_storetests_storetests_addproduct_withvalidproduct_addstocollectionandraisesevent",
+      "stores_storetests_storetests_create_withvalidparameters_returnsstoreandraisesevent",
+      "stores_storetests_storetests_removeproduct_withexistingproduct_removesfromcollectionandraisesevent",
+      "stores_storetests_storetests_update_allproperties_updatespropertiesandraisesevents",
+      "stores_storetests_storetests_update_withsamevalues_doesnotraiseevents",
+      "uri"
+    ],
+    "10": [
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_concurrencyfailure",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_defaulterror",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_duplicateemail",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_duplicaterolename",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_duplicateusername",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_invalidemail",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_invalidrolename",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_invalidtoken",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_invalidusername",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_loginalreadyassociated",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_passwordmismatch",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_passwordrequiresdigit",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_passwordrequireslower",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_passwordrequiresnonalphanumeric",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_passwordrequiresuniquechars",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_passwordrequiresupper",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_passwordtooshort",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_recoverycoderedemptionfailed",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_useralreadyhaspassword",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_useralreadyinrole",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_userlockoutnotenabled",
+      "identity_localizedidentityerrordescriber_localizedidentityerrordescriber_usernotinrole",
+      "identityerrordescriber",
+      "src_modules_iam_iam_infrastructure_identity_localizedidentityerrordescriber_cs"
+    ],
+    "11": [
+      "captchaoptions",
+      "double",
+      "icaptchaservice",
+      "services_cachedcaptchaservice_cachedcaptchaservice",
+      "services_cachedcaptchaservice_cachedcaptchaservice_cachekey",
+      "services_cachedcaptchaservice_cachedcaptchaservice_getclientkey",
+      "services_cachedcaptchaservice_cachedcaptchaservice_validateasync",
+      "services_dummycaptchaservice_dummycaptchaservice",
+      "services_dummycaptchaservice_dummycaptchaservice_getclientkey",
+      "services_dummycaptchaservice_dummycaptchaservice_validateasync",
+      "services_recaptchaservice_recaptcharesponse",
+      "services_recaptchaservice_recaptcharesponse_tostring",
+      "services_recaptchaservice_recaptchaservice",
+      "services_recaptchaservice_recaptchaservice_getclientkey",
+      "services_recaptchaservice_recaptchaservice_getrequestparameters",
+      "services_recaptchaservice_recaptchaservice_logcaptchadeserializationfailed",
+      "services_recaptchaservice_recaptchaservice_logcaptchascorebelowthreshold",
+      "services_recaptchaservice_recaptchaservice_logcaptchavalidationfailedwithresponse",
+      "services_recaptchaservice_recaptchaservice_logcaptchavalidationfailedwithstatuscode",
+      "services_recaptchaservice_recaptchaservice_validateasync",
+      "src_modules_iam_iam_infrastructure_captcha_services_cachedcaptchaservice_cs",
+      "src_modules_iam_iam_infrastructure_captcha_services_dummycaptchaservice_cs",
+      "src_modules_iam_iam_infrastructure_captcha_services_recaptchaservice_cs"
+    ],
+    "12": [
+      "entityconfigurations_auditableentityconfiguration_auditableentityconfiguration",
+      "entityconfigurations_auditableentityconfiguration_auditableentityconfiguration_configure",
+      "entityconfigurations_configs_applicationroleconfig",
+      "entityconfigurations_configs_applicationroleconfig_configure",
+      "entityconfigurations_configs_applicationuserconfig",
+      "entityconfigurations_configs_applicationuserconfig_configure",
+      "entityconfigurations_configs_identityroleclaimconfig",
+      "entityconfigurations_configs_identityroleclaimconfig_configure",
+      "entityconfigurations_configs_identityuserclaimconfig",
+      "entityconfigurations_configs_identityuserclaimconfig_configure",
+      "entityconfigurations_configs_identityuserloginconfig",
+      "entityconfigurations_configs_identityuserloginconfig_configure",
+      "entityconfigurations_configs_identityuserroleconfig",
+      "entityconfigurations_configs_identityuserroleconfig_configure",
+      "entityconfigurations_configs_identityusertokenconfig",
+      "entityconfigurations_configs_identityusertokenconfig_configure",
+      "ientitytypeconfiguration",
+      "persistence_outboxmessageconfig_outboxmessageconfig",
+      "persistence_outboxmessageconfig_outboxmessageconfig_configure",
+      "src_common_common_infrastructure_persistence_entityconfigurations_auditableentityconfiguration_cs",
+      "src_modules_iam_iam_infrastructure_persistence_entityconfigurations_configs_cs",
+      "src_modules_outbox_outbox_persistence_outboxmessageconfig_cs"
+    ],
+    "13": [
+      "get_endpoint_endpoint",
+      "get_endpoint_endpoint_getasync",
+      "get_endpoint_endpoint_getclientkey",
+      "get_endpoint_endpoint_getmeasync",
+      "get_endpoint_endpoint_getmyproductasync",
+      "get_endpoint_endpoint_getmystoreasync",
+      "get_endpoint_endpoint_getproductasync",
+      "get_endpoint_endpoint_getproducttemplateasync",
+      "get_endpoint_endpoint_getstoreasync",
+      "get_endpoint_endpoint_mapendpoint",
+      "src_modules_iam_iam_endpoints_captcha_versionneutral_clientkey_get_endpoint_cs",
+      "src_modules_iam_iam_endpoints_users_versionneutral_get_endpoint_cs",
+      "src_modules_iam_iam_endpoints_users_versionneutral_me_get_endpoint_cs",
+      "src_modules_products_products_endpoints_products_v1_get_endpoint_cs",
+      "src_modules_products_products_endpoints_products_v1_my_get_endpoint_cs",
+      "src_modules_products_products_endpoints_producttemplates_v1_get_endpoint_cs",
+      "src_modules_products_products_endpoints_stores_v1_get_endpoint_cs",
+      "src_modules_products_products_endpoints_stores_v1_my_get_endpoint_cs"
+    ],
+    "14": [
+      "concurrentbag",
+      "eventbus_masstransiteventbus_masstransiteventbus",
+      "eventbus_masstransiteventbus_masstransiteventbus_logpublishedevent",
+      "eventbus_masstransiteventbus_masstransiteventbus_logpublishingevent",
+      "eventbus_masstransiteventbus_masstransiteventbus_publishasync",
+      "iclassfixture",
+      "ieventbus",
+      "iservicescopefactory",
+      "outbox_tests_outboxkafkaprocessortests_outboxkafkaprocessortests",
+      "outbox_tests_outboxkafkaprocessortests_outboxkafkaprocessortests_should_process_message_successfully",
+      "outbox_tests_outboxkafkaprocessortests_outboxkafkaprocessortests_should_produce_dlq_on_failure",
+      "outbox_tests_outboxkafkaprocessortests_spyeventbus",
+      "outbox_tests_outboxkafkaprocessortests_spyeventbus_publishasync",
+      "outboxtestwebappfactory",
+      "src_common_common_infrastructure_eventbus_masstransiteventbus_cs",
+      "src_modules_outbox_outbox_tests_outboxkafkaprocessortests_cs"
+    ],
+    "15": [
+      "activate_request_requestvalidator",
+      "checkregistration_request_requestvalidator",
+      "customvalidator",
+      "deactivate_request_requestvalidator",
+      "options_otpoptions_otpoptions",
+      "options_otpoptions_otpoptionsvalidator",
+      "refresh_request_requestvalidator",
+      "selfregister_request_requestvalidator",
+      "send_request_requestvalidator",
+      "src_common_common_application_options_otpoptions_cs",
+      "src_modules_iam_iam_endpoints_otp_versionneutral_send_request_cs",
+      "src_modules_iam_iam_endpoints_tokens_versionneutral_refresh_request_cs",
+      "src_modules_iam_iam_endpoints_users_versionneutral_checkregistration_request_cs",
+      "src_modules_iam_iam_endpoints_users_versionneutral_selfregister_request_cs",
+      "src_modules_products_products_endpoints_producttemplates_v1_activate_request_cs",
+      "src_modules_products_products_endpoints_producttemplates_v1_deactivate_request_cs"
+    ],
+    "16": [
+      "auth_actionsandresources_customactions",
+      "auth_actionsandresources_customresources",
+      "auth_customclaims_customclaims",
+      "entityconfigurations_fulltextsearch_fulltextsearch",
+      "iam_domain_constants_constants",
+      "ratelimiting_constants_constants",
+      "ratelimiting_ratelimitingconstants_ratelimitingconstants",
+      "src_common_common_application_auth_actionsandresources_cs",
+      "src_modules_iam_iam_application_auth_customclaims_cs",
+      "src_modules_iam_iam_domain_constants_cs",
+      "src_modules_iam_iam_infrastructure_persistence_entityconfigurations_fulltextsearch_cs",
+      "src_modules_iam_iam_infrastructure_ratelimiting_constants_cs",
+      "src_modules_products_products_infrastructure_persistence_entityconfigurations_fulltextsearch_cs",
+      "src_modules_products_products_infrastructure_ratelimiting_ratelimitingconstants_cs",
+      "string"
+    ],
+    "17": [
+      "eventhandlerbase",
+      "integrationeventhandlers_userregisteredintegrationeventhandler_userregisteredintegrationeventhandler",
+      "integrationeventhandlers_userregisteredintegrationeventhandler_userregisteredintegrationeventhandler_handleasync",
+      "integrationeventhandlers_userregisteredintegrationeventhandler_userregisteredintegrationeventhandler_logenqueuingsendingwelcomesms",
+      "src_modules_iam_iam_application_users_domaineventhandlers_v1_v1userregistereddomaineventhandler_cs",
+      "src_modules_notifications_notifications_application_integrationeventhandlers_userregisteredintegrationeventhandler_cs",
+      "src_modules_products_products_application_stores_domaineventhandlers_v1_v1storecreateddomaineventhandlers_cs",
+      "v1_v1storecreateddomaineventhandlers_simulatesomebusinesshandler",
+      "v1_v1storecreateddomaineventhandlers_simulatesomebusinesshandler_handleasync",
+      "v1_v1storecreateddomaineventhandlers_storecreatedintegrationeventpublishinghandler",
+      "v1_v1storecreateddomaineventhandlers_storecreatedintegrationeventpublishinghandler_handleasync",
+      "v1_v1storecreateddomaineventhandlers_v1storecreateddomaineventhandlers",
+      "v1_v1userregistereddomaineventhandler_v1userregistereddomaineventhandler",
+      "v1_v1userregistereddomaineventhandler_v1userregistereddomaineventhandler_handleasync"
+    ],
+    "18": [
+      "backgroundjobs_backgroundjobsservice_backgroundjobsservice",
+      "backgroundjobs_backgroundjobsservice_backgroundjobsservice_continuejobwith",
+      "backgroundjobs_backgroundjobsservice_backgroundjobsservice_delete",
+      "backgroundjobs_backgroundjobsservice_backgroundjobsservice_enqueue",
+      "backgroundjobs_backgroundjobsservice_backgroundjobsservice_requeue",
+      "backgroundjobs_backgroundjobsservice_backgroundjobsservice_reschedule",
+      "backgroundjobs_backgroundjobsservice_backgroundjobsservice_schedule",
+      "ibackgroundjobs",
+      "ilogger",
+      "integrationeventhandlers_userregisteredintegrationeventhandlertests_userregisteredintegrationeventhandlertests",
+      "integrationeventhandlers_userregisteredintegrationeventhandlertests_userregisteredintegrationeventhandlertests_handleasyncshouldenqueuewelcomesmswhenuserregistered",
+      "src_modules_backgroundjobs_backgroundjobs_backgroundjobsservice_cs",
+      "src_modules_notifications_notifications_tests_integrationeventhandlers_userregisteredintegrationeventhandlertests_cs",
+      "userregisteredintegrationeventhandler"
+    ],
+    "19": [
+      "activitylistener",
+      "common_tests_resulttelemetryextensionstests_resulttelemetryextensionstests",
+      "common_tests_resulttelemetryextensionstests_resulttelemetryextensionstests_dispose",
+      "common_tests_resulttelemetryextensionstests_resulttelemetryextensionstests_nongenerictapactivity_onfailure_setsactivitystatuserror",
+      "common_tests_resulttelemetryextensionstests_resulttelemetryextensionstests_nongenerictapactivity_onsuccess_setsactivitystatusok",
+      "common_tests_resulttelemetryextensionstests_resulttelemetryextensionstests_startactivityforcaller_usescallermembername",
+      "common_tests_resulttelemetryextensionstests_resulttelemetryextensionstests_tapactivity_onfailure_setsactivitystatuserror",
+      "common_tests_resulttelemetryextensionstests_resulttelemetryextensionstests_tapactivity_onfailure_setserrortypetag",
+      "common_tests_resulttelemetryextensionstests_resulttelemetryextensionstests_tapactivity_onsuccess_setsactivitystatusok",
+      "common_tests_resulttelemetryextensionstests_resulttelemetryextensionstests_tapactivity_withnullactivity_returnsresultunchanged",
+      "common_tests_resulttelemetryextensionstests_resulttelemetryextensionstests_tapactivityasync_nongeneric_onsuccess_setsactivitystatusok",
+      "common_tests_resulttelemetryextensionstests_resulttelemetryextensionstests_tapactivityasync_onsuccess_setsactivitystatusok",
+      "src_common_common_tests_resulttelemetryextensionstests_cs"
+    ],
+    "20": [
+      "auditableentityconfiguration",
+      "entityconfigurations_auditlogentryconfiguration_auditlogentryconfiguration",
+      "entityconfigurations_auditlogentryconfiguration_auditlogentryconfiguration_configure",
+      "entityconfigurations_productconfiguration_productconfiguration",
+      "entityconfigurations_productconfiguration_productconfiguration_configure",
+      "entityconfigurations_producttemplateconfiguration_producttemplateconfiguration",
+      "entityconfigurations_producttemplateconfiguration_producttemplateconfiguration_configure",
+      "entityconfigurations_storeconfiguration_storeconfiguration",
+      "entityconfigurations_storeconfiguration_storeconfiguration_configure",
+      "src_common_common_infrastructure_persistence_entityconfigurations_auditlogentryconfiguration_cs",
+      "src_modules_products_products_infrastructure_persistence_entityconfigurations_productconfiguration_cs",
+      "src_modules_products_products_infrastructure_persistence_entityconfigurations_producttemplateconfiguration_cs",
+      "src_modules_products_products_infrastructure_persistence_entityconfigurations_storeconfiguration_cs"
+    ],
+    "21": [
+      "ioperationfilter",
+      "src_host_host_swagger_defaultresponsesoperationfilter_cs",
+      "src_host_host_swagger_removedefaultresponseschemafilter_cs",
+      "src_host_host_swagger_swaggerdefaultvalues_cs",
+      "swagger_defaultresponsesoperationfilter_defaultresponsesoperationfilter",
+      "swagger_defaultresponsesoperationfilter_defaultresponsesoperationfilter_addresponse",
+      "swagger_defaultresponsesoperationfilter_defaultresponsesoperationfilter_apply",
+      "swagger_removedefaultresponseschemafilter_removedefaultresponseschemafilter",
+      "swagger_removedefaultresponseschemafilter_removedefaultresponseschemafilter_apply",
+      "swagger_swaggerdefaultvalues_swaggerdefaultvalues",
+      "swagger_swaggerdefaultvalues_swaggerdefaultvalues_apply",
+      "swagger_swaggerdefaultvalues_swaggerdefaultvalues_maptojsonnode"
+    ],
+    "22": [
+      "infrastructure_setup_modules_setup",
+      "infrastructure_setup_modules_setup_addmodules",
+      "infrastructure_setup_modules_setup_getactivemoduleassemblies",
+      "infrastructure_setup_modules_setup_getenabledmodulenames",
+      "infrastructure_setup_modules_setup_getloadabletypes",
+      "infrastructure_setup_modules_setup_logassemblyloadfailed",
+      "infrastructure_setup_modules_setup_logmodulesloaded",
+      "infrastructure_setup_modules_setup_logmodulesskipped",
+      "infrastructure_setup_modules_setup_logunknownmodulerequested",
+      "infrastructure_setup_modules_setup_mapmoduleendpoints",
+      "infrastructure_setup_modules_setup_usemodules",
+      "src_host_host_infrastructure_setup_modules_cs"
+    ],
+    "23": [
+      "dbcontext",
+      "ioutboxdbcontext",
+      "persistence_outboxdbcontext_outboxdbcontext",
+      "persistence_outboxdbcontext_outboxdbcontext_onmodelcreating",
+      "persistence_setup_setup",
+      "persistence_setup_setup_addcommonpersistence",
+      "persistence_setup_setup_addpersistence",
+      "persistence_setup_setup_usepersistence",
+      "src_common_common_infrastructure_persistence_setup_cs",
+      "src_modules_iam_iam_infrastructure_persistence_setup_cs",
+      "src_modules_outbox_outbox_persistence_outboxdbcontext_cs",
+      "src_modules_products_products_infrastructure_persistence_setup_cs"
+    ],
+    "24": [
+      "search_endpoint_endpoint",
+      "search_endpoint_endpoint_mapendpoint",
+      "search_endpoint_endpoint_searchmyproductsasync",
+      "search_endpoint_endpoint_searchproducttemplatesasync",
+      "search_endpoint_endpoint_searchstoreproductsasync",
+      "search_endpoint_endpoint_searchstoresasync",
+      "search_endpoint_endpoint_searchusersasync",
+      "src_modules_iam_iam_endpoints_users_versionneutral_search_endpoint_cs",
+      "src_modules_products_products_endpoints_products_v1_my_search_endpoint_cs",
+      "src_modules_products_products_endpoints_products_v1_search_endpoint_cs",
+      "src_modules_products_products_endpoints_producttemplates_v1_search_endpoint_cs",
+      "src_modules_products_products_endpoints_stores_v1_search_endpoint_cs"
+    ],
+    "25": [
+      "eventhistory_request_requestvalidator",
+      "history_request_requestvalidator",
+      "paginationrequestvalidator",
+      "search_request_requestvalidator",
+      "src_modules_iam_iam_endpoints_users_versionneutral_search_request_cs",
+      "src_modules_products_products_endpoints_products_v1_eventhistory_request_cs",
+      "src_modules_products_products_endpoints_products_v1_my_search_request_cs",
+      "src_modules_products_products_endpoints_products_v1_search_request_cs",
+      "src_modules_products_products_endpoints_producttemplates_v1_search_request_cs",
+      "src_modules_products_products_endpoints_stores_v1_eventhistory_request_cs",
+      "src_modules_products_products_endpoints_stores_v1_my_history_request_cs",
+      "src_modules_products_products_endpoints_stores_v1_search_request_cs"
+    ],
+    "26": [
+      "faker",
+      "products_auditlogtests_auditlogtests",
+      "products_auditlogtests_auditlogtests_auditlog_withexistingproduct_returnsokwithpaginationresponse",
+      "products_auditlogtests_auditlogtests_auditlog_withoutauthentication_returnsunauthorized",
+      "src_modules_iam_iam_tests_endpoints_users_checkregistrationtests_cs",
+      "src_modules_iam_iam_tests_endpoints_users_megettests_cs",
+      "src_modules_products_products_tests_endpoints_products_auditlogtests_cs",
+      "users_checkregistrationtests_checkregistrationtests",
+      "users_checkregistrationtests_checkregistrationtests_checkregistration_withregisteredphonenumber_returnstrue",
+      "users_checkregistrationtests_checkregistrationtests_checkregistration_withunregisteredphonenumber_returnsfalse",
+      "users_megettests_megettests",
+      "users_megettests_megettests_meget_withvalidauth_returnscurrentuser"
+    ],
+    "27": [
+      "baseintegrationtest",
+      "captcha_clientkeygettests_clientkeygettests",
+      "captcha_clientkeygettests_clientkeygettests_getclientkey_returnsokandkey",
+      "products_updatetests_updatetests",
+      "products_updatetests_updatetests_update_withnonexistentid_returnsnotfound",
+      "products_updatetests_updatetests_update_withoutauthentication_returnsunauthorized",
+      "products_updatetests_updatetests_update_withvalidpayload_returnsnocontentandupdatesproduct",
+      "src_modules_iam_iam_tests_endpoints_captcha_clientkeygettests_cs",
+      "src_modules_iam_iam_tests_endpoints_users_gettests_cs",
+      "src_modules_products_products_tests_endpoints_products_updatetests_cs",
+      "users_gettests_gettests",
+      "users_gettests_gettests_getuser_withvalidid_returnsuserresponse"
+    ],
+    "28": [
+      "infrastructure_setup_logger_setup",
+      "infrastructure_setup_logger_setup_applyconfigurations",
+      "infrastructure_setup_logger_setup_configureenrichers",
+      "infrastructure_setup_logger_setup_configurewritetos",
+      "infrastructure_setup_logger_setup_isdebug",
+      "infrastructure_setup_logger_setup_isinformation",
+      "infrastructure_setup_logger_setup_iswarning",
+      "infrastructure_setup_logger_setup_overrideminimumlevelsof",
+      "infrastructure_setup_logger_setup_parsefrom",
+      "infrastructure_setup_logger_setup_usecustomizedserilog",
+      "src_host_host_infrastructure_setup_logger_cs"
+    ],
+    "29": [
+      "activitysource",
+      "counter",
+      "histogram",
+      "meter",
+      "src_modules_iam_iam_infrastructure_telemetry_iamtelemetry_cs",
+      "src_modules_outbox_outbox_telemetry_outboxtelemetry_cs",
+      "src_modules_products_products_infrastructure_telemetry_productstelemetry_cs",
+      "telemetry_iamtelemetry_iamtelemetry",
+      "telemetry_outboxtelemetry_outboxtelemetry",
+      "telemetry_productstelemetry_productstelemetry"
+    ],
+    "30": [
+      "create_endpoint_endpoint",
+      "create_endpoint_endpoint_createmystoreasync",
+      "create_endpoint_endpoint_createproducttemplateasync",
+      "create_endpoint_endpoint_createstoreasync",
+      "create_endpoint_endpoint_createtokens",
+      "create_endpoint_endpoint_mapendpoint",
+      "src_modules_iam_iam_endpoints_tokens_versionneutral_create_endpoint_cs",
+      "src_modules_products_products_endpoints_producttemplates_v1_create_endpoint_cs",
+      "src_modules_products_products_endpoints_stores_v1_create_endpoint_cs",
+      "src_modules_products_products_endpoints_stores_v1_my_create_endpoint_cs"
+    ],
+    "31": [
+      "src_modules_products_products_endpoints_products_v1_my_update_endpoint_cs",
+      "src_modules_products_products_endpoints_products_v1_update_endpoint_cs",
+      "src_modules_products_products_endpoints_stores_v1_my_update_endpoint_cs",
+      "src_modules_products_products_endpoints_stores_v1_update_endpoint_cs",
+      "update_endpoint_endpoint",
+      "update_endpoint_endpoint_mapendpoint",
+      "update_endpoint_endpoint_updatemyproductasync",
+      "update_endpoint_endpoint_updatemystoreasync",
+      "update_endpoint_endpoint_updateproductasync",
+      "update_endpoint_endpoint_updatestoreasync"
+    ],
+    "32": [
+      "products_searchtests_searchtests",
+      "products_searchtests_searchtests_search_withftssearchterm_returnsmatchingproducts",
+      "products_searchtests_searchtests_search_withftssearchtermmatchingdescription_returnsmatchingproducts",
+      "products_searchtests_searchtests_search_withnamefilter_returnsfilteredresults",
+      "products_searchtests_searchtests_search_withoutauthentication_returnsunauthorized",
+      "products_searchtests_searchtests_search_withpricerange_returnsfilteredresults",
+      "products_searchtests_searchtests_search_withsearchtermandnamefilter_returnsonlyintersection",
+      "products_searchtests_searchtests_search_withsearchtermexceedingmaxlength_returnsbadrequest",
+      "products_searchtests_searchtests_seedstorewithproductasync",
+      "src_modules_products_products_tests_endpoints_products_searchtests_cs"
+    ],
+    "33": [
+      "grafana_datasources_datasource_yml",
+      "grafana_datasources_jaeger",
+      "grafana_datasources_prometheus",
+      "otel_collector_config_jaeger_service",
+      "otel_collector_config_otlp_jaeger_exporter",
+      "otel_collector_config_otlp_receiver",
+      "otel_collector_config_otlphttp_exporter",
+      "otel_collector_config_prometheus_exporter",
+      "otel_collector_config_prometheus_service",
+      "otel_collector_config_seq_service"
+    ],
+    "34": [
+      "auth_customroles_customroles",
+      "auth_permissions_custompermissions",
+      "hashset",
+      "ireadonlyset",
+      "options_kafkaconsumer_kafkaconsumer",
+      "options_kafkaconsumer_kafkaconsumervalidator",
+      "src_common_common_application_auth_customroles_cs",
+      "src_common_common_application_auth_permissions_cs",
+      "src_common_common_application_options_kafkaconsumer_cs"
+    ],
+    "35": [
+      "backgroundservice",
+      "persistence_databaseseederorchestrator_databaseseederorchestrator",
+      "persistence_databaseseederorchestrator_databaseseederorchestrator_executeasync",
+      "persistence_databaseseederorchestrator_databaseseederorchestrator_logallseederscompleted",
+      "persistence_databaseseederorchestrator_databaseseederorchestrator_lognoseeders",
+      "persistence_databaseseederorchestrator_databaseseederorchestrator_logseedercompleted",
+      "persistence_databaseseederorchestrator_databaseseederorchestrator_logseederrunning",
+      "persistence_databaseseederorchestrator_databaseseederorchestrator_logseedingstarted",
+      "src_common_common_infrastructure_persistence_databaseseederorchestrator_cs"
+    ],
+    "36": [
+      "common_domain_valueobject_valueobject",
+      "common_domain_valueobject_valueobject_compareto",
+      "common_domain_valueobject_valueobject_equaloperator",
+      "common_domain_valueobject_valueobject_equals",
+      "common_domain_valueobject_valueobject_getequalitycomponents",
+      "common_domain_valueobject_valueobject_gethashcode",
+      "common_domain_valueobject_valueobject_notequaloperator",
+      "icomparable",
+      "src_common_common_domain_valueobject_cs"
+    ],
+    "37": [
+      "extensions_dbcontextextensions_dbcontextextensions",
+      "extensions_dbcontextextensions_dbcontextextensions_getauditlogasync",
+      "jsonserializeroptions",
+      "src_common_common_infrastructure_persistence_extensions_dbcontextextensions_cs",
+      "src_common_common_infrastructure_persistence_valueconverters_domaineventconverter_cs",
+      "src_common_common_infrastructure_persistence_valueconverters_stronglytypedidvalueconverter_cs",
+      "valueconverter",
+      "valueconverters_domaineventconverter_domaineventconverter",
+      "valueconverters_stronglytypedidvalueconverter_stronglytypedidvalueconverter"
+    ],
+    "38": [
+      "producttemplates_searchtests_searchtests",
+      "producttemplates_searchtests_searchtests_maketemplate",
+      "producttemplates_searchtests_searchtests_search_withbrandfilter_returnsfilteredresults",
+      "producttemplates_searchtests_searchtests_search_withcolorfilter_returnsfilteredresults",
+      "producttemplates_searchtests_searchtests_search_withftssearchterm_returnsmatchingproducttemplates",
+      "producttemplates_searchtests_searchtests_search_withftssearchtermmatchingmodelandcolor_returnsmatchingproducttemplates",
+      "producttemplates_searchtests_searchtests_search_withoutauthentication_returnsunauthorized",
+      "producttemplates_searchtests_searchtests_search_withsearchtermexceedingmaxlength_returnsbadrequest",
+      "src_modules_products_products_tests_endpoints_producttemplates_searchtests_cs"
+    ],
+    "39": [
+      "src_modules_iam_iam_endpoints_captcha_versionneutral_setup_cs",
+      "src_modules_iam_iam_endpoints_otp_versionneutral_setup_cs",
+      "src_modules_iam_iam_endpoints_tokens_versionneutral_setup_cs",
+      "src_modules_iam_iam_endpoints_users_versionneutral_setup_cs",
+      "versionneutral_setup_setup",
+      "versionneutral_setup_setup_mapcaptchaendpoints",
+      "versionneutral_setup_setup_mapotpendpoints",
+      "versionneutral_setup_setup_maptokensendpoints",
+      "versionneutral_setup_setup_mapusersendpoints"
+    ],
+    "40": [
+      "backgroundjobs_tests_recurringbackgroundjobsservicetests_recurringbackgroundjobsservicetests",
+      "backgroundjobs_tests_recurringbackgroundjobsservicetests_recurringbackgroundjobsservicetests_addorupdate_withaction_shoulddelegatetohangfiremanager",
+      "backgroundjobs_tests_recurringbackgroundjobsservicetests_recurringbackgroundjobsservicetests_addorupdate_withfunctask_shoulddelegatetohangfiremanager",
+      "backgroundjobs_tests_recurringbackgroundjobsservicetests_recurringbackgroundjobsservicetests_dummymethod",
+      "backgroundjobs_tests_recurringbackgroundjobsservicetests_recurringbackgroundjobsservicetests_dummytaskmethod",
+      "irecurringjobmanagerv2",
+      "recurringbackgroundjobsservice",
+      "src_modules_backgroundjobs_backgroundjobs_tests_recurringbackgroundjobsservicetests_cs",
+      "timeprovider"
+    ],
+    "41": [
+      "infrastructure_setup_observability_setup",
+      "infrastructure_setup_observability_setup_addobservability",
+      "infrastructure_setup_observability_setup_configuremetrics",
+      "infrastructure_setup_observability_setup_configureservice",
+      "infrastructure_setup_observability_setup_configuretracing",
+      "infrastructure_setup_observability_setup_getregisteredmodules",
+      "infrastructure_setup_observability_setup_useobservability",
+      "src_host_host_infrastructure_setup_observability_cs"
+    ],
+    "42": [
+      "infrastructure_setup_setup",
+      "infrastructure_setup_setup_addcommondependencies",
+      "infrastructure_setup_setup_addcustomcors",
+      "infrastructure_setup_setup_addcustomizedproblemdetails",
+      "infrastructure_setup_setup_addenrichlogswithuserinfomiddleware",
+      "infrastructure_setup_setup_addinfrastructure",
+      "infrastructure_setup_setup_useinfrastructure",
+      "src_host_host_infrastructure_setup_cs"
+    ],
+    "43": [
+      "backgroundjobs_ibackgroundjobs_ibackgroundjobs",
+      "backgroundjobs_ibackgroundjobs_ibackgroundjobs_continuejobwith",
+      "backgroundjobs_ibackgroundjobs_ibackgroundjobs_delete",
+      "backgroundjobs_ibackgroundjobs_ibackgroundjobs_enqueue",
+      "backgroundjobs_ibackgroundjobs_ibackgroundjobs_requeue",
+      "backgroundjobs_ibackgroundjobs_ibackgroundjobs_reschedule",
+      "backgroundjobs_ibackgroundjobs_ibackgroundjobs_schedule",
+      "src_common_common_application_backgroundjobs_ibackgroundjobs_cs"
+    ],
+    "44": [
+      "caching_cacheservice_cacheservice",
+      "caching_cacheservice_cacheservice_getasync",
+      "caching_cacheservice_cacheservice_getorcreateasync",
+      "caching_cacheservice_cacheservice_removeasync",
+      "caching_cacheservice_cacheservice_removebytagasync",
+      "caching_cacheservice_cacheservice_setasync",
+      "icacheservice",
+      "src_common_common_infrastructure_caching_cacheservice_cs"
+    ],
+    "45": [
+      "customratelimitingoptions",
+      "iratelimiterpolicy",
+      "ratelimiting_policies_createstore_createstoreratelimitingpolicy",
+      "ratelimiting_policies_createstore_createstoreratelimitingpolicy_getpartition",
+      "ratelimiting_policies_createstore_createstoreratelimitingpolicy_localizedmessage",
+      "ratelimiting_policies_createstore_policies",
+      "ratelimiting_policies_createstore_policies_createstorepolicy",
+      "src_modules_products_products_infrastructure_ratelimiting_policies_createstore_cs"
+    ],
+    "46": [
+      "common_tests_integrationtestfactory_integrationtestfactory",
+      "common_tests_integrationtestfactory_integrationtestfactory_configurewebhost",
+      "common_tests_integrationtestfactory_integrationtestfactory_disposeasync",
+      "common_tests_integrationtestfactory_integrationtestfactory_getactivemodules",
+      "common_tests_integrationtestfactory_integrationtestfactory_initializeasync",
+      "postgresqlcontainer",
+      "src_common_common_tests_integrationtestfactory_cs",
+      "webapplicationfactory"
+    ],
+    "47": [
+      "iam_tests_integrationtestwebappfactory_integrationtestwebappfactory",
+      "iam_tests_integrationtestwebappfactory_integrationtestwebappfactory_configurewebhost",
+      "iam_tests_integrationtestwebappfactory_integrationtestwebappfactory_getactivemodules",
+      "integrationtestfactory",
+      "products_tests_integrationtestwebappfactory_integrationtestwebappfactory",
+      "products_tests_integrationtestwebappfactory_integrationtestwebappfactory_getactivemodules",
+      "src_modules_iam_iam_tests_integrationtestwebappfactory_cs",
+      "src_modules_products_products_tests_integrationtestwebappfactory_cs"
+    ],
+    "48": [
+      "src_modules_iam_iam_tests_endpoints_users_selfregistertests_cs",
+      "users_selfregistertests_selfregistertests",
+      "users_selfregistertests_selfregistertests_ensurebasicroleexistsasync",
+      "users_selfregistertests_selfregistertests_registerasync_withvalidpayload_returnsokandcreatesuser",
+      "users_selfregistertests_selfregistertests_selfregister_withduplicatephonenumber_returnserror",
+      "users_selfregistertests_selfregistertests_selfregister_withemptycaptcha_returnsbadrequest",
+      "users_selfregistertests_selfregistertests_selfregister_withinvalidcaptcha_returnsbadrequest",
+      "users_selfregistertests_selfregistertests_selfregister_withinvalidotp_returnsbadrequest"
+    ],
+    "49": [
+      "src_modules_products_products_tests_endpoints_stores_searchtests_cs",
+      "stores_searchtests_searchtests",
+      "stores_searchtests_searchtests_search_withftssearchterm_returnsmatchingstores",
+      "stores_searchtests_searchtests_search_withftssearchtermmatchingaddress_returnsmatchingstores",
+      "stores_searchtests_searchtests_search_withnamefilter_returnsfilteredresults",
+      "stores_searchtests_searchtests_search_withoutauthentication_returnsunauthorized",
+      "stores_searchtests_searchtests_search_withoutfilters_returnspaginatedresults",
+      "stores_searchtests_searchtests_search_withsearchtermexceedingmaxlength_returnsbadrequest"
+    ],
+    "50": [
+      "auth_permissionpolicyprovider_permissionpolicyprovider",
+      "auth_permissionpolicyprovider_permissionpolicyprovider_getdefaultpolicyasync",
+      "auth_permissionpolicyprovider_permissionpolicyprovider_getfallbackpolicyasync",
+      "auth_permissionpolicyprovider_permissionpolicyprovider_getpolicyasync",
+      "auth_permissionpolicyprovider_permissionrequirement",
+      "iauthorizationpolicyprovider",
+      "iauthorizationrequirement",
+      "src_modules_iam_iam_infrastructure_auth_permissionpolicyprovider_cs"
+    ],
+    "51": [
+      "backgroundjobs_tests_backgroundjobsservicetests_backgroundjobsservicetests",
+      "backgroundjobs_tests_backgroundjobsservicetests_backgroundjobsservicetests_delete_jobid_shoulddelegatetohangfireclient",
+      "backgroundjobs_tests_backgroundjobsservicetests_backgroundjobsservicetests_dummymethod",
+      "backgroundjobs_tests_backgroundjobsservicetests_backgroundjobsservicetests_enqueue_withaction_shoulddelegatetohangfireclient",
+      "backgroundjobs_tests_backgroundjobsservicetests_backgroundjobsservicetests_schedule_withactionanddelay_shoulddelegatetohangfireclient",
+      "backgroundjobsservice",
+      "ibackgroundjobclientv2",
+      "src_modules_backgroundjobs_backgroundjobs_tests_backgroundjobsservicetests_cs"
+    ],
+    "52": [
+      "infrastructure_setup_requestresponsemiddleware_setup",
+      "infrastructure_setup_requestresponsemiddleware_setup_addrequestresponseloggingmiddleware",
+      "infrastructure_setup_requestresponsemiddleware_setup_isbackgroundjobsdashboardendpoint",
+      "infrastructure_setup_requestresponsemiddleware_setup_ishealthcheckendpoint",
+      "infrastructure_setup_requestresponsemiddleware_setup_ismetricsendpoint",
+      "infrastructure_setup_requestresponsemiddleware_setup_userequestresponseloggingmiddleware",
+      "src_host_host_infrastructure_setup_requestresponsemiddleware_cs"
+    ],
+    "53": [
+      "otpservicebase",
+      "services_dummyotpservice_dummyotpservice",
+      "services_dummyotpservice_dummyotpservice_generate",
+      "services_otpservice_otpservice",
+      "services_otpservice_otpservice_generate",
+      "src_modules_iam_iam_infrastructure_identity_services_dummyotpservice_cs",
+      "src_modules_iam_iam_infrastructure_identity_services_otpservice_cs"
+    ],
+    "54": [
+      "auditlog_auditlogretentionjobregistrar_auditlogretentionjobregistrar",
+      "auditlog_auditlogretentionjobregistrar_auditlogretentionjobregistrar_logbackgroundjobsunavailable",
+      "auditlog_auditlogretentionjobregistrar_auditlogretentionjobregistrar_logjobregistered",
+      "auditlog_auditlogretentionjobregistrar_auditlogretentionjobregistrar_startasync",
+      "auditlog_auditlogretentionjobregistrar_auditlogretentionjobregistrar_stopasync",
+      "ihostedservice",
+      "src_common_common_infrastructure_persistence_auditlog_auditlogretentionjobregistrar_cs"
+    ],
+    "55": [
+      "caching_icacheservice_icacheservice",
+      "caching_icacheservice_icacheservice_getasync",
+      "caching_icacheservice_icacheservice_getorcreateasync",
+      "caching_icacheservice_icacheservice_removeasync",
+      "caching_icacheservice_icacheservice_removebytagasync",
+      "caching_icacheservice_icacheservice_setasync",
+      "src_common_common_application_caching_icacheservice_cs"
+    ],
+    "56": [
+      "contracts_intermodulerequesthandler_intermodulerequesthandler",
+      "contracts_intermodulerequesthandler_intermodulerequesthandler_consume",
+      "contracts_intermodulerequesthandler_intermodulerequesthandler_handleasync",
+      "eventbus_ieventhandler_ieventhandler",
+      "iconsumer",
+      "src_common_common_application_eventbus_ieventhandler_cs",
+      "src_common_common_intermodulerequests_contracts_intermodulerequesthandler_cs"
+    ],
+    "57": [
+      "extensions_persistencedbcontextextensions_persistencequeryableextensions",
+      "extensions_persistencedbcontextextensions_persistencequeryableextensions_anyasresultasync",
+      "extensions_persistencedbcontextextensions_persistencequeryableextensions_firstasresultasync",
+      "extensions_persistencedbcontextextensions_persistencequeryableextensions_singleasresultasync",
+      "extensions_persistencedbcontextextensions_persistencequeryableextensions_tagwith",
+      "extensions_persistencedbcontextextensions_persistencequeryableextensions_whereif",
+      "src_common_common_infrastructure_persistence_extensions_persistencedbcontextextensions_cs"
+    ],
+    "58": [
+      "resultmonad_error_error",
+      "resultmonad_error_error_notfound",
+      "resultmonad_error_error_notowned",
+      "resultmonad_error_error_samevalue",
+      "resultmonad_error_error_validation",
+      "resultmonad_error_error_violatesuniqueconstraint",
+      "src_common_common_domain_resultmonad_error_cs"
+    ],
+    "59": [
+      "iresult",
+      "resultmonad_result_result",
+      "resultmonad_result_result_create",
+      "resultmonad_result_result_createasync",
+      "resultmonad_result_result_failure",
+      "resultmonad_result_result_success",
+      "src_common_common_domain_resultmonad_result_cs"
+    ],
+    "60": [
+      "aggregates_iaggregateroot_iaggregateroot",
+      "aggregates_iaggregateroot_iaggregateroot_clearevents",
+      "aggregates_iaggregateroot_iaggregateroot_loadfromhistory",
+      "entities_auditableentity_auditableentity",
+      "iauditableentity",
+      "src_common_common_domain_aggregates_iaggregateroot_cs",
+      "src_common_common_domain_entities_auditableentity_cs"
+    ],
+    "61": [
+      "src_modules_products_products_endpoints_products_v1_my_update_request_cs",
+      "src_modules_products_products_endpoints_products_v1_update_request_cs",
+      "src_modules_products_products_endpoints_stores_v1_my_update_request_cs",
+      "src_modules_products_products_endpoints_stores_v1_update_request_cs",
+      "update_request_requestbody",
+      "update_request_requestbodyvalidator",
+      "update_request_requestvalidator"
+    ],
+    "62": [
+      "idatabaseseeder",
+      "seeding_iamdatabaseseeder_iamdatabaseseeder",
+      "seeding_iamdatabaseseeder_iamdatabaseseeder_seedasync",
+      "seeding_productsdatabaseseeder_productsdatabaseseeder",
+      "seeding_productsdatabaseseeder_productsdatabaseseeder_seedasync",
+      "src_modules_iam_iam_infrastructure_persistence_seeding_iamdatabaseseeder_cs",
+      "src_modules_products_products_infrastructure_persistence_seeding_productsdatabaseseeder_cs"
+    ],
+    "63": [
+      "kafkacontainer",
+      "outbox_tests_outboxtestwebappfactory_outboxtestwebappfactory",
+      "outbox_tests_outboxtestwebappfactory_outboxtestwebappfactory_configurewebhost",
+      "outbox_tests_outboxtestwebappfactory_outboxtestwebappfactory_disposeasync",
+      "outbox_tests_outboxtestwebappfactory_outboxtestwebappfactory_getactivemodules",
+      "outbox_tests_outboxtestwebappfactory_outboxtestwebappfactory_initializeasync",
+      "src_modules_outbox_outbox_tests_outboxtestwebappfactory_cs"
+    ],
+    "64": [
+      "common_tests_baseintegrationtest_integrationtestcollection",
+      "iam_tests_integrationtestcollection_integrationtestcollection",
+      "icollectionfixture",
+      "products_tests_integrationtestcollection_integrationtestcollection",
+      "src_common_common_tests_baseintegrationtest_cs",
+      "src_modules_iam_iam_tests_integrationtestcollection_cs",
+      "src_modules_products_products_tests_integrationtestcollection_cs"
+    ],
+    "65": [
+      "products_mysearchtests_mysearchtests",
+      "products_mysearchtests_mysearchtests_mysearch_returnsonlyownerproducts",
+      "products_mysearchtests_mysearchtests_mysearch_withftssearchterm_returnsmatchingownproducts",
+      "products_mysearchtests_mysearchtests_mysearch_withnamefilter_returnsfilteredresults",
+      "products_mysearchtests_mysearchtests_mysearch_withoutauthentication_returnsunauthorized",
+      "products_mysearchtests_mysearchtests_mysearch_withsearchtermexceedingmaxlength_returnsbadrequest",
+      "src_modules_products_products_tests_endpoints_products_mysearchtests_cs"
+    ],
+    "66": [
+      "src_modules_products_products_tests_endpoints_stores_myaddproducttests_cs",
+      "stores_myaddproducttests_myaddproducttests",
+      "stores_myaddproducttests_myaddproducttests_buildjson",
+      "stores_myaddproducttests_myaddproducttests_myaddproduct_withinactivetemplate_returnsnotfound",
+      "stores_myaddproducttests_myaddproducttests_myaddproduct_withnostore_returnsnotfound",
+      "stores_myaddproducttests_myaddproducttests_myaddproduct_withoutauthentication_returnsunauthorized",
+      "stores_myaddproducttests_myaddproducttests_myaddproduct_withvalidpayload_returnsokandpersistsproduct"
+    ],
+    "67": [
+      "src_modules_iam_iam_tests_endpoints_users_searchtests_cs",
+      "users_searchtests_searchtests",
+      "users_searchtests_searchtests_createuser",
+      "users_searchtests_searchtests_search_withlastnamefilter_returnsfilteredusers",
+      "users_searchtests_searchtests_search_withnamefilter_returnsfilteredusers",
+      "users_searchtests_searchtests_search_withsearchterm_returnsmatchingusers",
+      "users_searchtests_searchtests_search_withsearchtermexceedingmaxlength_returnsbadrequest"
+    ],
+    "68": [
+      "persistence_basedbcontextatomicitytests_basedbcontextatomicitytests",
+      "persistence_basedbcontextatomicitytests_basedbcontextatomicitytests_savechangesasync_whenaggregateraisesdomainevent_createsauditlogevent",
+      "persistence_basedbcontextatomicitytests_basedbcontextatomicitytests_savechangesasync_whenaggregateraisesdomainevent_createsoutboxandauditlogatomically",
+      "persistence_basedbcontextatomicitytests_basedbcontextatomicitytests_savechangesasync_whenaggregateraisesdomainevent_createsoutboxmessage",
+      "persistence_basedbcontextatomicitytests_basedbcontextatomicitytests_savechangesasync_whenmultipleeventsraised_createsmatchingoutboxandauditlogrecords",
+      "persistence_basedbcontextatomicitytests_basedbcontextatomicitytests_savechangesasync_whennoeventsraised_doesnotcreateoutboxorauditlogrecords",
+      "src_modules_products_products_tests_persistence_basedbcontextatomicitytests_cs"
+    ],
+    "69": [
+      "identitydbcontext",
+      "iiamdbcontext",
+      "persistence_iamdbcontext_iamdbcontext",
+      "persistence_iamdbcontext_iamdbcontext_logsql",
+      "persistence_iamdbcontext_iamdbcontext_onconfiguring",
+      "persistence_iamdbcontext_iamdbcontext_onmodelcreating",
+      "src_modules_iam_iam_infrastructure_persistence_iamdbcontext_cs"
+    ],
+    "70": [
+      "iconfigureoptions",
+      "openapioptions",
+      "src_host_host_swagger_configureswaggeroptions_cs",
+      "swagger_configureswaggeroptions_configureswaggeroptions",
+      "swagger_configureswaggeroptions_configureswaggeroptions_configure",
+      "swagger_configureswaggeroptions_configureswaggeroptions_createinfoforapiversion"
+    ],
+    "71": [
+      "middlewares_ratelimitingmiddleware_ratelimitingmiddleware",
+      "middlewares_ratelimitingmiddleware_ratelimitingmiddleware_addcustomratelimiting",
+      "middlewares_ratelimitingmiddleware_ratelimitingmiddleware_getcustomratelimitingoptions",
+      "middlewares_ratelimitingmiddleware_ratelimitingmiddleware_globalratelimiter",
+      "middlewares_ratelimitingmiddleware_ratelimitingmiddleware_writetoomanyrequeststoresponse",
+      "src_host_host_middlewares_ratelimitingmiddleware_cs"
+    ],
+    "72": [
+      "authenticationhandler",
+      "common_tests_testauthhandler_testauthhandler",
+      "common_tests_testauthhandler_testauthhandler_handleauthenticateasync",
+      "common_tests_testauthhandler_testauthhandler_handlechallengeasync",
+      "guid",
+      "src_common_common_tests_testauthhandler_cs"
+    ],
+    "73": [
+      "idisposable",
+      "persistence_idbcontext_idbcontext",
+      "persistence_idbcontext_idbcontext_entry",
+      "persistence_idbcontext_idbcontext_savechangesasync",
+      "persistence_idbcontext_idbcontext_set",
+      "src_common_common_application_persistence_idbcontext_cs"
+    ],
+    "74": [
+      "persistence_basedbcontext_basedbcontext",
+      "persistence_basedbcontext_basedbcontext_logfounddomainevents",
+      "persistence_basedbcontext_basedbcontext_lognodomainevents",
+      "persistence_basedbcontext_basedbcontext_logsavingerror",
+      "persistence_basedbcontext_basedbcontext_savechangesasync",
+      "src_common_common_infrastructure_persistence_basedbcontext_cs"
+    ],
+    "75": [
+      "persistence_seedingcompletiontracker_seedingcompletiontracker",
+      "persistence_seedingcompletiontracker_seedingcompletiontracker_markcomplete",
+      "persistence_seedingcompletiontracker_seedingcompletiontracker_markfaulted",
+      "persistence_seedingcompletiontracker_seedingcompletiontracker_waitforseedingasync",
+      "src_common_common_infrastructure_persistence_seedingcompletiontracker_cs",
+      "taskcompletionsource"
+    ],
+    "76": [
+      "persistence_migrationguard_migrationguard",
+      "persistence_migrationguard_migrationguard_ensurenomigrationspending",
+      "persistence_migrationguard_migrationguard_logautomigrating",
+      "persistence_migrationguard_migrationguard_logmigrationsuptodate",
+      "persistence_migrationguard_migrationguard_logpendingmigrations",
+      "src_common_common_infrastructure_persistence_migrationguard_cs"
+    ],
+    "77": [
+      "extensions_stringextensions_stringextensions",
+      "extensions_stringextensions_stringextensions_containsonlyturkishcharacters",
+      "extensions_stringextensions_stringextensions_ensurenotnullorempty",
+      "extensions_stringextensions_stringextensions_trimmedupperinvarianttransliterateturkishchars",
+      "searchvalues",
+      "src_common_common_domain_extensions_stringextensions_cs"
+    ],
+    "78": [
+      "eventhistory_endpoint_endpoint",
+      "eventhistory_endpoint_endpoint_getproductauditlogasync",
+      "eventhistory_endpoint_endpoint_getstoreauditlogasync",
+      "eventhistory_endpoint_endpoint_mapendpoint",
+      "src_modules_products_products_endpoints_products_v1_eventhistory_endpoint_cs",
+      "src_modules_products_products_endpoints_stores_v1_eventhistory_endpoint_cs"
+    ],
+    "79": [
+      "removeproduct_endpoint_endpoint",
+      "removeproduct_endpoint_endpoint_mapendpoint",
+      "removeproduct_endpoint_endpoint_removemyproductasync",
+      "removeproduct_endpoint_endpoint_removeproductasync",
+      "src_modules_products_products_endpoints_stores_v1_my_removeproduct_endpoint_cs",
+      "src_modules_products_products_endpoints_stores_v1_removeproduct_endpoint_cs"
+    ],
+    "80": [
+      "get_request_requestvalidator",
+      "src_modules_iam_iam_endpoints_users_versionneutral_get_request_cs",
+      "src_modules_products_products_endpoints_products_v1_get_request_cs",
+      "src_modules_products_products_endpoints_products_v1_my_get_request_cs",
+      "src_modules_products_products_endpoints_producttemplates_v1_get_request_cs",
+      "src_modules_products_products_endpoints_stores_v1_get_request_cs"
+    ],
+    "81": [
+      "addproduct_endpoint_endpoint",
+      "addproduct_endpoint_endpoint_addproductasync",
+      "addproduct_endpoint_endpoint_addproducttomystoreasync",
+      "addproduct_endpoint_endpoint_mapendpoint",
+      "src_modules_products_products_endpoints_stores_v1_addproduct_endpoint_cs",
+      "src_modules_products_products_endpoints_stores_v1_my_addproduct_endpoint_cs"
+    ],
+    "82": [
+      "otp_sendtests_sendtests",
+      "otp_sendtests_sendtests_sendotp_withemptycaptcha_returnsbadrequest",
+      "otp_sendtests_sendtests_sendotp_withinvalidcaptcha_returnsbadrequest",
+      "otp_sendtests_sendtests_sendotp_withinvalidphoneformat_returnsbadrequest",
+      "otp_sendtests_sendtests_sendotp_withvalidphonenumber_returnsnocontentandcachesotp",
+      "src_modules_iam_iam_tests_endpoints_otp_sendtests_cs"
+    ],
+    "83": [
+      "products_myupdatetests_myupdatetests",
+      "products_myupdatetests_myupdatetests_myupdate_withanotheruserproduct_returnsnotfound",
+      "products_myupdatetests_myupdatetests_myupdate_withoutauthentication_returnsunauthorized",
+      "products_myupdatetests_myupdatetests_myupdate_withvalidpayload_returnsnocontentandupdatesproduct",
+      "products_myupdatetests_myupdatetests_seedownerproductasync",
+      "src_modules_products_products_tests_endpoints_products_myupdatetests_cs"
+    ],
+    "84": [
+      "src_host_host_swagger_setup_cs",
+      "swagger_setup_setup",
+      "swagger_setup_setup_addcustomswagger",
+      "swagger_setup_setup_schemaidgenerator",
+      "swagger_setup_setup_usecustomswagger"
+    ],
+    "85": [
+      "eventbus_eventhandler_eventhandlerbase",
+      "eventbus_eventhandler_eventhandlerbase_consume",
+      "eventbus_eventhandler_eventhandlerbase_handleasync",
+      "ieventhandler",
+      "src_common_common_application_eventbus_eventhandler_cs"
+    ],
+    "86": [
+      "infrastructure_setup_healthchecks_setup",
+      "infrastructure_setup_healthchecks_setup_addcustomhealthchecks",
+      "infrastructure_setup_healthchecks_setup_loghealthchecksregistered",
+      "infrastructure_setup_healthchecks_setup_mapcustomhealthchecks",
+      "src_host_host_infrastructure_setup_healthchecks_cs"
+    ],
+    "87": [
+      "producttemplates_producttemplatetests_producttemplatetests",
+      "producttemplates_producttemplatetests_producttemplatetests_activate_wheninactive_setsisactivetotrue",
+      "producttemplates_producttemplatetests_producttemplatetests_create_withvalidparameters_returnsactivetemplate",
+      "producttemplates_producttemplatetests_producttemplatetests_deactivate_whenactive_setsisactivetofalse",
+      "src_modules_products_products_tests_producttemplates_producttemplatetests_cs"
+    ],
+    "88": [
+      "extensions_collectionextensions_collectionextensions",
+      "extensions_collectionextensions_collectionextensions_firstasresult",
+      "extensions_collectionextensions_collectionextensions_joinwithcomma",
+      "extensions_collectionextensions_collectionextensions_singleasresult",
+      "src_common_common_application_extensions_collectionextensions_cs"
+    ],
+    "89": [
+      "auth_setup_setup",
+      "auth_setup_setup_addauthinfrastructure",
+      "auth_setup_setup_addcommonauth",
+      "src_common_common_infrastructure_auth_setup_cs",
+      "src_modules_iam_iam_infrastructure_auth_setup_cs"
+    ],
+    "90": [
+      "extensions_resulttelemetryextensions_resulttelemetryextensions",
+      "extensions_resulttelemetryextensions_resulttelemetryextensions_startactivityforcaller",
+      "extensions_resulttelemetryextensions_resulttelemetryextensions_tapactivity",
+      "extensions_resulttelemetryextensions_resulttelemetryextensions_tapactivityasync",
+      "src_common_common_infrastructure_extensions_resulttelemetryextensions_cs"
+    ],
+    "91": [
+      "modules_imodule_imodule",
+      "modules_imodule_imodule_addservices",
+      "modules_imodule_imodule_mapendpoints",
+      "modules_imodule_imodule_usemodule",
+      "src_common_common_infrastructure_modules_imodule_cs"
+    ],
+    "92": [
+      "addproduct_request_requestbody",
+      "addproduct_request_requestbodyvalidator",
+      "addproduct_request_requestvalidator",
+      "src_modules_products_products_endpoints_stores_v1_addproduct_request_cs",
+      "src_modules_products_products_endpoints_stores_v1_my_addproduct_request_cs"
+    ],
+    "93": [
+      "create_request_requestvalidator",
+      "src_modules_iam_iam_endpoints_tokens_versionneutral_create_request_cs",
+      "src_modules_products_products_endpoints_producttemplates_v1_create_request_cs",
+      "src_modules_products_products_endpoints_stores_v1_create_request_cs",
+      "src_modules_products_products_endpoints_stores_v1_my_create_request_cs"
+    ],
+    "94": [
+      "options_cachingoptions_cachingoptions",
+      "options_cachingoptions_cachingoptionsvalidator",
+      "options_cachingoptions_redis",
+      "options_cachingoptions_redisvalidator",
+      "src_common_common_application_options_cachingoptions_cs"
+    ],
+    "95": [
+      "options_customratelimitingoptions_customratelimitingoptions",
+      "options_customratelimitingoptions_customratelimitingoptionsvalidator",
+      "options_customratelimitingoptions_fixedwindow",
+      "options_customratelimitingoptions_fixedwindowvalidator",
+      "src_common_common_application_options_customratelimitingoptions_cs"
+    ],
+    "96": [
+      "options_eventbusoptions_eventbusoptions",
+      "options_eventbusoptions_eventbusoptionsvalidator",
+      "options_eventbusoptions_messagebroker",
+      "options_eventbusoptions_messagebrokeroptionsvalidator",
+      "src_common_common_application_options_eventbusoptions_cs"
+    ],
+    "97": [
+      "ratelimiting_policies_policies",
+      "ratelimiting_policies_policies_get",
+      "ratelimiting_policies_policies_smspolicy",
+      "src_modules_iam_iam_infrastructure_ratelimiting_policies_cs",
+      "src_modules_products_products_infrastructure_ratelimiting_policies_cs"
+    ],
+    "98": [
+      "basedbcontext",
+      "iproductsdbcontext",
+      "persistence_productsdbcontext_productsdbcontext",
+      "persistence_productsdbcontext_productsdbcontext_onmodelcreating",
+      "src_modules_products_products_infrastructure_persistence_productsdbcontext_cs"
+    ],
+    "99": [
+      "common_tests_baseintegrationtest_baseintegrationtest",
+      "common_tests_baseintegrationtest_baseintegrationtest_disposeasync",
+      "common_tests_baseintegrationtest_baseintegrationtest_initializeasync",
+      "iasynclifetime",
+      "respawner"
+    ],
+    "100": [
+      "products_mygettests_mygettests",
+      "products_mygettests_mygettests_myget_withanotheruserproduct_returnsnotfound",
+      "products_mygettests_mygettests_myget_withexistingownerproduct_returnsproductresponse",
+      "products_mygettests_mygettests_myget_withoutauthentication_returnsunauthorized",
+      "src_modules_products_products_tests_endpoints_products_mygettests_cs"
+    ],
+    "101": [
+      "producttemplates_deactivatetests_deactivatetests",
+      "producttemplates_deactivatetests_deactivatetests_deactivate_withexistingactivetemplate_returnsnocontentanddeactivatestemplate",
+      "producttemplates_deactivatetests_deactivatetests_deactivate_withnonexistenttemplate_returnsnotfound",
+      "producttemplates_deactivatetests_deactivatetests_deactivate_withoutauthentication_returnsunauthorized",
+      "src_modules_products_products_tests_endpoints_producttemplates_deactivatetests_cs"
+    ],
+    "102": [
+      "src_modules_products_products_tests_endpoints_stores_gettests_cs",
+      "stores_gettests_gettests",
+      "stores_gettests_gettests_get_withexistingid_returnsstoreresponse",
+      "stores_gettests_gettests_get_withnonexistentid_returnsnotfound",
+      "stores_gettests_gettests_get_withoutauthentication_returnsunauthorized"
+    ],
+    "103": [
+      "products_gettests_gettests",
+      "products_gettests_gettests_get_withexistingid_returnsproductresponse",
+      "products_gettests_gettests_get_withnonexistentid_returnsnotfound",
+      "products_gettests_gettests_get_withoutauthentication_returnsunauthorized",
+      "src_modules_products_products_tests_endpoints_products_gettests_cs"
+    ],
+    "104": [
+      "src_modules_products_products_tests_endpoints_stores_myupdatetests_cs",
+      "stores_myupdatetests_myupdatetests",
+      "stores_myupdatetests_myupdatetests_myupdate_withnostore_returnsnotfound",
+      "stores_myupdatetests_myupdatetests_myupdate_withoutauthentication_returnsunauthorized",
+      "stores_myupdatetests_myupdatetests_myupdate_withvalidpayload_returnsnocontentandupdatesstore"
+    ],
+    "105": [
+      "src_modules_products_products_tests_endpoints_stores_mycreatetests_cs",
+      "stores_mycreatetests_mycreatetests",
+      "stores_mycreatetests_mycreatetests_mycreate_whenstorealreadyexists_returnsconflict",
+      "stores_mycreatetests_mycreatetests_mycreate_withoutauthentication_returnsunauthorized",
+      "stores_mycreatetests_mycreatetests_mycreate_withvalidpayload_returnsokandpersistsstore"
+    ],
+    "106": [
+      "producttemplates_gettests_gettests",
+      "producttemplates_gettests_gettests_get_withexistingid_returnsokandtemplate",
+      "producttemplates_gettests_gettests_get_withnonexistentid_returnsnotfound",
+      "producttemplates_gettests_gettests_get_withoutauthentication_returnsunauthorized",
+      "src_modules_products_products_tests_endpoints_producttemplates_gettests_cs"
+    ],
+    "107": [
+      "src_modules_products_products_tests_endpoints_stores_mygettests_cs",
+      "stores_mygettests_mygettests",
+      "stores_mygettests_mygettests_myget_withexistingstore_returnsstoreresponse",
+      "stores_mygettests_mygettests_myget_withnostore_returnsnotfound",
+      "stores_mygettests_mygettests_myget_withoutauthentication_returnsunauthorized"
+    ],
+    "108": [
+      "src_modules_iam_iam_tests_endpoints_tokens_refreshtests_cs",
+      "tokens_refreshtests_refreshtests",
+      "tokens_refreshtests_refreshtests_refreshtoken_withexpiredtoken_returnserror",
+      "tokens_refreshtests_refreshtests_refreshtoken_withmalformedbase64_returnsbadrequest",
+      "tokens_refreshtests_refreshtests_refreshtoken_withvalidtoken_returnsnewaccesstoken"
+    ],
+    "109": [
+      "src_modules_products_products_tests_endpoints_stores_myremoveproducttests_cs",
+      "stores_myremoveproducttests_myremoveproducttests",
+      "stores_myremoveproducttests_myremoveproducttests_myremoveproduct_withexistingproduct_returnsnocontentandremovesproduct",
+      "stores_myremoveproducttests_myremoveproducttests_myremoveproduct_withnostore_returnsnotfound",
+      "stores_myremoveproducttests_myremoveproducttests_myremoveproduct_withoutauthentication_returnsunauthorized"
+    ],
+    "110": [
+      "producttemplates_activatetests_activatetests",
+      "producttemplates_activatetests_activatetests_activate_withexistinginactivetemplate_returnsnocontentandactivatestemplate",
+      "producttemplates_activatetests_activatetests_activate_withnonexistenttemplate_returnsnotfound",
+      "producttemplates_activatetests_activatetests_activate_withoutauthentication_returnsunauthorized",
+      "src_modules_products_products_tests_endpoints_producttemplates_activatetests_cs"
+    ],
+    "111": [
+      "src_modules_iam_iam_tests_endpoints_tokens_createtests_cs",
+      "tokens_createtests_createtests",
+      "tokens_createtests_createtests_createtokens_withinvalidotp_returnsbadrequest",
+      "tokens_createtests_createtests_createtokens_withnonexistentuser_returnsnotfound",
+      "tokens_createtests_createtests_createtokens_withvalidotp_returnstokens"
+    ],
+    "112": [
+      "iotpservice",
+      "services_otpservicebase_otpservicebase",
+      "services_otpservicebase_otpservicebase_generate",
+      "services_otpservicebase_otpservicebase_verifythenremoveotpasync",
+      "src_modules_iam_iam_infrastructure_identity_services_otpservicebase_cs"
+    ],
+    "113": [
+      "auth_claimsprincipleextensions_claimsprincipalextensions",
+      "auth_claimsprincipleextensions_claimsprincipalextensions_findfirstvalue",
+      "auth_claimsprincipleextensions_claimsprincipalextensions_getuserid",
+      "auth_claimsprincipleextensions_claimsprincipalextensions_getuseridasstring",
+      "src_modules_iam_iam_infrastructure_auth_claimsprincipleextensions_cs"
+    ],
+    "114": [
+      "selfregister_endpoint_endpoint",
+      "selfregister_endpoint_endpoint_createuserpipelineasync",
+      "selfregister_endpoint_endpoint_mapendpoint",
+      "selfregister_endpoint_endpoint_registerasync",
+      "src_modules_iam_iam_endpoints_users_versionneutral_selfregister_endpoint_cs"
+    ],
+    "115": [
+      "refresh_endpoint_endpoint",
+      "refresh_endpoint_endpoint_mapendpoint",
+      "refresh_endpoint_endpoint_refreshtoken",
+      "refresh_endpoint_endpoint_trydecodebase64",
+      "src_modules_iam_iam_endpoints_tokens_versionneutral_refresh_endpoint_cs"
+    ],
+    "116": [
+      "idbcontext",
+      "persistence_iiamdbcontext_iiamdbcontext",
+      "persistence_iproductsdbcontext_iproductsdbcontext",
+      "src_modules_iam_iam_application_persistence_iiamdbcontext_cs",
+      "src_modules_products_products_application_persistence_iproductsdbcontext_cs"
+    ],
+    "117": [
+      "backgroundjobs_recurringbackgroundjobsservice_recurringbackgroundjobsservice",
+      "backgroundjobs_recurringbackgroundjobsservice_recurringbackgroundjobsservice_addorupdate",
+      "irecurringbackgroundjobs",
+      "recurringjoboptions",
+      "src_modules_backgroundjobs_backgroundjobs_recurringbackgroundjobsservice_cs"
+    ],
+    "118": [
+      "migration_workflow_i_automigrate_marker",
+      "migration_workflow_migrationguard",
+      "prometheus_postgres_exporter_target",
+      "prometheus_prometheus_yml",
+      "prometheus_webapi_target"
+    ],
+    "119": [
+      "host_tests_dynamicmoduletests_dynamicmoduletests",
+      "host_tests_dynamicmoduletests_dynamicmoduletests_boot_modulesareresolvedinpriorityorder",
+      "host_tests_dynamicmoduletests_dynamicmoduletests_boot_withtestmoduleoverride_shouldonlyloadtargetmodules",
+      "src_host_host_tests_dynamicmoduletests_cs"
+    ],
+    "120": [
+      "host_tests_healthchecktests_healthchecktests",
+      "host_tests_healthchecktests_healthchecktests_healthcheck_endpoint_returnshealthy",
+      "host_tests_healthchecktests_healthchecktests_healthcheck_readyendpoint_returnspostgresqlentry",
+      "src_host_host_tests_healthchecktests_cs"
+    ],
+    "121": [
+      "configurations_setup_setup",
+      "configurations_setup_setup_addconfigurations",
+      "configurations_setup_setup_addjsonfile",
+      "src_host_host_configurations_setup_cs"
+    ],
+    "122": [
+      "ischemafilter",
+      "src_host_host_swagger_stronglytypedidschemafilter_cs",
+      "swagger_stronglytypedidschemafilter_stronglytypedidschemafilter",
+      "swagger_stronglytypedidschemafilter_stronglytypedidschemafilter_apply"
+    ],
+    "123": [
+      "infrastructure_stringextensions_stringextensions",
+      "infrastructure_stringextensions_stringextensions_tootlpexportprotocol",
+      "infrastructure_stringextensions_stringextensions_tootlpprotocol",
+      "src_host_host_infrastructure_stringextensions_cs"
+    ],
+    "124": [
+      "infrastructure_setup_globalexceptionhandlingmiddleware_setup",
+      "infrastructure_setup_globalexceptionhandlingmiddleware_setup_addglobalexceptionhandlingmiddleware",
+      "infrastructure_setup_globalexceptionhandlingmiddleware_setup_useglobalexceptionhandlingmiddleware",
+      "src_host_host_infrastructure_setup_globalexceptionhandlingmiddleware_cs"
+    ],
+    "125": [
+      "endpointfilters_resulttoresponsetransformer_resulttoresponsetransformer",
+      "endpointfilters_resulttoresponsetransformer_resulttoresponsetransformer_invokeasync",
+      "iendpointfilter",
+      "src_common_common_application_endpointfilters_resulttoresponsetransformer_cs"
+    ],
+    "126": [
+      "imodelbinder",
+      "modelbinders_stronglytypedidbinder_stronglytypedidbinder",
+      "modelbinders_stronglytypedidbinder_stronglytypedidbinder_bindmodelasync",
+      "src_common_common_application_modelbinders_stronglytypedidbinder_cs"
+    ],
+    "127": [
+      "extensions_routehandlerbuilderextensions_routehandlerbuilderextensions",
+      "extensions_routehandlerbuilderextensions_routehandlerbuilderextensions_transformresultto",
+      "extensions_routehandlerbuilderextensions_routehandlerbuilderextensions_transformresulttonocontentresponse",
+      "src_common_common_application_extensions_routehandlerbuilderextensions_cs"
+    ],
+    "128": [
+      "extensions_problemdetailsextensions_problemdetailsextensions",
+      "extensions_problemdetailsextensions_problemdetailsextensions_adderrorkey",
+      "extensions_problemdetailsextensions_problemdetailsextensions_adderrors",
+      "src_common_common_application_extensions_problemdetailsextensions_cs"
+    ],
+    "129": [
+      "outbox_outboxmessage_outboxmessage",
+      "outbox_outboxmessage_outboxmessage_create",
+      "outbox_outboxmessage_outboxmessage_markasprocessed",
+      "src_common_common_application_persistence_outbox_outboxmessage_cs"
+    ],
+    "130": [
+      "caching_cachekeys_cachekeys",
+      "caching_cachekeys_for",
+      "caching_cachekeys_for_otp",
+      "src_common_common_application_caching_cachekeys_cs"
+    ],
+    "131": [
+      "contracts_masstransitintermodulerequestclient_masstransitintermodulerequestclient",
+      "contracts_masstransitintermodulerequestclient_masstransitintermodulerequestclient_sendasync",
+      "iintermodulerequestclient",
+      "src_common_common_intermodulerequests_contracts_masstransitintermodulerequestclient_cs"
+    ],
+    "132": [
+      "src_common_common_endpoints_versioning_setup_cs",
+      "versioning_setup_setup",
+      "versioning_setup_setup_addversioning",
+      "versioning_setup_setup_getapiversionset"
+    ],
+    "133": [
+      "eventbus_setup_setup",
+      "eventbus_setup_setup_addcommoneventbus",
+      "eventbus_setup_setup_useappropriatemessagebroker",
+      "src_common_common_infrastructure_eventbus_setup_cs"
+    ],
+    "134": [
+      "icurrentuser",
+      "services_currentuser_currentuser",
+      "services_currentuser_currentuser_haspermission",
+      "src_common_common_infrastructure_auth_services_currentuser_cs"
+    ],
+    "135": [
+      "dbcontext_setup_setup",
+      "dbcontext_setup_setup_addmoduledbcontext",
+      "dbcontext_setup_setup_logsql",
+      "src_common_common_infrastructure_persistence_dbcontext_setup_cs"
+    ],
+    "136": [
+      "auditing_applyauditinginterceptor_applyauditinginterceptor",
+      "auditing_applyauditinginterceptor_applyauditinginterceptor_savingchangesasync",
+      "savechangesinterceptor",
+      "src_common_common_infrastructure_persistence_auditing_applyauditinginterceptor_cs"
+    ],
+    "137": [
+      "localization_setup_setup",
+      "localization_setup_setup_addcommonresxlocalization",
+      "localization_setup_setup_usecommonresxlocalization",
+      "src_common_common_infrastructure_localization_setup_cs"
+    ],
+    "138": [
+      "common_tests_allowallauthorizationhandler_allowallauthorizationhandler",
+      "common_tests_allowallauthorizationhandler_allowallauthorizationhandler_handleasync",
+      "iauthorizationhandler",
+      "src_common_common_tests_allowallauthorizationhandler_cs"
+    ],
+    "139": [
+      "src_common_common_domain_stronglytypedids_applicationuserid_cs",
+      "stronglytypedids_applicationuserid_new",
+      "stronglytypedids_applicationuserid_tostring",
+      "stronglytypedids_applicationuserid_tryparse"
+    ],
+    "140": [
+      "deactivate_endpoint_endpoint",
+      "deactivate_endpoint_endpoint_deactivateproducttemplateasync",
+      "deactivate_endpoint_endpoint_mapendpoint",
+      "src_modules_products_products_endpoints_producttemplates_v1_deactivate_endpoint_cs"
+    ],
+    "141": [
+      "activate_endpoint_endpoint",
+      "activate_endpoint_endpoint_activateproducttemplateasync",
+      "activate_endpoint_endpoint_mapendpoint",
+      "src_modules_products_products_endpoints_producttemplates_v1_activate_endpoint_cs"
+    ],
+    "142": [
+      "history_endpoint_endpoint",
+      "history_endpoint_endpoint_getmystoreauditlogasync",
+      "history_endpoint_endpoint_mapendpoint",
+      "src_modules_products_products_endpoints_stores_v1_my_history_endpoint_cs"
+    ],
+    "143": [
+      "ideserializer",
+      "outbox_outboxmessagedtodeserializer_outboxmessagedtodeserializer",
+      "outbox_outboxmessagedtodeserializer_outboxmessagedtodeserializer_deserialize",
+      "src_modules_outbox_outbox_outboxmessagedtodeserializer_cs"
+    ],
+    "144": [
+      "host_tests_hosttestfactory_hosttestfactory",
+      "host_tests_hosttestfactory_hosttestfactory_getactivemodules",
+      "host_tests_hosttestfactory_hosttestfactory_withmodules",
+      "src_host_host_tests_hosttestfactory_cs"
+    ],
+    "145": [
+      "producttemplates_createtests_createtests",
+      "producttemplates_createtests_createtests_create_withoutauthentication_returnsunauthorized",
+      "producttemplates_createtests_createtests_create_withvalidpayload_returnsokandpersistsproducttemplate",
+      "src_modules_products_products_tests_endpoints_producttemplates_createtests_cs"
+    ],
+    "146": [
+      "src_modules_iam_iam_tests_endpoints_tokens_revoketests_cs",
+      "tokens_revoketests_revoketests",
+      "tokens_revoketests_revoketests_revoketoken_withoutauth_returnsunauthorized",
+      "tokens_revoketests_revoketests_revoketoken_withvalidauth_clearsrefreshtokenonuser"
+    ],
+    "147": [
+      "auth_permissionauthorizationhandler_permissionauthorizationhandler",
+      "auth_permissionauthorizationhandler_permissionauthorizationhandler_handlerequirementasync",
+      "authorizationhandler",
+      "src_modules_iam_iam_infrastructure_auth_permissionauthorizationhandler_cs"
+    ],
+    "148": [
+      "iroleservice",
+      "services_roleservice_roleservice",
+      "services_roleservice_roleservice_getroleidbyname",
+      "src_modules_iam_iam_infrastructure_auth_services_roleservice_cs"
+    ],
+    "149": [
+      "intermodulerequesthandler",
+      "intermodulerequesthandlers_getseeduseridsrequesthandler_getseeduseridsrequesthandler",
+      "intermodulerequesthandlers_getseeduseridsrequesthandler_getseeduseridsrequesthandler_handleasync",
+      "src_modules_iam_iam_infrastructure_intermodulerequesthandlers_getseeduseridsrequesthandler_cs"
+    ],
+    "150": [
+      "send_endpoint_endpoint",
+      "send_endpoint_endpoint_mapendpoint",
+      "send_endpoint_endpoint_sendotp",
+      "src_modules_iam_iam_endpoints_otp_versionneutral_send_endpoint_cs"
+    ],
+    "151": [
+      "checkregistration_endpoint_endpoint",
+      "checkregistration_endpoint_endpoint_isregisteredasync",
+      "checkregistration_endpoint_endpoint_mapendpoint",
+      "src_modules_iam_iam_endpoints_users_versionneutral_checkregistration_endpoint_cs"
+    ],
+    "152": [
+      "revoke_endpoint_endpoint",
+      "revoke_endpoint_endpoint_mapendpoint",
+      "revoke_endpoint_endpoint_revoketoken",
+      "src_modules_iam_iam_endpoints_tokens_versionneutral_revoke_endpoint_cs"
+    ],
+    "153": [
+      "services_iotpservice_iotpservice",
+      "services_iotpservice_iotpservice_generate",
+      "services_iotpservice_iotpservice_verifythenremoveotpasync",
+      "src_modules_iam_iam_application_otp_services_iotpservice_cs"
+    ],
+    "154": [
+      "services_icaptchaservice_icaptchaservice",
+      "services_icaptchaservice_icaptchaservice_getclientkey",
+      "services_icaptchaservice_icaptchaservice_validateasync",
+      "src_modules_iam_iam_application_captcha_services_icaptchaservice_cs"
+    ],
+    "155": [
+      "extensions_identityresultextensions_identityresultextensions",
+      "extensions_identityresultextensions_identityresultextensions_tocustomidentityerror",
+      "extensions_identityresultextensions_identityresultextensions_toresult",
+      "src_modules_iam_iam_application_extensions_identityresultextensions_cs"
+    ],
+    "156": [
+      "ismsservice",
+      "sms_dummysmsservice_dummysmsservice",
+      "sms_dummysmsservice_dummysmsservice_sendwelcomeasync",
+      "src_modules_notifications_notifications_infrastructure_sms_dummysmsservice_cs"
+    ],
+    "157": [
+      "backgroundjobs_hangfirecustomauthorizationfilter_hangfirecustomauthorizationfilter",
+      "backgroundjobs_hangfirecustomauthorizationfilter_hangfirecustomauthorizationfilter_authorizeasync",
+      "idashboardasyncauthorizationfilter",
+      "src_modules_backgroundjobs_backgroundjobs_hangfirecustomauthorizationfilter_cs"
+    ],
+    "158": [
+      "migration_workflow_database_seeder_orchestrator",
+      "migration_workflow_iam_module",
+      "migration_workflow_idatabase_seeder",
+      "migration_workflow_products_module"
+    ],
+    "159": [
+      "host_tests_sanitytests_sanitytests",
+      "host_tests_sanitytests_sanitytests_boot_withallmodules_shouldresolvedependencies",
+      "src_host_host_tests_sanitytests_cs"
+    ],
+    "160": [
+      "host_program_host",
+      "host_program_program",
+      "src_host_host_program_cs"
+    ],
+    "161": [
+      "options_setup_setup",
+      "options_setup_setup_addcommonoptions",
+      "src_common_common_application_options_setup_cs"
+    ],
+    "162": [
+      "eventbus_ieventbus_ieventbus",
+      "eventbus_ieventbus_ieventbus_publishasync",
+      "src_common_common_application_eventbus_ieventbus_cs"
+    ],
+    "163": [
+      "auth_routehandlerbuilderextensions_routehandlerbuilderextensions",
+      "auth_routehandlerbuilderextensions_routehandlerbuilderextensions_musthavepermission",
+      "src_common_common_application_auth_routehandlerbuilderextensions_cs"
+    ],
+    "164": [
+      "auth_icurrentuser_icurrentuser",
+      "auth_icurrentuser_icurrentuser_haspermission",
+      "src_common_common_application_auth_icurrentuser_cs"
+    ],
+    "165": [
+      "extensions_stringlocalizerextensions_stringlocalizerextensions",
+      "extensions_stringlocalizerextensions_stringlocalizerextensions_localizefromerror",
+      "src_common_common_application_extensions_stringlocalizerextensions_cs"
+    ],
+    "166": [
+      "persistence_idatabaseseeder_idatabaseseeder",
+      "persistence_idatabaseseeder_idatabaseseeder_seedasync",
+      "src_common_common_application_persistence_idatabaseseeder_cs"
+    ],
+    "167": [
+      "abstractvalidator",
+      "src_common_common_application_validation_customvalidator_cs",
+      "validation_customvalidator_customvalidator"
+    ],
+    "168": [
+      "backgroundjobs_irecurringbackgroundjobs_irecurringbackgroundjobs",
+      "backgroundjobs_irecurringbackgroundjobs_irecurringbackgroundjobs_addorupdate",
+      "src_common_common_application_backgroundjobs_irecurringbackgroundjobs_cs"
+    ],
+    "169": [
+      "common_intermodulerequests_setup_setup",
+      "common_intermodulerequests_setup_setup_addcommonintermodulerequests",
+      "src_common_common_intermodulerequests_setup_cs"
+    ],
+    "170": [
+      "contracts_iintermodulerequestclient_iintermodulerequestclient",
+      "contracts_iintermodulerequestclient_iintermodulerequestclient_sendasync",
+      "src_common_common_intermodulerequests_contracts_iintermodulerequestclient_cs"
+    ],
+    "171": [
+      "extensions_httpcontextextensions_httpcontextextensions",
+      "extensions_httpcontextextensions_httpcontextextensions_getipaddress",
+      "src_common_common_infrastructure_extensions_httpcontextextensions_cs"
+    ],
+    "172": [
+      "resiliency_setup_setup",
+      "resiliency_setup_setup_addresilienthttpclient",
+      "src_common_common_infrastructure_resiliency_setup_cs"
+    ],
+    "173": [
+      "persistence_iautomigratemarker_automigratemarker",
+      "persistence_iautomigratemarker_iautomigratemarker",
+      "src_common_common_infrastructure_persistence_iautomigratemarker_cs"
+    ],
+    "174": [
+      "outbox_ioutboxdbcontext_ioutboxdbcontext",
+      "outbox_ioutboxdbcontext_ioutboxdbcontext_savechangesasync",
+      "src_common_common_infrastructure_persistence_outbox_ioutboxdbcontext_cs"
+    ],
+    "175": [
+      "extensions_paginationdbcontextextensions_paginationqueryableextensions",
+      "extensions_paginationdbcontextextensions_paginationqueryableextensions_paginateasync",
+      "src_common_common_infrastructure_persistence_extensions_paginationdbcontextextensions_cs"
+    ],
+    "176": [
+      "auditing_setup_setup",
+      "auditing_setup_setup_addauditinginterceptors",
+      "src_common_common_infrastructure_persistence_auditing_setup_cs"
+    ],
+    "177": [
+      "auditlog_setup_setup",
+      "auditlog_setup_setup_addauditlogservices",
+      "src_common_common_infrastructure_persistence_auditlog_setup_cs"
+    ],
+    "178": [
+      "caching_setup_setup",
+      "caching_setup_setup_addcommoncaching",
+      "src_common_common_infrastructure_caching_setup_cs"
+    ],
+    "179": [
+      "common_tests_errorextensions_errorextensions",
+      "common_tests_errorextensions_errorextensions_shouldbe",
+      "src_common_common_tests_errorextensions_cs"
+    ],
+    "180": [
+      "src_common_common_domain_stronglytypedids_stronglytypedidhelper_cs",
+      "stronglytypedids_stronglytypedidhelper_stronglytypedidhelper",
+      "stronglytypedids_stronglytypedidhelper_stronglytypedidhelper_trydeserialize"
+    ],
+    "181": [
+      "producttemplates_setup_setup",
+      "producttemplates_setup_setup_mapproducttemplatesendpoints",
+      "src_modules_products_products_endpoints_producttemplates_setup_cs"
+    ],
+    "182": [
+      "products_setup_setup",
+      "products_setup_setup_mapproductsendpoints",
+      "src_modules_products_products_endpoints_products_setup_cs"
+    ],
+    "183": [
+      "src_modules_products_products_endpoints_stores_setup_cs",
+      "stores_setup_setup",
+      "stores_setup_setup_mapstoresendpoints"
+    ],
+    "184": [
+      "options_databaseoptions_databaseoptions",
+      "options_databaseoptions_databaseoptionsvalidator",
+      "src_common_common_application_options_databaseoptions_cs"
+    ],
+    "185": [
+      "options_healthcheckoptions_healthcheckoptions",
+      "options_healthcheckoptions_healthcheckoptionsvalidator",
+      "src_common_common_application_options_healthcheckoptions_cs"
+    ],
+    "186": [
+      "options_observabilityoptions_observabilityoptions",
+      "options_observabilityoptions_observabilityoptionsvalidator",
+      "src_common_common_application_options_observabilityoptions_cs"
+    ],
+    "187": [
+      "options_outboxoptions_outboxoptions",
+      "options_outboxoptions_outboxoptionsvalidator",
+      "src_common_common_application_options_outboxoptions_cs"
+    ],
+    "188": [
+      "removeproduct_request_requestvalidator",
+      "src_modules_products_products_endpoints_stores_v1_my_removeproduct_request_cs",
+      "src_modules_products_products_endpoints_stores_v1_removeproduct_request_cs"
+    ],
+    "189": [
+      "options_backgroundjobsoptions_backgroundjobsoptions",
+      "options_backgroundjobsoptions_backgroundjobsoptionsvalidator",
+      "src_common_common_application_options_backgroundjobsoptions_cs"
+    ],
+    "190": [
+      "options_modulesoptions_modulesoptions",
+      "options_modulesoptions_modulesoptionsvalidator",
+      "src_common_common_application_options_modulesoptions_cs"
+    ],
+    "191": [
+      "options_auditlogoptions_auditlogoptions",
+      "options_auditlogoptions_auditlogoptionsvalidator",
+      "src_common_common_application_options_auditlogoptions_cs"
+    ],
+    "192": [
+      "options_corsoptions_corsoptions",
+      "options_corsoptions_corsoptionsvalidator",
+      "src_common_common_application_options_corsoptions_cs"
+    ],
+    "193": [
+      "options_resxlocalizationoptions_resxlocalizationoptions",
+      "options_resxlocalizationoptions_resxlocalizationoptionsvalidator",
+      "src_common_common_application_options_resxlocalizationoptions_cs"
+    ],
+    "194": [
+      "options_jwtoptions_jwtoptions",
+      "options_jwtoptions_jwtoptionsvalidator",
+      "src_common_common_application_options_jwtoptions_cs"
+    ],
+    "195": [
+      "options_kafkaproducer_kafkaproducer",
+      "options_kafkaproducer_kafkaproducervalidator",
+      "src_common_common_application_options_kafkaproducer_cs"
+    ],
+    "196": [
+      "options_openapioptions_openapioptions",
+      "options_openapioptions_openapioptionsvalidator",
+      "src_common_common_application_options_openapioptions_cs"
+    ],
+    "197": [
+      "options_captchaoptions_captchaoptions",
+      "options_captchaoptions_captchaoptionsvalidator",
+      "src_common_common_application_options_captchaoptions_cs"
+    ],
+    "198": [
+      "identity_setup_setup",
+      "identity_setup_setup_addidentityinfrastructure",
+      "src_modules_iam_iam_infrastructure_identity_setup_cs"
+    ],
+    "199": [
+      "jwt_setup_setup",
+      "jwt_setup_setup_addjwtauthentication",
+      "src_modules_iam_iam_infrastructure_auth_jwt_setup_cs"
+    ],
+    "200": [
+      "captcha_setup_setup",
+      "captcha_setup_setup_addcaptchainfrastructure",
+      "src_modules_iam_iam_infrastructure_captcha_setup_cs"
+    ],
+    "201": [
+      "src_modules_iam_iam_infrastructure_tokens_setup_cs",
+      "tokens_setup_setup",
+      "tokens_setup_setup_addtokensinfrastructure"
+    ],
+    "202": [
+      "src_modules_iam_iam_endpoints_common_validations_phonenumbervalidation_cs",
+      "validations_phonenumbervalidation_commonvalidations",
+      "validations_phonenumbervalidation_commonvalidations_phonenumbervalidation"
+    ],
+    "203": [
+      "services_iroleservice_iroleservice",
+      "services_iroleservice_iroleservice_getroleidbyname",
+      "src_modules_iam_iam_application_auth_services_iroleservice_cs"
+    ],
+    "204": [
+      "notifications_application_ismsservice_ismsservice",
+      "notifications_application_ismsservice_ismsservice_sendwelcomeasync",
+      "src_modules_notifications_notifications_application_ismsservice_cs"
+    ],
+    "205": [
+      "sms_setup_setup",
+      "sms_setup_setup_addnotificationservices",
+      "src_modules_notifications_notifications_infrastructure_sms_setup_cs"
+    ],
+    "206": [
+      "auth_custompermissons_namefor",
+      "src_common_common_application_auth_custompermissons_cs"
+    ],
+    "207": [
+      "common_intermodulerequests_iassemblyreference_iassemblyreference",
+      "src_common_common_intermodulerequests_iassemblyreference_cs"
+    ],
+    "208": [
+      "contracts_iintermodulerequest_iintermodulerequest",
+      "src_common_common_intermodulerequests_contracts_iintermodulerequest_cs"
+    ],
+    "209": [
+      "common_infrastructure_iassemblyreference_iassemblyreference",
+      "src_common_common_infrastructure_iassemblyreference_cs"
+    ],
+    "210": [
+      "src_common_common_domain_stronglytypedids_istronglytypedid_cs",
+      "stronglytypedids_istronglytypedid_istronglytypedid"
+    ],
+    "211": [
+      "resultmonad_iresult_iresult",
+      "src_common_common_domain_resultmonad_iresult_cs"
+    ],
+    "212": [
+      "events_ievent_ievent",
+      "src_common_common_domain_events_ievent_cs"
+    ],
+    "213": [
+      "entities_iauditableentity_iauditableentity",
+      "src_common_common_domain_entities_iauditableentity_cs"
+    ],
+    "214": [
+      "outbox_dlqmessage_dlqmessage",
+      "src_modules_outbox_outbox_dlqmessage_cs"
+    ],
+    "215": [
+      "outbox_outboxmessagedto_outboxmessagedto",
+      "src_modules_outbox_outbox_outboxmessagedto_cs"
+    ],
+    "216": [
+      "products_endpoints_iassemblyreference_iassemblyreference",
+      "src_modules_products_products_endpoints_iassemblyreference_cs"
+    ],
+    "217": [
+      "products_domain_iassemblyreference_iassemblyreference",
+      "src_modules_products_products_domain_iassemblyreference_cs"
+    ],
+    "218": [
+      "products_infrastructure_iassemblyreference_iassemblyreference",
+      "src_modules_products_products_infrastructure_iassemblyreference_cs"
+    ],
+    "219": [
+      "products_application_iassemblyreference_iassemblyreference",
+      "src_modules_products_products_application_iassemblyreference_cs"
+    ],
+    "220": [
+      "iam_infrastructure_iassemblyreference_iassemblyreference",
+      "src_modules_iam_iam_infrastructure_iassemblyreference_cs"
+    ],
+    "221": [
+      "iam_endpoints_iassemblyreference_iassemblyreference",
+      "src_modules_iam_iam_endpoints_iassemblyreference_cs"
+    ],
+    "222": [
+      "iam_application_iassemblyreference_iassemblyreference",
+      "src_modules_iam_iam_application_iassemblyreference_cs"
+    ],
+    "223": [
+      "iam_domain_iassemblyreference_iassemblyreference",
+      "src_modules_iam_iam_domain_iassemblyreference_cs"
+    ],
+    "224": [
+      "identity_applicationuser_auditing_applicationuser",
+      "src_modules_iam_iam_domain_identity_applicationuser_auditing_cs"
+    ],
+    "225": [
+      "notifications_domain_iassemblyreference_iassemblyreference",
+      "src_modules_notifications_notifications_domain_iassemblyreference_cs"
+    ],
+    "226": [
+      "notifications_application_iassemblyreference_iassemblyreference",
+      "src_modules_notifications_notifications_application_iassemblyreference_cs"
+    ],
+    "227": [
+      "notifications_infrastructure_iassemblyreference_iassemblyreference",
+      "src_modules_notifications_notifications_infrastructure_iassemblyreference_cs"
+    ],
+    "228": [
+      "globalusings_cs"
+    ],
+    "229": [
+      "src_common_common_application_pagination_paginationrequest_cs"
+    ],
+    "230": [
+      "src_common_common_application_pagination_paginationresponse_cs"
+    ],
+    "231": [
+      "src_common_common_application_dtos_auditableentityresponse_cs"
+    ],
+    "232": [
+      "src_common_common_application_auditlog_auditlogdto_cs"
+    ],
+    "233": [
+      "src_common_common_intermodulerequests_iam_getseeduserids_cs"
+    ],
+    "234": [
+      "src_common_common_domain_events_domainevent_cs"
+    ],
+    "235": [
+      "src_common_common_integrationevents_integrationevent_cs"
+    ],
+    "236": [
+      "src_common_common_integrationevents_iam_cs"
+    ],
+    "237": [
+      "src_common_common_integrationevents_inventory_cs"
+    ],
+    "238": [
+      "src_modules_products_products_endpoints_producttemplates_v1_get_response_cs"
+    ],
+    "239": [
+      "src_modules_products_products_endpoints_producttemplates_v1_search_response_cs"
+    ],
+    "240": [
+      "src_modules_products_products_endpoints_producttemplates_v1_create_response_cs"
+    ],
+    "241": [
+      "src_modules_products_products_endpoints_products_v1_get_response_cs"
+    ],
+    "242": [
+      "src_modules_products_products_endpoints_products_v1_search_response_cs"
+    ],
+    "243": [
+      "src_modules_products_products_endpoints_products_v1_my_get_response_cs"
+    ],
+    "244": [
+      "src_modules_products_products_endpoints_products_v1_my_search_response_cs"
+    ],
+    "245": [
+      "src_modules_products_products_endpoints_stores_v1_get_response_cs"
+    ],
+    "246": [
+      "src_modules_products_products_endpoints_stores_v1_search_response_cs"
+    ],
+    "247": [
+      "src_modules_products_products_endpoints_stores_v1_my_get_response_cs"
+    ],
+    "248": [
+      "src_modules_products_products_endpoints_stores_v1_my_addproduct_response_cs"
+    ],
+    "249": [
+      "src_modules_products_products_endpoints_stores_v1_my_create_response_cs"
+    ],
+    "250": [
+      "src_modules_products_products_endpoints_stores_v1_addproduct_response_cs"
+    ],
+    "251": [
+      "src_modules_products_products_endpoints_stores_v1_create_response_cs"
+    ],
+    "252": [
+      "src_modules_products_products_domain_products_domainevents_v1_v1productpriceincreaseddomainevent_cs"
+    ],
+    "253": [
+      "src_modules_products_products_domain_products_domainevents_v1_v1productquantityincreaseddomainevent_cs"
+    ],
+    "254": [
+      "src_modules_products_products_domain_products_domainevents_v1_v1productpricedecreaseddomainevent_cs"
+    ],
+    "255": [
+      "src_modules_products_products_domain_products_domainevents_v1_v1productdescriptionupdateddomainevent_cs"
+    ],
+    "256": [
+      "src_modules_products_products_domain_products_domainevents_v1_v1productnameupdateddomainevent_cs"
+    ],
+    "257": [
+      "src_modules_products_products_domain_products_domainevents_v1_v1productcreateddomainevent_cs"
+    ],
+    "258": [
+      "src_modules_products_products_domain_products_domainevents_v1_v1productquantitydecreaseddomainevent_cs"
+    ],
+    "259": [
+      "src_modules_products_products_domain_stores_domainevents_v1_v1storenameupdateddomainevent_cs"
+    ],
+    "260": [
+      "src_modules_products_products_domain_stores_domainevents_v1_v1storecreateddomainevent_cs"
+    ],
+    "261": [
+      "src_modules_products_products_domain_stores_domainevents_v1_v1productaddedtostoredomainevent_cs"
+    ],
+    "262": [
+      "src_modules_products_products_domain_stores_domainevents_v1_v1storedescriptionupdateddomainevent_cs"
+    ],
+    "263": [
+      "src_modules_products_products_domain_stores_domainevents_v1_v1productremovedfromstoredomainevent_cs"
+    ],
+    "264": [
+      "src_modules_products_products_domain_stores_domainevents_v1_v1storeaddressupdateddomainevent_cs"
+    ],
+    "265": [
+      "src_modules_iam_iam_infrastructure_assemblyinfo_cs"
+    ],
+    "266": [
+      "src_modules_iam_iam_endpoints_captcha_versionneutral_clientkey_get_response_cs"
+    ],
+    "267": [
+      "src_modules_iam_iam_endpoints_users_versionneutral_get_response_cs"
+    ],
+    "268": [
+      "src_modules_iam_iam_endpoints_users_versionneutral_search_response_cs"
+    ],
+    "269": [
+      "src_modules_iam_iam_endpoints_users_versionneutral_selfregister_response_cs"
+    ],
+    "270": [
+      "src_modules_iam_iam_endpoints_users_versionneutral_me_get_response_cs"
+    ],
+    "271": [
+      "src_modules_iam_iam_endpoints_users_versionneutral_checkregistration_response_cs"
+    ],
+    "272": [
+      "src_modules_iam_iam_endpoints_tokens_versionneutral_refresh_response_cs"
+    ],
+    "273": [
+      "src_modules_iam_iam_endpoints_tokens_versionneutral_create_response_cs"
+    ],
+    "274": [
+      "src_modules_iam_iam_domain_identity_domainevents_v1_v1userimageurlupdateddomainevent_cs"
+    ],
+    "275": [
+      "src_modules_iam_iam_domain_identity_domainevents_v1_v1userregistereddomainevent_cs"
+    ],
+    "276": [
+      "dockercompose_mm_local_development"
+    ],
+    "277": [
+      "dockercompose_mm_kafka_ui"
+    ],
+    "278": [
+      "migration_workflow_outbox_module"
+    ],
+    "279": [
+      "grafana_dashboards_dashboard_yml"
+    ]
+  },
+  "cohesion": {
+    "0": 0.07,
+    "1": 0.06,
+    "2": 0.07,
+    "3": 0.09,
+    "4": 0.09,
+    "5": 0.07,
+    "6": 0.1,
+    "7": 0.08,
+    "8": 0.08,
+    "9": 0.1,
+    "10": 0.08,
+    "11": 0.11,
+    "12": 0.12,
+    "13": 0.11,
+    "14": 0.14,
+    "15": 0.12,
+    "16": 0.14,
+    "17": 0.16,
+    "18": 0.14,
+    "19": 0.15,
+    "20": 0.15,
+    "21": 0.2,
+    "22": 0.26,
+    "23": 0.18,
+    "24": 0.17,
+    "25": 0.17,
+    "26": 0.17,
+    "27": 0.17,
+    "28": 0.38,
+    "29": 0.29,
+    "30": 0.2,
+    "31": 0.2,
+    "32": 0.31,
+    "33": 0.22,
+    "34": 0.22,
+    "35": 0.36,
+    "36": 0.33,
+    "37": 0.22,
+    "38": 0.33,
+    "39": 0.22,
+    "40": 0.28,
+    "41": 0.39,
+    "42": 0.39,
+    "43": 0.25,
+    "44": 0.29,
+    "45": 0.25,
+    "46": 0.29,
+    "47": 0.25,
+    "48": 0.36,
+    "49": 0.25,
+    "50": 0.25,
+    "51": 0.32,
+    "52": 0.43,
+    "53": 0.29,
+    "54": 0.38,
+    "55": 0.29,
+    "56": 0.33,
+    "57": 0.29,
+    "58": 0.29,
+    "59": 0.48,
+    "60": 0.33,
+    "61": 0.48,
+    "62": 0.29,
+    "63": 0.29,
+    "64": 0.29,
+    "65": 0.29,
+    "66": 0.48,
+    "67": 0.43,
+    "68": 0.29,
+    "69": 0.33,
+    "70": 0.4,
+    "71": 0.53,
+    "72": 0.33,
+    "73": 0.33,
+    "74": 0.53,
+    "75": 0.33,
+    "76": 0.53,
+    "77": 0.33,
+    "78": 0.33,
+    "79": 0.33,
+    "80": 0.33,
+    "81": 0.33,
+    "82": 0.33,
+    "83": 0.4,
+    "84": 0.4,
+    "85": 0.5,
+    "86": 0.5,
+    "87": 0.4,
+    "88": 0.4,
+    "89": 0.4,
+    "90": 0.5,
+    "91": 0.4,
+    "92": 0.4,
+    "93": 0.4,
+    "94": 0.4,
+    "95": 0.4,
+    "96": 0.4,
+    "97": 0.4,
+    "98": 0.4,
+    "99": 0.4,
+    "100": 0.4,
+    "101": 0.4,
+    "102": 0.4,
+    "103": 0.4,
+    "104": 0.4,
+    "105": 0.4,
+    "106": 0.4,
+    "107": 0.4,
+    "108": 0.4,
+    "109": 0.4,
+    "110": 0.4,
+    "111": 0.4,
+    "112": 0.4,
+    "113": 0.6,
+    "114": 0.5,
+    "115": 0.5,
+    "116": 0.4,
+    "117": 0.4,
+    "118": 0.4,
+    "119": 0.5,
+    "120": 0.5,
+    "121": 0.67,
+    "122": 0.5,
+    "123": 0.5,
+    "124": 0.5,
+    "125": 0.5,
+    "126": 0.5,
+    "127": 0.5,
+    "128": 0.5,
+    "129": 0.5,
+    "130": 0.5,
+    "131": 0.5,
+    "132": 0.5,
+    "133": 0.67,
+    "134": 0.5,
+    "135": 0.67,
+    "136": 0.5,
+    "137": 0.5,
+    "138": 0.5,
+    "139": 0.5,
+    "140": 0.5,
+    "141": 0.5,
+    "142": 0.5,
+    "143": 0.5,
+    "144": 0.5,
+    "145": 0.5,
+    "146": 0.5,
+    "147": 0.5,
+    "148": 0.5,
+    "149": 0.5,
+    "150": 0.5,
+    "151": 0.5,
+    "152": 0.5,
+    "153": 0.5,
+    "154": 0.5,
+    "155": 0.67,
+    "156": 0.5,
+    "157": 0.5,
+    "158": 0.67,
+    "159": 0.67,
+    "160": 0.67,
+    "161": 0.67,
+    "162": 0.67,
+    "163": 0.67,
+    "164": 0.67,
+    "165": 0.67,
+    "166": 0.67,
+    "167": 0.67,
+    "168": 0.67,
+    "169": 0.67,
+    "170": 0.67,
+    "171": 0.67,
+    "172": 0.67,
+    "173": 1.0,
+    "174": 0.67,
+    "175": 0.67,
+    "176": 0.67,
+    "177": 0.67,
+    "178": 0.67,
+    "179": 0.67,
+    "180": 0.67,
+    "181": 0.67,
+    "182": 0.67,
+    "183": 0.67,
+    "184": 0.67,
+    "185": 0.67,
+    "186": 0.67,
+    "187": 0.67,
+    "188": 0.67,
+    "189": 0.67,
+    "190": 0.67,
+    "191": 0.67,
+    "192": 0.67,
+    "193": 0.67,
+    "194": 0.67,
+    "195": 0.67,
+    "196": 0.67,
+    "197": 0.67,
+    "198": 0.67,
+    "199": 0.67,
+    "200": 0.67,
+    "201": 0.67,
+    "202": 0.67,
+    "203": 0.67,
+    "204": 0.67,
+    "205": 0.67,
+    "206": 1.0,
+    "207": 1.0,
+    "208": 1.0,
+    "209": 1.0,
+    "210": 1.0,
+    "211": 1.0,
+    "212": 1.0,
+    "213": 1.0,
+    "214": 1.0,
+    "215": 1.0,
+    "216": 1.0,
+    "217": 1.0,
+    "218": 1.0,
+    "219": 1.0,
+    "220": 1.0,
+    "221": 1.0,
+    "222": 1.0,
+    "223": 1.0,
+    "224": 1.0,
+    "225": 1.0,
+    "226": 1.0,
+    "227": 1.0,
+    "228": 1.0,
+    "229": 1.0,
+    "230": 1.0,
+    "231": 1.0,
+    "232": 1.0,
+    "233": 1.0,
+    "234": 1.0,
+    "235": 1.0,
+    "236": 1.0,
+    "237": 1.0,
+    "238": 1.0,
+    "239": 1.0,
+    "240": 1.0,
+    "241": 1.0,
+    "242": 1.0,
+    "243": 1.0,
+    "244": 1.0,
+    "245": 1.0,
+    "246": 1.0,
+    "247": 1.0,
+    "248": 1.0,
+    "249": 1.0,
+    "250": 1.0,
+    "251": 1.0,
+    "252": 1.0,
+    "253": 1.0,
+    "254": 1.0,
+    "255": 1.0,
+    "256": 1.0,
+    "257": 1.0,
+    "258": 1.0,
+    "259": 1.0,
+    "260": 1.0,
+    "261": 1.0,
+    "262": 1.0,
+    "263": 1.0,
+    "264": 1.0,
+    "265": 1.0,
+    "266": 1.0,
+    "267": 1.0,
+    "268": 1.0,
+    "269": 1.0,
+    "270": 1.0,
+    "271": 1.0,
+    "272": 1.0,
+    "273": 1.0,
+    "274": 1.0,
+    "275": 1.0,
+    "276": 1.0,
+    "277": 1.0,
+    "278": 1.0,
+    "279": 1.0
+  },
+  "gods": [
+    {
+      "id": "outbox_outboxkafkaprocessor_outboxkafkaprocessor",
+      "label": "OutboxKafkaProcessor",
+      "degree": 53
+    },
+    {
+      "id": "faker",
+      "label": "Faker",
+      "degree": 29
+    },
+    {
+      "id": "string",
+      "label": "string",
+      "degree": 25
+    },
+    {
+      "id": "identity_localizedidentityerrordescriber_localizedidentityerrordescriber",
+      "label": "LocalizedIdentityErrorDescriber",
+      "degree": 24
+    },
+    {
+      "id": "get_endpoint_endpoint",
+      "label": "Endpoint",
+      "degree": 17
+    },
+    {
+      "id": "common_tests_resulttelemetryextensionstests_resulttelemetryextensionstests",
+      "label": "ResultTelemetryExtensionsTests",
+      "degree": 15
+    },
+    {
+      "id": "stores_store_store",
+      "label": "Store",
+      "degree": 12
+    },
+    {
+      "id": "infrastructure_setup_modules_setup",
+      "label": "Setup",
+      "degree": 11
+    },
+    {
+      "id": "search_endpoint_endpoint",
+      "label": "Endpoint",
+      "degree": 11
+    },
+    {
+      "id": "products_producttests_producttests",
+      "label": "ProductTests",
+      "degree": 11
+    }
+  ],
+  "surprises": [
+    {
+      "source": "WebAPI Target",
+      "target": "MigrationGuard",
+      "source_files": [
+        "observability/prometheus/prometheus.yml",
+        "docs/migration-workflow.md"
+      ],
+      "confidence": "AMBIGUOUS",
+      "relation": "conceptually_related_to",
+      "why": "ambiguous connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "CDC - Kafka & Debezium",
+      "target": "Kafka Service",
+      "source_files": [
+        "README.md",
+        "docker-compose.yml"
+      ],
+      "confidence": "INFERRED",
+      "relation": "implements",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "CDC - Kafka & Debezium",
+      "target": "Debezium Service",
+      "source_files": [
+        "README.md",
+        "docker-compose.yml"
+      ],
+      "confidence": "INFERRED",
+      "relation": "implements",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "Antigravity Agent Project Instructions",
+      "target": "Claude Code Project Instructions",
+      "source_files": [
+        "GEMINI.md",
+        "CLAUDE.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "semantically_similar_to",
+      "why": "connects across different repos/directories; semantically similar concepts with no structural link"
+    },
+    {
+      "source": "IAM Module",
+      "target": "IAM Module",
+      "source_files": [
+        "GEMINI.md",
+        "CLAUDE.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "semantically_similar_to",
+      "why": "connects across different repos/directories; semantically similar concepts with no structural link"
+    }
+  ],
+  "questions": [
+    {
+      "type": "ambiguous_edge",
+      "question": "What is the exact relationship between `Grafana Service` and `Grafana Service`?",
+      "why": "Edge tagged AMBIGUOUS (relation: references) - confidence is low."
+    },
+    {
+      "type": "ambiguous_edge",
+      "question": "What is the exact relationship between `MigrationGuard` and `WebAPI Target`?",
+      "why": "Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `string` connect `Community 16` to `Community 1`, `Community 34`, `Community 7`, `Community 72`, `Community 9`, `Community 144`, `Community 19`, `Community 53`, `Community 86`, `Community 54`, `Community 87`, `Community 29`?",
+      "why": "High betweenness centrality (0.050) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `int` connect `Community 1` to `Community 11`, `Community 3`?",
+      "why": "High betweenness centrality (0.035) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `PaginationRequestValidator` connect `Community 1` to `Community 15`?",
+      "why": "High betweenness centrality (0.024) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Host`, `Program`, `OpenApiOptions` to the rest of the system?",
+      "why": "95 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.07 - nodes in this community are weakly interconnected."
+    }
+  ]
+}
