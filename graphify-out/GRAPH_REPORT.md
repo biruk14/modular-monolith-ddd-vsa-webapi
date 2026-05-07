@@ -1,7 +1,7 @@
 # Graph Report - modular-monolith-ddd-vsa-webapi  (2026-05-07)
 
 ## Corpus Check
-- 402 files · ~55,462 words
+- 402 files · ~55,597 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `7f2c7d2e`
+- Built from commit: `af6a53aa`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -158,7 +158,7 @@
 - [[_COMMUNITY_Products Product Domain|Products Product Domain]]
 - [[_COMMUNITY_Products Product Domain|Products Product Domain]]
 - [[_COMMUNITY_Products Audit Log|Products Audit Log]]
-- [[_COMMUNITY_Misc Group 143|Misc Group 143]]
+- [[_COMMUNITY_Host Tests|Host Tests]]
 - [[_COMMUNITY_Products Product Domain|Products Product Domain]]
 - [[_COMMUNITY_Iam Token Management|Iam Token Management]]
 - [[_COMMUNITY_Iam Permissions|Iam Permissions]]
@@ -329,7 +329,7 @@ Nodes (4): IMiddleware, EnrichLogsWithUserInfoMiddleware, GlobalExceptionHandlin
 
 ### Community 16 - "Auth Constants & Rate Limiting"
 Cohesion: 0.12
-Nodes (9): RequestValidator, RequestValidator, CustomValidator, RequestValidator, HealthCheckOptions, HealthCheckOptionsValidator, RequestValidator, RequestValidator (+1 more)
+Nodes (9): RequestValidator, RequestValidator, CustomValidator, RequestValidator, DatabaseOptions, DatabaseOptionsValidator, RequestValidator, RequestValidator (+1 more)
 
 ### Community 17 - "Domain & Integration Event Handlers"
 Cohesion: 0.14
@@ -357,7 +357,7 @@ Nodes (7): DbContextExtensions, IDeserializer, JsonSerializerOptions, OutboxMess
 
 ### Community 24 - "Search Endpoints"
 Cohesion: 0.15
-Nodes (4): Faker, AuditLogTests, MyCreateTests, GetTests
+Nodes (4): BaseIntegrationTest, ClientKeyGetTests, AuditLogTests, UpdateTests
 
 ### Community 25 - "Search & Pagination Validators"
 Cohesion: 0.2
@@ -367,9 +367,9 @@ Nodes (4): IOperationFilter, DefaultResponsesOperationFilter, RemoveDefaultRespo
 Cohesion: 0.18
 Nodes (4): DbContext, IOutboxDbContext, OutboxDbContext, Setup
 
-### Community 30 - "Create Endpoints"
-Cohesion: 0.18
-Nodes (4): BaseIntegrationTest, ClientKeyGetTests, CreateTests, MeGetTests
+### Community 29 - "OpenTelemetry Instrumentation"
+Cohesion: 0.17
+Nodes (4): Faker, MyUpdateTests, GetTests, MeGetTests
 
 ### Community 31 - "Update Endpoints"
 Cohesion: 0.29
@@ -393,11 +393,11 @@ Nodes (3): HealthCheckTests, SanityTests, HttpClient
 
 ### Community 45 - "Rate Limiting Policies"
 Cohesion: 0.21
-Nodes (6): AuditLogOptions, AuditLogOptionsValidator, CustomRateLimitingOptions, CustomRateLimitingOptionsValidator, FixedWindow, FixedWindowValidator
+Nodes (6): EventBusOptions, EventBusOptionsValidator, MessageBroker, MessageBrokerOptionsValidator, ResxLocalizationOptions, ResxLocalizationOptionsValidator
 
 ### Community 47 - "Module Test Factories"
 Cohesion: 0.25
-Nodes (3): HostTestFactory, IntegrationTestFactory, IntegrationTestWebAppFactory
+Nodes (3): IntegrationTestWebAppFactory, IntegrationTestFactory, IntegrationTestWebAppFactory
 
 ### Community 48 - "User Registration Tests"
 Cohesion: 0.29
@@ -423,11 +423,11 @@ Nodes (3): RequestBody, RequestBodyValidator, RequestValidator
 Cohesion: 0.33
 Nodes (3): InterModuleRequestHandler, IEventHandler, IConsumer
 
-### Community 60 - "Misc Group 60"
+### Community 61 - "Products Store Domain"
 Cohesion: 0.29
 Nodes (4): BaseIntegrationTest, IntegrationTestCollection, IAsyncLifetime, Respawner
 
-### Community 61 - "Products Store Domain"
+### Community 62 - "Iam Product Domain"
 Cohesion: 0.29
 Nodes (4): HostCollection, IntegrationTestCollection, ICollectionFixture, IntegrationTestCollection
 
@@ -435,7 +435,7 @@ Nodes (4): HostCollection, IntegrationTestCollection, ICollectionFixture, Integr
 Cohesion: 0.33
 Nodes (3): IAggregateRoot, AuditableEntity, IAuditableEntity
 
-### Community 67 - "Iam User Management"
+### Community 66 - "Products Store Domain"
 Cohesion: 0.29
 Nodes (3): OtpServiceBase, DummyOtpService, OtpService
 
@@ -451,17 +451,17 @@ Nodes (3): IdentityDbContext, IIAMDbContext, IAMDbContext
 Cohesion: 0.4
 Nodes (3): IConfigureOptions, OpenApiOptions, ConfigureSwaggerOptions
 
-### Community 81 - "Products Store Domain"
+### Community 82 - "Iam OTP Service"
 Cohesion: 0.33
 Nodes (3): AuthenticationHandler, TestAuthHandler, Guid
 
-### Community 90 - "Common Result Monad"
+### Community 89 - "Iam Setup"
 Cohesion: 0.4
 Nodes (3): RequestBody, RequestBodyValidator, RequestValidator
 
-### Community 91 - "Common Endpoint"
+### Community 90 - "Common Result Monad"
 Cohesion: 0.4
-Nodes (4): EventBusOptions, EventBusOptionsValidator, MessageBroker, MessageBrokerOptionsValidator
+Nodes (4): CustomRateLimitingOptions, CustomRateLimitingOptionsValidator, FixedWindow, FixedWindowValidator
 
 ### Community 92 - "Products Store Domain"
 Cohesion: 0.4
@@ -475,11 +475,11 @@ Nodes (3): BaseDbContext, IProductsDbContext, ProductsDbContext
 Cohesion: 0.4
 Nodes (3): IDbContext, IIAMDbContext, IProductsDbContext
 
-### Community 120 - "Host Health Check"
+### Community 119 - "Host Tests"
 Cohesion: 0.4
 Nodes (3): RecurringBackgroundJobsService, IRecurringBackgroundJobs, RecurringJobOptions
 
-### Community 121 - "Host Setup"
+### Community 120 - "Host Health Check"
 Cohesion: 0.4
 Nodes (5): IAutoMigrateMarker, MigrationGuard, Postgres Exporter Target, Prometheus Config, WebAPI Target
 
@@ -505,11 +505,11 @@ _Questions this graph is uniquely positioned to answer:_
   _Edge tagged AMBIGUOUS (relation: references) - confidence is low._
 - **What is the exact relationship between `MigrationGuard` and `WebAPI Target`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
-- **Why does `string` connect `OpenTelemetry Tests` to `Products Store Domain`, `Common Tests`, `Products Product Domain`, `Iam User Management`, `Product Domain Aggregate`, `IAM Endpoint Setup`, `Strongly Typed ID Serialization`, `IAM Domain Unit Tests`, `MassTransit Event Bus`, `Module Test Factories`, `Products Store Domain`, `Products Product Domain`, `Outbox Persistence`, `Update Endpoints`?**
+- **Why does `string` connect `OpenTelemetry Tests` to `Products Product Domain`, `Iam User Management`, `Common Tests`, `Products Store Domain`, `Product Domain Aggregate`, `IAM Endpoint Setup`, `Strongly Typed ID Serialization`, `IAM Domain Unit Tests`, `Products Audit Log`, `MassTransit Event Bus`, `Host Tests`, `Iam OTP Service`, `Outbox Persistence`, `Update Endpoints`?**
   _High betweenness centrality (0.074) - this node is a cross-community bridge._
 - **Why does `int` connect `Strongly Typed ID Serialization` to `DDD Base Aggregate & Audit`, `IAM EF Entity Configs`, `MassTransit Event Bus`?**
   _High betweenness centrality (0.045) - this node is a cross-community bridge._
-- **Why does `HostTestFactory` connect `Module Test Factories` to `OpenTelemetry Tests`?**
+- **Why does `HostTestFactory` connect `Products Audit Log` to `OpenTelemetry Tests`, `Module Test Factories`?**
   _High betweenness centrality (0.034) - this node is a cross-community bridge._
 - **What connects `Host`, `Program`, `OpenApiOptions` to the rest of the system?**
   _98 weakly-connected nodes found - possible documentation gaps or missing edges._
