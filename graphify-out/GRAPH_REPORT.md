@@ -5,12 +5,12 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1641 nodes · 1718 edges · 285 communities (102 shown, 183 thin omitted)
+- 1641 nodes · 1718 edges · 284 communities (103 shown, 181 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 30 edges (avg confidence: 0.81)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8c5473c7`
+- Built from commit: `a96702d7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -224,7 +224,7 @@
 - [[_COMMUNITY_Common RequestResponse|Common Request/Response]]
 - [[_COMMUNITY_Common RequestResponse|Common Request/Response]]
 - [[_COMMUNITY_Misc Group 209|Misc Group 209]]
-- [[_COMMUNITY_Misc Group 210|Misc Group 210]]
+- [[_COMMUNITY_Common Result Monad|Common Result Monad]]
 - [[_COMMUNITY_Misc Group 212|Misc Group 212]]
 - [[_COMMUNITY_Misc Group 213|Misc Group 213]]
 - [[_COMMUNITY_Misc Group 214|Misc Group 214]]
@@ -245,11 +245,10 @@
 - [[_COMMUNITY_Common Pagination|Common Pagination]]
 - [[_COMMUNITY_Common Pagination|Common Pagination]]
 - [[_COMMUNITY_Common RequestResponse|Common Request/Response]]
-- [[_COMMUNITY_Common Audit Log|Common Audit Log]]
+- [[_COMMUNITY_Community 280|Community 280]]
 - [[_COMMUNITY_Community 281|Community 281]]
 - [[_COMMUNITY_Community 282|Community 282]]
 - [[_COMMUNITY_Community 283|Community 283]]
-- [[_COMMUNITY_Community 284|Community 284]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `OutboxKafkaProcessor` - 53 edges
@@ -275,7 +274,7 @@
 - `IAM Module` --semantically_similar_to--> `IAM Module`  [EXTRACTED] [semantically similar]
   GEMINI.md → CLAUDE.md
 
-## Communities (285 total, 183 thin omitted)
+## Communities (284 total, 181 thin omitted)
 
 ### Community 1 - "Audit Log Retention"
 Cohesion: 0.07
@@ -329,9 +328,9 @@ Nodes (10): AuditableEntityConfiguration, ApplicationRoleConfig, ApplicationUser
 Cohesion: 0.16
 Nodes (4): IMiddleware, EnrichLogsWithUserInfoMiddleware, GlobalExceptionHandlingMiddleware, RequestResponseLoggingMiddleware
 
-### Community 15 - "Request Validation"
+### Community 16 - "Auth Constants & Rate Limiting"
 Cohesion: 0.12
-Nodes (11): RequestValidator, RequestValidator, CustomValidator, RequestValidator, EventBusOptions, EventBusOptionsValidator, MessageBroker, MessageBrokerOptionsValidator (+3 more)
+Nodes (9): RequestValidator, RequestValidator, CustomValidator, RequestValidator, SecurityHeadersOptions, SecurityHeadersOptionsValidator, RequestValidator, RequestValidator (+1 more)
 
 ### Community 17 - "Domain & Integration Event Handlers"
 Cohesion: 0.13
@@ -353,33 +352,33 @@ Nodes (6): EventHandlerBase, UserRegisteredIntegrationEventHandler, SimulateSome
 Cohesion: 0.15
 Nodes (5): AuditableEntityConfiguration, AuditLogEntryConfiguration, ProductConfiguration, ProductTemplateConfiguration, StoreConfiguration
 
-### Community 23 - "Outbox Persistence"
+### Community 22 - "Dynamic Module Loader"
+Cohesion: 0.15
+Nodes (7): DbContextExtensions, IDeserializer, JsonSerializerOptions, OutboxMessageDtoDeserializer, ValueConverter, DomainEventConverter, StronglyTypedIdValueConverter
+
+### Community 24 - "Search Endpoints"
 Cohesion: 0.2
 Nodes (4): IOperationFilter, DefaultResponsesOperationFilter, RemoveDefaultResponseSchemaFilter, SwaggerDefaultValues
 
-### Community 25 - "Search & Pagination Validators"
+### Community 26 - "Read Integration Tests"
 Cohesion: 0.18
 Nodes (4): DbContext, IOutboxDbContext, OutboxDbContext, Setup
 
-### Community 27 - "Write Integration Tests"
+### Community 28 - "Logging Configuration"
 Cohesion: 0.17
-Nodes (4): Faker, AuditLogTests, CheckRegistrationTests, MeGetTests
-
-### Community 29 - "OpenTelemetry Instrumentation"
-Cohesion: 0.18
-Nodes (4): BaseIntegrationTest, ClientKeyGetTests, CreateTests, GetTests
+Nodes (4): Faker, AuditLogTests, CreateTests, MeGetTests
 
 ### Community 30 - "Create Endpoints"
+Cohesion: 0.18
+Nodes (4): BaseIntegrationTest, ClientKeyGetTests, CheckRegistrationTests, GetTests
+
+### Community 31 - "Update Endpoints"
 Cohesion: 0.29
 Nodes (7): ActivitySource, Counter, Histogram, Meter, IamTelemetry, OutboxTelemetry, ProductsTelemetry
 
-### Community 34 - "Auth Roles & Permissions"
+### Community 35 - "Database Seeder Orchestrator"
 Cohesion: 0.22
 Nodes (10): Grafana Datasource Config, Jaeger Datasource, Prometheus Datasource, Jaeger Service, OTLP Jaeger Exporter, OTLP Receiver, OTLP HTTP Exporter, Prometheus Exporter (+2 more)
-
-### Community 37 - "EF Value Converters"
-Cohesion: 0.22
-Nodes (5): DbContextExtensions, JsonSerializerOptions, ValueConverter, DomainEventConverter, StronglyTypedIdValueConverter
 
 ### Community 39 - "IAM Endpoint Setup"
 Cohesion: 0.22
@@ -394,12 +393,12 @@ Cohesion: 0.25
 Nodes (3): HealthCheckTests, SanityTests, HttpClient
 
 ### Community 46 - "Integration Test Infrastructure"
-Cohesion: 0.29
-Nodes (3): IntegrationTestFactory, PostgreSqlContainer, WebApplicationFactory
-
-### Community 47 - "Module Test Factories"
 Cohesion: 0.25
 Nodes (3): IntegrationTestWebAppFactory, IntegrationTestFactory, IntegrationTestWebAppFactory
+
+### Community 47 - "Module Test Factories"
+Cohesion: 0.29
+Nodes (3): IntegrationTestFactory, PostgreSqlContainer, WebApplicationFactory
 
 ### Community 49 - "Store Search Tests"
 Cohesion: 0.25
@@ -433,7 +432,7 @@ Nodes (4): BaseIntegrationTest, IntegrationTestCollection, IAsyncLifetime, Respa
 Cohesion: 0.33
 Nodes (3): IAggregateRoot, AuditableEntity, IAuditableEntity
 
-### Community 65 - "Products Product Domain"
+### Community 66 - "Products Store Domain"
 Cohesion: 0.29
 Nodes (3): OtpServiceBase, DummyOtpService, OtpService
 
@@ -449,35 +448,39 @@ Nodes (3): IdentityDbContext, IIAMDbContext, IAMDbContext
 Cohesion: 0.4
 Nodes (3): IConfigureOptions, OpenApiOptions, ConfigureSwaggerOptions
 
-### Community 80 - "Iam Store Domain"
+### Community 81 - "Products Store Domain"
 Cohesion: 0.33
 Nodes (3): AuthenticationHandler, TestAuthHandler, Guid
 
 ### Community 88 - "Common Result Monad"
 Cohesion: 0.4
-Nodes (4): CachingOptions, CachingOptionsValidator, Redis, RedisValidator
+Nodes (3): RequestBody, RequestBodyValidator, RequestValidator
 
 ### Community 89 - "Iam Setup"
 Cohesion: 0.4
-Nodes (4): CustomRateLimitingOptions, CustomRateLimitingOptionsValidator, FixedWindow, FixedWindowValidator
+Nodes (4): EventBusOptions, EventBusOptionsValidator, MessageBroker, MessageBrokerOptionsValidator
+
+### Community 90 - "Common Result Monad"
+Cohesion: 0.4
+Nodes (4): CachingOptions, CachingOptionsValidator, Redis, RedisValidator
 
 ### Community 91 - "Common Endpoint"
 Cohesion: 0.4
-Nodes (3): RequestBody, RequestBodyValidator, RequestValidator
-
-### Community 100 - "Products Product Domain"
-Cohesion: 0.4
-Nodes (3): BaseDbContext, IProductsDbContext, ProductsDbContext
+Nodes (4): CustomRateLimitingOptions, CustomRateLimitingOptionsValidator, FixedWindow, FixedWindowValidator
 
 ### Community 101 - "Products Product Domain"
 Cohesion: 0.4
+Nodes (3): BaseDbContext, IProductsDbContext, ProductsDbContext
+
+### Community 102 - "Products Store Domain"
+Cohesion: 0.4
 Nodes (3): IDbContext, IIAMDbContext, IProductsDbContext
 
-### Community 120 - "Host Health Check"
+### Community 121 - "Host Setup"
 Cohesion: 0.4
 Nodes (3): RecurringBackgroundJobsService, IRecurringBackgroundJobs, RecurringJobOptions
 
-### Community 121 - "Host Setup"
+### Community 122 - "Host Swagger"
 Cohesion: 0.4
 Nodes (5): IAutoMigrateMarker, MigrationGuard, Postgres Exporter Target, Prometheus Config, WebAPI Target
 
@@ -494,7 +497,7 @@ Nodes (4): DatabaseSeederOrchestrator, IAM Module, IDatabaseSeeder, Products Mod
 ## Knowledge Gaps
 - **98 isolated node(s):** `Host`, `Program`, `OpenApiOptions`, `SecurityHeadersOptions`, `CustomRateLimitingOptions` (+93 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **183 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **181 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -503,11 +506,11 @@ _Questions this graph is uniquely positioned to answer:_
   _Edge tagged AMBIGUOUS (relation: references) - confidence is low._
 - **What is the exact relationship between `MigrationGuard` and `WebAPI Target`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
-- **Why does `string` connect `Domain & Integration Event Handlers` to `Iam Product Domain`, `Products Product Domain`, `Products Store Domain`, `Products Product Domain`, `Product Domain Aggregate`, `IAM Endpoint Setup`, `Strongly Typed ID Serialization`, `Iam Setup`, `IAM Domain Unit Tests`, `MassTransit Event Bus`, `Host Tests`, `Iam Store Domain`, `Dynamic Module Loader`, `Create Endpoints`?**
+- **Why does `string` connect `Domain & Integration Event Handlers` to `Products Product Domain`, `Products Product Domain`, `Common Tests`, `Products Store Domain`, `Product Domain Aggregate`, `IAM Endpoint Setup`, `Strongly Typed ID Serialization`, `Iam Setup`, `IAM Domain Unit Tests`, `MassTransit Event Bus`, `Host Tests`, `Products Store Domain`, `Outbox Persistence`, `Update Endpoints`?**
   _High betweenness centrality (0.074) - this node is a cross-community bridge._
 - **Why does `int` connect `Strongly Typed ID Serialization` to `DDD Base Aggregate & Audit`, `IAM EF Entity Configs`, `MassTransit Event Bus`?**
   _High betweenness centrality (0.045) - this node is a cross-community bridge._
-- **Why does `HostTestFactory` connect `Host Tests` to `Domain & Integration Event Handlers`, `Module Test Factories`?**
+- **Why does `HostTestFactory` connect `Host Tests` to `Domain & Integration Event Handlers`, `Integration Test Infrastructure`?**
   _High betweenness centrality (0.034) - this node is a cross-community bridge._
 - **What connects `Host`, `Program`, `OpenApiOptions` to the rest of the system?**
   _98 weakly-connected nodes found - possible documentation gaps or missing edges._
