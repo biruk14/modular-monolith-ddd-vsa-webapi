@@ -112,8 +112,8 @@
     "hash": "fb21582c5c2b961df2eac4d3d7360bdf"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Host/Host/Infrastructure/Setup.cs": {
-    "mtime": 1778171062.2302716,
-    "hash": "85d034c42019ea2f81119687ce26abc8"
+    "mtime": 1778262501.5005302,
+    "hash": "69ee43290a1d2f975d67e0cd05c34fa9"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Host/Host/Infrastructure/Setup.HealthChecks.cs": {
     "mtime": 1778256756.507923,
@@ -360,8 +360,8 @@
     "hash": "42ac6882d8b76f5f1db238be380e89bf"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Common/Common.Infrastructure/EventBus/Setup.cs": {
-    "mtime": 1766654255.4115992,
-    "hash": "46442ae8da58e0bb7138966bfcd868ad"
+    "mtime": 1778262492.4160507,
+    "hash": "efd706a2a55171224d4d9e40709e26e9"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Common/Common.Infrastructure/Auth/Setup.cs": {
     "mtime": 1775203422.9856703,
@@ -624,8 +624,8 @@
     "hash": "ea5e06ab2bd55e058bdd9bf8b52f4b62"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/Outbox/Outbox.Tests/OutboxKafkaProcessorTests.cs": {
-    "mtime": 1775413694.873501,
-    "hash": "aa66f9da08e2686efd182b860cf82dac"
+    "mtime": 1778261327.8783088,
+    "hash": "e4508804bdfc763fbc5d279795d345a0"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/Outbox/Outbox.Tests/OutboxTestWebAppFactory.cs": {
     "mtime": 1775481895.307383,

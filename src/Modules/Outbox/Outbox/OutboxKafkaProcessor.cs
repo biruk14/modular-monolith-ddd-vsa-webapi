@@ -16,7 +16,6 @@ public partial class OutboxKafkaProcessor(
     IOptions<OutboxOptions> outboxOptionsProvider,
     IServiceScopeFactory serviceScopeFactory,
     TimeProvider timeProvider,
-    IEventBus eventBus,
     ILogger<OutboxKafkaProcessor> logger
 ) : BackgroundService
 {
@@ -275,10 +274,10 @@ public partial class OutboxKafkaProcessor(
             return;
         }
 
-        // --- Proceed with processing ---
         var @event = outboxMessage.Event;
-        await eventBus.PublishAsync(@event, cancellationToken); // Pass injected eventBus
-        outboxMessage.MarkAsProcessed(timeProvider.GetUtcNow()); // Pass injected timeProvider
+        var dispatcher = serviceProvider.GetRequiredService<IDomainEventDispatcher>();
+        await dispatcher.DispatchAsync(@event, cancellationToken);
+        outboxMessage.MarkAsProcessed(timeProvider.GetUtcNow());
 
         try
         {
