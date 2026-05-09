@@ -656,8 +656,8 @@
     "hash": "08898220bc7762ef64c9c69115f98d9e"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/Outbox/Outbox/OutboxModule.cs": {
-    "mtime": 1778288832.8424833,
-    "hash": "069970d406ce95ebaeedfaf661878fb3"
+    "mtime": 1778291801.8461194,
+    "hash": "b2387f77aa6e31a50771288fc9363dcf"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/Outbox/Outbox/OutboxMessageDto.cs": {
     "mtime": 1775569188.4477754,
