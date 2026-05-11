@@ -628,8 +628,8 @@
     "hash": "5148d897caa883df40f3d740d86df4e3"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Common/Common.IntegrationEvents/IAM.cs": {
-    "mtime": 1766654248.702087,
-    "hash": "8d8df890eb5fef584a6fef79ed389dc1"
+    "mtime": 1778516876.4686813,
+    "hash": "9a83ddbc3b27a352a40f1c49cc1784e8"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Common/Common.IntegrationEvents/Inventory.cs": {
     "mtime": 1766654238.6654239,
@@ -1316,8 +1316,8 @@
     "hash": "c342a47a84cd3840addf1a5ddf1f76ae"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Infrastructure/Persistence/Seeding/Seeder.Users.cs": {
-    "mtime": 1775352054.167175,
-    "hash": "e761a2fa1c389e8acab1c16d168be9ca"
+    "mtime": 1778516876.473421,
+    "hash": "b56b8025d2a2e457826721fad0d24ca2"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Infrastructure/Persistence/Seeding/Seeder.cs": {
     "mtime": 1766654244.8380575,
@@ -1332,8 +1332,8 @@
     "hash": "9205aecdb0c2481032c6a9798d478f8c"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Infrastructure/Persistence/EntityConfigurations/Configs.cs": {
-    "mtime": 1775415107.716587,
-    "hash": "520d4287b9a277840cbfdb241a8b2451"
+    "mtime": 1778516876.4723864,
+    "hash": "dd7c640f2775b36d136d2254d5fb2b28"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Infrastructure/Telemetry/IamTelemetry.cs": {
     "mtime": 1775644652.4410052,
@@ -1388,44 +1388,44 @@
     "hash": "86c2b057dc37cfa57b83ac288310d39b"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Endpoints/Users/VersionNeutral/Get/Response.cs": {
-    "mtime": 1749303065.2376814,
-    "hash": "49b35de0b69396c1ad1fba1559d54fcf"
+    "mtime": 1778516876.4702852,
+    "hash": "1bc284907e6d87939abd4ebe3513d916"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Endpoints/Users/VersionNeutral/Get/Endpoint.cs": {
-    "mtime": 1775667115.6065605,
-    "hash": "d2c46bc5cf4dab094b9c41ef5709f8fa"
+    "mtime": 1778516876.4700923,
+    "hash": "522a1ab52b697326f252d282c3540b8e"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Endpoints/Users/VersionNeutral/Search/Request.cs": {
-    "mtime": 1775415107.7157066,
-    "hash": "f60ec429240b8705f5419e78f93f149d"
+    "mtime": 1778516876.4711742,
+    "hash": "6c837ad8bb2eff0f4be3ff67eeb9adea"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Endpoints/Users/VersionNeutral/Search/Response.cs": {
-    "mtime": 1775415107.7158313,
-    "hash": "0f977949f97ff3960ae7c8d0723a84d7"
+    "mtime": 1778516876.4713817,
+    "hash": "722e5baa0177422c9ad76975aeaf9099"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Endpoints/Users/VersionNeutral/Search/Endpoint.cs": {
-    "mtime": 1775415107.7155993,
-    "hash": "b8d770981838cb29ac22a8852dd4effe"
+    "mtime": 1778516876.4708812,
+    "hash": "774510d17930926ac60a3b13eb0e2db9"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Endpoints/Users/VersionNeutral/SelfRegister/Request.cs": {
-    "mtime": 1775667115.6070566,
-    "hash": "cfe08746adfabcd7ab3f4fdbc740027e"
+    "mtime": 1778516876.472153,
+    "hash": "38d0f6b3fc5788c68e1b98833b0b4109"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Endpoints/Users/VersionNeutral/SelfRegister/Response.cs": {
     "mtime": 1742642816.7917883,
     "hash": "89d36050a119b9de914f41b55701b23f"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Endpoints/Users/VersionNeutral/SelfRegister/Endpoint.cs": {
-    "mtime": 1775667115.6069312,
-    "hash": "10ed3cf6d08310ab0ee276dcbd37597f"
+    "mtime": 1778516876.4716275,
+    "hash": "ecc54c1274a50703db3d2f3b70e3d9e1"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Endpoints/Users/VersionNeutral/Me/Get/Response.cs": {
-    "mtime": 1749303065.2378845,
-    "hash": "1ca880870a862749e4207b468b5ed038"
+    "mtime": 1778516876.4706404,
+    "hash": "f0e21b27d95cd0daedff7df936d54157"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Endpoints/Users/VersionNeutral/Me/Get/Endpoint.cs": {
-    "mtime": 1775667115.6068027,
-    "hash": "5d16efdfbb8009d6eabb99179f4ce026"
+    "mtime": 1778516876.470466,
+    "hash": "10b5b9a3db7574df1fbff8c8b2fc0239"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Endpoints/Users/VersionNeutral/CheckRegistration/Request.cs": {
     "mtime": 1775352054.1633358,
@@ -1496,8 +1496,8 @@
     "hash": "facce5aef758d78af2ea976aac05b908"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Application/Users/DomainEventHandlers/v1/V1UserRegisteredDomainEventHandler.cs": {
-    "mtime": 1778420997.3408248,
-    "hash": "51018d2eadd20e11baf1701c86c307bb"
+    "mtime": 1778516876.4690223,
+    "hash": "84b2f27dc719776f02573ecdfd77bf5b"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Application/Persistence/IIAMDbContext.cs": {
     "mtime": 1749494400.5959225,
@@ -1512,8 +1512,8 @@
     "hash": "e89c7c10524900af6ab86c72e447a296"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Domain/Identity/Constants.cs": {
-    "mtime": 1775415107.7154496,
-    "hash": "0d5feb6c690abe336bd30b14fc09f468"
+    "mtime": 1778516876.4695494,
+    "hash": "79addb600c6b1fb3c9df1fb446ac5e6e"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Domain/Identity/ApplicationUser.AggregateRoot.cs": {
     "mtime": 1766654243.199141,
@@ -1524,16 +1524,16 @@
     "hash": "a972024044ba110060c5b21ded8519d1"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Domain/Identity/ApplicationUser.cs": {
-    "mtime": 1775667115.6040804,
-    "hash": "dd53a66c27b27f8342471d783bba4eb2"
+    "mtime": 1778516876.4692361,
+    "hash": "436d94641ef305193b6114abb296982d"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Domain/Identity/DomainEvents/v1/V1UserImageUrlUpdatedDomainEvent.cs": {
     "mtime": 1742642816.7901406,
     "hash": "555ddb1244614f8dd13e4c0019b4f17d"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Domain/Identity/DomainEvents/v1/V1UserRegisteredDomainEvent.cs": {
-    "mtime": 1766654265.3297508,
-    "hash": "07302cb8dacef977b08c2db63dcffc44"
+    "mtime": 1778516876.4698467,
+    "hash": "8f3da5795f2e3b37e10ed8270b848eb8"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Domain/Captcha/CaptchaErrors.cs": {
     "mtime": 1742642816.7894092,
@@ -1564,40 +1564,40 @@
     "hash": "f6b95370dd14d1fce2eed2e09fa7459a"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Tests/Endpoints/Users/MeGetTests.cs": {
-    "mtime": 1774382973.3183281,
-    "hash": "8e313421c31614bf8007bf71333a24d5"
+    "mtime": 1778516876.4745605,
+    "hash": "d30350d172330574f9b9d46a31127197"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Tests/Endpoints/Users/SelfRegisterTests.cs": {
-    "mtime": 1778483570.4520168,
-    "hash": "652b13d14b359926e157d3eeedaa964d"
+    "mtime": 1778516876.4749353,
+    "hash": "670b04421705f8cbe3bc89e1ab2f1ade"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Tests/Endpoints/Users/SearchTests.cs": {
-    "mtime": 1775478785.2298691,
-    "hash": "a5efc48fbdfa1b02efff95ea1bee004e"
+    "mtime": 1778516876.4747486,
+    "hash": "7c1d8867026bfe38f8d84fd62fd1b3ab"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Tests/Endpoints/Users/CheckRegistrationTests.cs": {
-    "mtime": 1774382973.318101,
-    "hash": "21b9830a644b5d69a7a73d98a01f2543"
+    "mtime": 1778516876.4742064,
+    "hash": "c11d5eee44a3e0f1f6aabd7b3fb9b2da"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Tests/Endpoints/Users/GetTests.cs": {
-    "mtime": 1774382973.3182132,
-    "hash": "b9badf22958d7fd3eecd98f363978f39"
+    "mtime": 1778516876.474368,
+    "hash": "44d3d4f51aa0b93e0ffc11711da78cc3"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Tests/Endpoints/Tokens/CreateTests.cs": {
-    "mtime": 1778256262.0818326,
-    "hash": "8b37a40c23229d3d868be9f70c2c60de"
+    "mtime": 1778516876.4736185,
+    "hash": "bbe83ee62d21b3d00b07584153efc32f"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Tests/Endpoints/Tokens/RevokeTests.cs": {
-    "mtime": 1778256122.1508462,
-    "hash": "66609ee5663c438bf97767e5348bf260"
+    "mtime": 1778516876.4740226,
+    "hash": "a0932f53ba20544e626f8c87709f90d4"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Tests/Endpoints/Tokens/RefreshTests.cs": {
-    "mtime": 1775667115.6092403,
-    "hash": "8d4541f954c2e9384bfdccb2ece17076"
+    "mtime": 1778516876.4738219,
+    "hash": "808b75850878462339e49249b6a168cb"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Tests/Identity/ApplicationUserTests.cs": {
-    "mtime": 1775667115.609739,
-    "hash": "801edd36146d3fa022bc4b4633ca366f"
+    "mtime": 1778516876.4751356,
+    "hash": "42c1a7caae844a14bcc14070bbdddada"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/Notifications/Notifications.Domain/IAssemblyReference.cs": {
     "mtime": 1742642816.794413,
@@ -1612,12 +1612,12 @@
     "hash": "cb4b0ea4556b7aa9bdbbc2a688c62702"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/Notifications/Notifications.Application/IntegrationEventHandlers/UserRegisteredIntegrationEventHandler.cs": {
-    "mtime": 1778421030.5133002,
-    "hash": "dd05a47e307de08c24609c33b4597931"
+    "mtime": 1778516876.4753177,
+    "hash": "be165cc922c730f17f81a27b81517f41"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/Notifications/Notifications.Tests/IntegrationEventHandlers/UserRegisteredIntegrationEventHandlerTests.cs": {
-    "mtime": 1778288563.4013028,
-    "hash": "28f080041c111855052b4ea13948050c"
+    "mtime": 1778516876.475496,
+    "hash": "c84e39a31d54f32e033983c713a0fd7c"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/Notifications/Notifications.Infrastructure/NotificationsModule.cs": {
     "mtime": 1778501020.5338023,
