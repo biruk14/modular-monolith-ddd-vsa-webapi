@@ -1,7 +1,7 @@
 # Graph Report - modular-monolith-ddd-vsa-webapi  (2026-05-11)
 
 ## Corpus Check
-- 417 files · ~59,198 words
+- 417 files · ~58,663 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `812b4148`
+- Built from commit: `4efab618`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -162,7 +162,7 @@
 - [[_COMMUNITY_Host Tests|Host Tests]]
 - [[_COMMUNITY_Products Product Domain|Products Product Domain]]
 - [[_COMMUNITY_Iam Token Management|Iam Token Management]]
-- [[_COMMUNITY_Iam Service|Iam Service]]
+- [[_COMMUNITY_Iam Permissions|Iam Permissions]]
 - [[_COMMUNITY_Iam User Management|Iam User Management]]
 - [[_COMMUNITY_Iam OTP Service|Iam OTP Service]]
 - [[_COMMUNITY_Iam User Management|Iam User Management]]
@@ -360,7 +360,7 @@ Nodes (7): CaptchaOptions, double, ICaptchaService, CachedCaptchaService, DummyC
 
 ### Community 18 - "Background Jobs Service"
 Cohesion: 0.11
-Nodes (10): CustomActions, CustomResources, CustomClaims, FullTextSearch, Constants, IOutboxMessage, OutboxMessage, Constants (+2 more)
+Nodes (11): RequestValidator, RequestValidator, CustomValidator, RequestValidator, CorsOptions, CorsOptionsValidator, OtpOptions, OtpOptionsValidator (+3 more)
 
 ### Community 19 - "OpenTelemetry Tests"
 Cohesion: 0.15
@@ -372,15 +372,15 @@ Nodes (6): AggregateTests, DateOnly, ApplicationUserTests, StoreTests, ProductTe
 
 ### Community 22 - "Dynamic Module Loader"
 Cohesion: 0.12
-Nodes (9): RequestValidator, RequestValidator, CustomValidator, RequestValidator, CorsOptions, CorsOptionsValidator, RequestValidator, RequestValidator (+1 more)
+Nodes (5): Faker, RefreshTests, CheckRegistrationTests, GetTests, MeGetTests
 
 ### Community 23 - "Outbox Persistence"
 Cohesion: 0.12
-Nodes (5): Faker, GetTests, CheckRegistrationTests, GetTests, MeGetTests
+Nodes (5): RequestValidator, RequestValidator, RequestValidator, PaginationRequestValidator, RequestValidator
 
 ### Community 24 - "Search Endpoints"
-Cohesion: 0.12
-Nodes (5): RequestValidator, RequestValidator, RequestValidator, PaginationRequestValidator, RequestValidator
+Cohesion: 0.14
+Nodes (8): CustomActions, CustomResources, CustomClaims, FullTextSearch, Constants, Constants, RateLimitingConstants, string
 
 ### Community 25 - "Search & Pagination Validators"
 Cohesion: 0.14
@@ -392,7 +392,7 @@ Nodes (5): AuditableEntityConfiguration, AuditLogEntryConfiguration, ProductConf
 
 ### Community 28 - "Logging Configuration"
 Cohesion: 0.15
-Nodes (4): BaseIntegrationTest, ClientKeyGetTests, CreateTests, MyCreateTests
+Nodes (4): BaseIntegrationTest, ClientKeyGetTests, CreateTests, MyUpdateTests
 
 ### Community 29 - "OpenTelemetry Instrumentation"
 Cohesion: 0.2
@@ -484,37 +484,37 @@ Nodes (5): CachingEntryDefaults, CachingOptions, CachingOptionsValidator, Redis,
 
 ### Community 103 - "Products Product Domain"
 Cohesion: 0.4
-Nodes (4): OutboxCleanupSettings, OutboxCleanupSettingsValidator, OutboxOptions, OutboxOptionsValidator
+Nodes (3): RequestBody, RequestBodyValidator, RequestValidator
 
 ### Community 104 - "Products Store Domain"
 Cohesion: 0.4
-Nodes (4): CustomRateLimitingOptions, CustomRateLimitingOptionsValidator, FixedWindow, FixedWindowValidator
+Nodes (4): OutboxCleanupSettings, OutboxCleanupSettingsValidator, OutboxOptions, OutboxOptionsValidator
 
 ### Community 105 - "Products Store Domain"
 Cohesion: 0.4
 Nodes (4): EventBusOptions, EventBusOptionsValidator, MessageBroker, MessageBrokerOptionsValidator
 
-### Community 106 - "Products Product Domain"
+### Community 107 - "Products Store Domain"
 Cohesion: 0.4
-Nodes (3): RequestBody, RequestBodyValidator, RequestValidator
+Nodes (4): CustomRateLimitingOptions, CustomRateLimitingOptionsValidator, FixedWindow, FixedWindowValidator
 
-### Community 108 - "Iam Token Management"
+### Community 109 - "Products Store Domain"
 Cohesion: 0.4
 Nodes (3): BaseDbContext, IProductsDbContext, ProductsDbContext
 
-### Community 121 - "Host Setup"
+### Community 122 - "Host Swagger"
 Cohesion: 0.4
 Nodes (3): IDbContext, IIAMDbContext, IProductsDbContext
 
-### Community 126 - "Misc Group 126"
+### Community 127 - "Common Result Monad"
 Cohesion: 0.4
 Nodes (3): RecurringBackgroundJobsService, IRecurringBackgroundJobs, RecurringJobOptions
 
-### Community 127 - "Common Result Monad"
+### Community 128 - "Common Error Types"
 Cohesion: 0.4
 Nodes (5): IAutoMigrateMarker, MigrationGuard, Postgres Exporter Target, Prometheus Config, WebAPI Target
 
-### Community 167 - "Common Validation"
+### Community 168 - "Misc Group 168"
 Cohesion: 0.67
 Nodes (4): DatabaseSeederOrchestrator, IAM Module, IDatabaseSeeder, Products Module
 
@@ -540,7 +540,7 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.109) - this node is a cross-community bridge._
 - **Why does `KafkaOutboxProcessorBase` connect `Outbox Kafka Consumer` to `Audit Log Retention`, `Test Data Seeding`, `IAM EF Entity Configs`?**
   _High betweenness centrality (0.088) - this node is a cross-community bridge._
-- **Why does `string` connect `Background Jobs Service` to `Iam Product Domain`, `Test Data Seeding`, `Architecture Documentation`, `Common Setup`, `Cache Service`, `Read Endpoints`, `Products Audit Log`, `Permission-Based Authorization`, `Background Jobs Unit Tests`, `OpenTelemetry Tests`, `Products EF Entity Configs`, `Iam Product Domain`, `Write Integration Tests`, `Common Validation`?**
+- **Why does `string` connect `Search Endpoints` to `Common Validation`, `Iam Product Domain`, `Test Data Seeding`, `Architecture Documentation`, `Common User Management`, `Cache Service`, `Read Endpoints`, `Products Audit Log`, `Permission-Based Authorization`, `Background Jobs Unit Tests`, `OpenTelemetry Tests`, `Products EF Entity Configs`, `Iam Product Domain`, `Write Integration Tests`, `Common Validation`?**
   _High betweenness centrality (0.085) - this node is a cross-community bridge._
 - **What connects `Host`, `Program`, `CustomRateLimitingOptions` to the rest of the system?**
   _106 weakly-connected nodes found - possible documentation gaps or missing edges._

@@ -96,8 +96,8 @@
     "hash": "1e8183610c4e01a44634d1bfde380373"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Host/Host/Infrastructure/Setup.Logger.cs": {
-    "mtime": 1778146549.8285341,
-    "hash": "d878ff8d653c76fb46bf5b92ab24c90c"
+    "mtime": 1778510240.9841022,
+    "hash": "be66bb9952abceac913f9914e91144ac"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Host/Host/Infrastructure/Setup.RequestResponseMiddleware.cs": {
     "mtime": 1775508153.4235864,
@@ -168,8 +168,8 @@
     "hash": "9309510330374bf3df036b0e786c1ac4"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Common/Common.Application/Options/ObservabilityOptions.cs": {
-    "mtime": 1778148216.9824474,
-    "hash": "7d5f4f5a3fea61288b8ce60714391800"
+    "mtime": 1778507812.359811,
+    "hash": "ed716087cf267a1b1d03238347ed6b4d"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Common/Common.Application/Options/CaptchaOptions.cs": {
     "mtime": 1775695839.0032048,
@@ -668,8 +668,8 @@
     "hash": "aea4b79dafe5a909f0a2e1c31b8034b5"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/Outbox/Outbox/KafkaOutboxProcessorBase.cs": {
-    "mtime": 1778500725.7048643,
-    "hash": "224b64cc51331b80b2f0965f8f5258f1"
+    "mtime": 1778511464.1956136,
+    "hash": "aa874aca07a47eea85179aefde2fd8c3"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/Outbox/Outbox/Persistence/OutboxMessageConfig.cs": {
     "mtime": 1778500435.8363256,
@@ -1672,8 +1672,8 @@
     "hash": "3ef7f41c9d3532267f62f6b153c85973"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/docker-compose.yml": {
-    "mtime": 1778448618.6441584,
-    "hash": "59c0b3857180b01d0189bfe79953999f"
+    "mtime": 1778509283.6474395,
+    "hash": "2277bf8fa057357589fe71e68d29b313"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/GEMINI.md": {
     "mtime": 1778172887.1358917,
@@ -1682,25 +1682,5 @@
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/CLAUDE.md": {
     "mtime": 1778172885.058799,
     "hash": "3662220e6cd12ae018c56db247a5ae35"
-  },
-  "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/docs/migration-workflow.md": {
-    "mtime": 1775219685.7850304,
-    "hash": "a1dd848ed59428a42c308a6303aa5478"
-  },
-  "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/observability/otel-collector-config.yml": {
-    "mtime": 1778146790.40299,
-    "hash": "7cc4a7a1ed7f459ea81fe5460a88ada5"
-  },
-  "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/observability/grafana/provisioning/datasources/datasource.yml": {
-    "mtime": 1778146353.5615687,
-    "hash": "747fb6fc56c46ef8fc2df27571f8ca50"
-  },
-  "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/observability/grafana/provisioning/dashboards/dashboard.yml": {
-    "mtime": 1742642816.7744598,
-    "hash": "6ce9f5f600b47e9a1c039328d8cfa634"
-  },
-  "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/observability/prometheus/prometheus.yml": {
-    "mtime": 1778146347.1744366,
-    "hash": "ad3d51721cda391250ec433b1a0ae53c"
   }
 }
