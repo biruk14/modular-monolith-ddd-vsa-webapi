@@ -1,16 +1,16 @@
 # Graph Report - modular-monolith-ddd-vsa-webapi  (2026-05-12)
 
 ## Corpus Check
-- 428 files · ~59,661 words
+- 428 files · ~59,731 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2009 nodes · 2237 edges · 308 communities (109 shown, 199 thin omitted)
+- 2011 nodes · 2240 edges · 311 communities (106 shown, 205 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 31 edges (avg confidence: 0.81)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `36663715`
+- Built from commit: `e28661cd`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -164,10 +164,10 @@
 - [[_COMMUNITY_Iam Token Management|Iam Token Management]]
 - [[_COMMUNITY_Iam Permissions|Iam Permissions]]
 - [[_COMMUNITY_Iam Service|Iam Service]]
+- [[_COMMUNITY_Iam User Management|Iam User Management]]
 - [[_COMMUNITY_Iam OTP Service|Iam OTP Service]]
 - [[_COMMUNITY_Iam User Management|Iam User Management]]
 - [[_COMMUNITY_Iam Token Management|Iam Token Management]]
-- [[_COMMUNITY_Iam OTP Service|Iam OTP Service]]
 - [[_COMMUNITY_Iam Captcha|Iam Captcha]]
 - [[_COMMUNITY_Iam Result Monad|Iam Result Monad]]
 - [[_COMMUNITY_Notifications Notifications|Notifications Notifications]]
@@ -247,9 +247,9 @@
 - [[_COMMUNITY_Common Pagination|Common Pagination]]
 - [[_COMMUNITY_Common RequestResponse|Common Request/Response]]
 - [[_COMMUNITY_Common Audit Log|Common Audit Log]]
+- [[_COMMUNITY_Iam User Management|Iam User Management]]
 - [[_COMMUNITY_Misc Group 234|Misc Group 234]]
 - [[_COMMUNITY_Misc Group 235|Misc Group 235]]
-- [[_COMMUNITY_Misc Group 236|Misc Group 236]]
 - [[_COMMUNITY_Misc Group 237|Misc Group 237]]
 - [[_COMMUNITY_Products Product Domain|Products Product Domain]]
 - [[_COMMUNITY_Products Product Domain|Products Product Domain]]
@@ -269,16 +269,19 @@
 - [[_COMMUNITY_Products Product Domain|Products Product Domain]]
 - [[_COMMUNITY_Products Product Domain|Products Product Domain]]
 - [[_COMMUNITY_Products Product Domain|Products Product Domain]]
-- [[_COMMUNITY_Community 304|Community 304]]
-- [[_COMMUNITY_Community 305|Community 305]]
-- [[_COMMUNITY_Community 306|Community 306]]
+- [[_COMMUNITY_Products Product Domain|Products Product Domain]]
+- [[_COMMUNITY_Products Product Domain|Products Product Domain]]
+- [[_COMMUNITY_Products Product Domain|Products Product Domain]]
 - [[_COMMUNITY_Community 307|Community 307]]
+- [[_COMMUNITY_Community 308|Community 308]]
+- [[_COMMUNITY_Community 309|Community 309]]
+- [[_COMMUNITY_Community 310|Community 310]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `KafkaOutboxProcessorBase` - 67 edges
 2. `OutboxKafkaProcessor` - 59 edges
 3. `IntegrationEventKafkaProcessor` - 52 edges
-4. `string` - 33 edges
+4. `string` - 34 edges
 5. `Faker` - 29 edges
 6. `LocalizedIdentityErrorDescriber` - 24 edges
 7. `RequireFeatureFilterTests` - 18 edges
@@ -298,13 +301,9 @@
 - `IAM Module` --semantically_similar_to--> `IAM Module`  [EXTRACTED] [semantically similar]
   GEMINI.md → CLAUDE.md
 
-## Communities (308 total, 199 thin omitted)
+## Communities (311 total, 205 thin omitted)
 
 ### Community 1 - "Audit Log Retention"
-Cohesion: 0.06
-Nodes (3): BackgroundService, IntegrationEventKafkaProcessor, DatabaseSeederOrchestrator
-
-### Community 2 - "DDD Base Aggregate & Audit"
 Cohesion: 0.06
 Nodes (3): KafkaOutboxProcessorBase, OutboxKafkaProcessor, OutboxOptions
 
@@ -317,20 +316,20 @@ Cohesion: 0.05
 Nodes (17): BaseIntegrationTest, IntegrationTestCollection, IntegrationTestFactory, HostCollection, HostTestFactory, IntegrationTestCollection, IntegrationTestWebAppFactory, IAsyncLifetime (+9 more)
 
 ### Community 5 - "Error Handling & Aggregate Tests"
-Cohesion: 0.08
-Nodes (9): ActivityListener, RequireFeatureFilterTests, TestEndpointFilterInvocationContext, ResultTelemetryExtensionsTests, EndpointFilterInvocationContext, IDisposable, IFeatureManagerSnapshot, IResxLocalizer (+1 more)
-
-### Community 6 - "Product Domain Aggregate"
 Cohesion: 0.06
 Nodes (9): BackgroundJobsModule, IamModule, ICoreModule, IModule, ICoreModule, IModule, NotificationsModule, OutboxModule (+1 more)
+
+### Community 6 - "Product Domain Aggregate"
+Cohesion: 0.07
+Nodes (10): AggregateRoot, AuditableEntity, AuditLogEntry, IAggregateRoot, ApplicationUser, ApplicationUser, IdentityUser, List (+2 more)
 
 ### Community 7 - "Strongly Typed ID Serialization"
 Cohesion: 0.07
 Nodes (15): ConcurrentBag, DomainEventDispatcher, EventDispatcher, MassTransitEventBus, IClassFixture, IDomainEventDispatcher, IEventBus, IEventDispatcher (+7 more)
 
 ### Community 8 - "Module Registration & Lifecycle"
-Cohesion: 0.07
-Nodes (10): AggregateRoot, AuditableEntity, AuditLogEntry, IAggregateRoot, ApplicationUser, ApplicationUser, IdentityUser, List (+2 more)
+Cohesion: 0.06
+Nodes (11): CaptchaErrors, AggregateTests, Error, IdentityErrors, OtpErrors, FeatureFlagResultExtensions, object, Result (+3 more)
 
 ### Community 9 - "IAM Domain Unit Tests"
 Cohesion: 0.09
@@ -345,20 +344,20 @@ Cohesion: 0.08
 Nodes (14): DomainEventHandlerBase, DomainEventHandlerBase, IntegrationEventHandlerBase, EventHandlerBase, IDomainEventHandler, IDomainEventHandlerWrapper, IIntegrationEventHandler, IIntegrationEventHandlerWrapper (+6 more)
 
 ### Community 12 - "IAM EF Entity Configs"
-Cohesion: 0.07
-Nodes (10): BackgroundJobsService, CacheService, FusionCache, IBackgroundJobs, ICacheService, ILogger, UserRegisteredIntegrationEventHandlerTests, ISmsService (+2 more)
-
-### Community 13 - "Read Endpoints"
 Cohesion: 0.08
 Nodes (11): PolymorphicEventConverterTests, DbContextExtensions, IDeserializer, JsonSerializerOptions, IntegrationEventOutboxMessageDtoDeserializer, OutboxMessageDtoDeserializer, ValueConverter, DomainEventConverter (+3 more)
 
-### Community 14 - "MassTransit Event Bus"
+### Community 13 - "Read Endpoints"
 Cohesion: 0.08
 Nodes (8): JsonConverter, JsonConverterFactory, StronglyTypedIdReadOnlyJsonConverter, StronglyTypedIdWriteOnlyJsonConverter, NonNullableConverter, NullableConverter, NullableStronglyTypedIdReadOnlyJsonConverter, PolymorphicEventConverter
 
-### Community 15 - "Request Validation"
+### Community 14 - "MassTransit Event Bus"
 Cohesion: 0.1
 Nodes (5): AggregateRoot, New(), Product, New(), Store
+
+### Community 15 - "Request Validation"
+Cohesion: 0.1
+Nodes (8): AggregateTests, ApplicationUserId, DateOnly, ApplicationUserTests, StoreTests, ProductTemplate, StoreTests, Uri
 
 ### Community 17 - "Domain & Integration Event Handlers"
 Cohesion: 0.1
@@ -369,144 +368,132 @@ Cohesion: 0.11
 Nodes (7): CaptchaOptions, double, ICaptchaService, CachedCaptchaService, DummyCaptchaService, ReCaptchaResponse, ReCaptchaService
 
 ### Community 19 - "OpenTelemetry Tests"
-Cohesion: 0.12
-Nodes (12): CustomActions, CustomResources, CustomClaims, FullTextSearch, Checkout, FeatureFlags, Notifications, Products (+4 more)
+Cohesion: 0.11
+Nodes (13): CustomActions, CustomResources, CustomClaims, FullTextSearch, Checkout, FeatureFlags, IAM, Notifications (+5 more)
 
-### Community 20 - "Products EF Entity Configs"
-Cohesion: 0.16
-Nodes (6): AggregateTests, DateOnly, ApplicationUserTests, StoreTests, ProductTemplate, Uri
+### Community 21 - "Swagger/OpenAPI Filters"
+Cohesion: 0.12
+Nodes (11): RequestValidator, RequestValidator, CustomValidator, RequestValidator, OutboxCleanupSettings, OutboxCleanupSettingsValidator, OutboxOptions, OutboxOptionsValidator (+3 more)
 
 ### Community 22 - "Dynamic Module Loader"
-Cohesion: 0.12
-Nodes (9): RequestValidator, RequestValidator, CustomValidator, RequestValidator, BackgroundJobsOptions, BackgroundJobsOptionsValidator, RequestValidator, RequestValidator (+1 more)
+Cohesion: 0.15
+Nodes (10): ActivitySource, Counter, ResultToResponseTransformer, RequireFeatureFilter, IEndpointFilter, Meter, BackgroundJobsTelemetry, IamTelemetry (+2 more)
 
 ### Community 23 - "Outbox Persistence"
 Cohesion: 0.12
-Nodes (5): Faker, MyRemoveProductTests, CheckRegistrationTests, GetTests, MeGetTests
+Nodes (5): RequestValidator, RequestValidator, RequestValidator, PaginationRequestValidator, RequestValidator
 
 ### Community 24 - "Search Endpoints"
-Cohesion: 0.12
-Nodes (5): RequestValidator, RequestValidator, RequestValidator, PaginationRequestValidator, RequestValidator
+Cohesion: 0.31
+Nodes (3): RequireFeatureFilterTests, IFeatureManagerSnapshot, IResxLocalizer
+
+### Community 25 - "Search & Pagination Validators"
+Cohesion: 0.14
+Nodes (6): FusionCache, ILogger, UserRegisteredIntegrationEventHandlerTests, ISmsService, DummySmsService, UserRegisteredIntegrationEventHandler
 
 ### Community 26 - "Read Integration Tests"
 Cohesion: 0.14
 Nodes (3): OutboxOptionsValidatorTests, KafkaConsumer, KafkaProducer
 
 ### Community 27 - "Write Integration Tests"
-Cohesion: 0.21
-Nodes (8): ActivitySource, Counter, RequireFeatureFilter, Meter, BackgroundJobsTelemetry, IamTelemetry, NotificationsTelemetry, ProductsTelemetry
-
-### Community 28 - "Logging Configuration"
 Cohesion: 0.15
 Nodes (5): AuditableEntityConfiguration, AuditLogEntryConfiguration, ProductConfiguration, ProductTemplateConfiguration, StoreConfiguration
 
 ### Community 29 - "OpenTelemetry Instrumentation"
-Cohesion: 0.15
-Nodes (4): BaseIntegrationTest, ClientKeyGetTests, UpdateTests, CreateTests
-
-### Community 30 - "Create Endpoints"
 Cohesion: 0.2
 Nodes (4): IOperationFilter, DefaultResponsesOperationFilter, RemoveDefaultResponseSchemaFilter, SwaggerDefaultValues
 
-### Community 33 - "Observability Infrastructure"
+### Community 31 - "Update Endpoints"
 Cohesion: 0.18
 Nodes (4): DbContext, IOutboxDbContext, OutboxDbContext, Setup
 
+### Community 33 - "Observability Infrastructure"
+Cohesion: 0.17
+Nodes (4): BaseIntegrationTest, ClientKeyGetTests, AuditLogTests, CheckRegistrationTests
+
 ### Community 35 - "Database Seeder Orchestrator"
+Cohesion: 0.18
+Nodes (4): Faker, CreateTests, GetTests, MeGetTests
+
+### Community 36 - "DDD Value Object"
 Cohesion: 0.36
 Nodes (3): EventHandlerBase, IEventHandler, IEventHandlerWrapper
 
-### Community 39 - "IAM Endpoint Setup"
+### Community 40 - "Recurring Background Jobs Tests"
 Cohesion: 0.22
 Nodes (10): Grafana Datasource Config, Jaeger Datasource, Prometheus Datasource, Jaeger Service, OTLP Jaeger Exporter, OTLP Receiver, OTLP HTTP Exporter, Prometheus Exporter (+2 more)
 
-### Community 41 - "OTel Host Registration"
+### Community 42 - "Host Infrastructure Setup"
 Cohesion: 0.25
 Nodes (4): InterModuleRequestHandler, IEventHandler, IConsumer, IInterModuleRequestHandler
 
 ### Community 46 - "Integration Test Infrastructure"
-Cohesion: 0.28
-Nodes (4): RecurringBackgroundJobsServiceTests, IRecurringJobManagerV2, RecurringBackgroundJobsService, TimeProvider
-
-### Community 47 - "Module Test Factories"
 Cohesion: 0.22
 Nodes (6): CustomRoles, CustomPermissions, HashSet, IReadOnlySet, KafkaConsumer, KafkaConsumerValidator
 
-### Community 48 - "User Registration Tests"
-Cohesion: 0.25
-Nodes (3): HealthCheckTests, SanityTests, HttpClient
+### Community 49 - "Store Search Tests"
+Cohesion: 0.28
+Nodes (4): RecurringBackgroundJobsServiceTests, IRecurringJobManagerV2, RecurringBackgroundJobsService, TimeProvider
 
 ### Community 51 - "Background Jobs Unit Tests"
 Cohesion: 0.25
-Nodes (4): CaptchaErrors, Error, IdentityErrors, OtpErrors
-
-### Community 53 - "Iam OTP Service"
-Cohesion: 0.25
-Nodes (4): AggregateTests, object, Result, TAggregate
-
-### Community 55 - "Common Service"
-Cohesion: 0.21
-Nodes (6): DatabaseOptions, DatabaseOptionsValidator, OutboxCleanupSettings, OutboxCleanupSettingsValidator, OutboxOptions, OutboxOptionsValidator
+Nodes (3): HealthCheckTests, SanityTests, HttpClient
 
 ### Community 56 - "Common Request/Response"
 Cohesion: 0.25
 Nodes (4): CustomRateLimitingOptions, IRateLimiterPolicy, CreateStoreRateLimitingPolicy, Policies
 
-### Community 60 - "Misc Group 60"
+### Community 57 - "Common DbContext"
 Cohesion: 0.25
 Nodes (4): PermissionPolicyProvider, PermissionRequirement, IAuthorizationPolicyProvider, IAuthorizationRequirement
 
-### Community 61 - "Products Store Domain"
+### Community 58 - "Common Result Monad"
 Cohesion: 0.29
 Nodes (3): IdentityDbContext, IIAMDbContext, IAMDbContext
 
-### Community 62 - "Iam Product Domain"
-Cohesion: 0.32
-Nodes (3): BackgroundJobsServiceTests, BackgroundJobsService, IBackgroundJobClientV2
-
-### Community 63 - "Outbox Kafka Integration"
+### Community 59 - "Common Result Monad"
 Cohesion: 0.29
 Nodes (3): IHealthCheck, ConditionalKafkaHealthCheck, Setup
 
-### Community 68 - "Products Audit Log"
+### Community 63 - "Outbox Kafka Integration"
+Cohesion: 0.32
+Nodes (3): BackgroundJobsServiceTests, BackgroundJobsService, IBackgroundJobClientV2
+
+### Community 69 - "Iam DbContext"
 Cohesion: 0.33
 Nodes (3): IAggregateRoot, AuditableEntity, IAuditableEntity
 
-### Community 69 - "Iam DbContext"
+### Community 70 - "Host Swagger"
 Cohesion: 0.48
 Nodes (3): RequestBody, RequestBodyValidator, RequestValidator
 
-### Community 73 - "Common DbContext"
+### Community 71 - "Host Store Domain"
 Cohesion: 0.29
 Nodes (3): IDatabaseSeeder, IamDatabaseSeeder, ProductsDatabaseSeeder
 
-### Community 75 - "Misc Group 75"
+### Community 72 - "Common Tests"
 Cohesion: 0.29
 Nodes (3): OtpServiceBase, DummyOtpService, OtpService
 
-### Community 76 - "Common DB Migration"
+### Community 73 - "Common DbContext"
 Cohesion: 0.29
 Nodes (4): Histogram, long, ObservableGauge, OutboxTelemetry
 
-### Community 77 - "Misc Group 77"
+### Community 78 - "Products Audit Log"
 Cohesion: 0.29
 Nodes (3): DirectInterModuleRequestClient, MassTransitInterModuleRequestClient, IInterModuleRequestClient
 
-### Community 79 - "Products Store Domain"
+### Community 80 - "Iam Store Domain"
 Cohesion: 0.4
 Nodes (3): IConfigureOptions, OpenApiOptions, ConfigureSwaggerOptions
 
-### Community 89 - "Iam Setup"
+### Community 90 - "Common Result Monad"
 Cohesion: 0.33
 Nodes (5): CachingEntryDefaults, CachingOptions, CachingOptionsValidator, Redis, RedisValidator
 
-### Community 94 - "Common Validation"
+### Community 93 - "Iam Token Management"
 Cohesion: 0.33
 Nodes (3): AuthenticationHandler, TestAuthHandler, Guid
-
-### Community 105 - "Products Store Domain"
-Cohesion: 0.4
-Nodes (4): EventBusOptions, EventBusOptionsValidator, MessageBroker, MessageBrokerOptionsValidator
 
 ### Community 106 - "Products Product Domain"
 Cohesion: 0.4
@@ -518,21 +505,25 @@ Nodes (3): RequestBody, RequestBodyValidator, RequestValidator
 
 ### Community 108 - "Iam Token Management"
 Cohesion: 0.4
+Nodes (4): EventBusOptions, EventBusOptionsValidator, MessageBroker, MessageBrokerOptionsValidator
+
+### Community 109 - "Products Store Domain"
+Cohesion: 0.4
 Nodes (3): BaseDbContext, IProductsDbContext, ProductsDbContext
 
-### Community 125 - "Common Result Monad"
+### Community 110 - "Products Product Domain"
 Cohesion: 0.4
 Nodes (3): IDbContext, IIAMDbContext, IProductsDbContext
 
-### Community 126 - "Misc Group 126"
+### Community 131 - "Common MassTransit"
 Cohesion: 0.4
 Nodes (3): RecurringBackgroundJobsService, IRecurringBackgroundJobs, RecurringJobOptions
 
-### Community 130 - "Common OTP Service"
+### Community 133 - "Common Setup"
 Cohesion: 0.4
 Nodes (5): IAutoMigrateMarker, MigrationGuard, Postgres Exporter Target, Prometheus Config, WebAPI Target
 
-### Community 170 - "Common Request/Response"
+### Community 172 - "Common Resiliency"
 Cohesion: 0.67
 Nodes (4): DatabaseSeederOrchestrator, IAM Module, IDatabaseSeeder, Products Module
 
@@ -545,7 +536,7 @@ Nodes (4): DatabaseSeederOrchestrator, IAM Module, IDatabaseSeeder, Products Mod
 ## Knowledge Gaps
 - **109 isolated node(s):** `Host`, `Program`, `CustomRateLimitingOptions`, `FixedWindow`, `OutboxOptions` (+104 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **199 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **205 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -554,11 +545,11 @@ _Questions this graph is uniquely positioned to answer:_
   _Edge tagged AMBIGUOUS (relation: references) - confidence is low._
 - **What is the exact relationship between `MigrationGuard` and `WebAPI Target`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
-- **Why does `string` connect `OpenTelemetry Tests` to `Common Error Types`, `Test Data Seeding`, `Architecture Documentation`, `Error Handling & Aggregate Tests`, `Common Data Seeder`, `Common DbContext`, `Misc Group 75`, `Common DB Migration`, `MassTransit Event Bus`, `Module Test Factories`, `Products EF Entity Configs`, `Backgroundjobs User Management`, `Write Integration Tests`, `Common Result Monad`, `Common Validation`, `Outbox Kafka Integration`?**
-  _High betweenness centrality (0.103) - this node is a cross-community bridge._
+- **Why does `string` connect `OpenTelemetry Tests` to `Common Setup`, `Test Data Seeding`, `Architecture Documentation`, `Common Tests`, `Common DbContext`, `Common DbContext`, `Read Endpoints`, `Integration Test Infrastructure`, `Request Validation`, `Iam User Management`, `Iam User Management`, `Dynamic Module Loader`, `Search Endpoints`, `Common Result Monad`, `Logging Configuration`, `Iam Token Management`?**
+  _High betweenness centrality (0.118) - this node is a cross-community bridge._
 - **Why does `int` connect `Test Data Seeding` to `Outbox Kafka Consumer`, `IAM Domain Unit Tests`, `Background Jobs Service`?**
-  _High betweenness centrality (0.096) - this node is a cross-community bridge._
-- **Why does `KafkaOutboxProcessorBase` connect `Outbox Kafka Consumer` to `Audit Log Retention`, `Test Data Seeding`, `Read Endpoints`?**
+  _High betweenness centrality (0.100) - this node is a cross-community bridge._
+- **Why does `KafkaOutboxProcessorBase` connect `Outbox Kafka Consumer` to `Permission-Based Authorization`, `Test Data Seeding`, `IAM EF Entity Configs`?**
   _High betweenness centrality (0.062) - this node is a cross-community bridge._
 - **What connects `Host`, `Program`, `CustomRateLimitingOptions` to the rest of the system?**
   _109 weakly-connected nodes found - possible documentation gaps or missing edges._
