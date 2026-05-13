@@ -1320,8 +1320,8 @@
     "hash": "bc741b6722f89bfe8610242759340544"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Infrastructure/InterModuleRequestHandlers/GetSeedUserIdsRequestHandler.cs": {
-    "mtime": 1778286227.860926,
-    "hash": "dcf7d6cb0fe171c23b14ae9b42decaff"
+    "mtime": 1778682010.9398959,
+    "hash": "0c24e57392fd10b48253b1664e5ec07d"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/IAM/IAM.Infrastructure/Persistence/Setup.cs": {
     "mtime": 1775219685.789289,
@@ -1686,10 +1686,6 @@
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/BackgroundJobs/BackgroundJobs/Telemetry/BackgroundJobsTelemetry.cs": {
     "mtime": 1778500941.0959294,
     "hash": "b66a3b5d56b4760f6a5e809ab3cb59b4"
-  },
-  "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/REFACTOR-kafka-to-rabbitmq.md": {
-    "mtime": 1778675445.4257054,
-    "hash": "70986b0de520f0bc3c9da9fe2b089b08"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/README.md": {
     "mtime": 1778611247.129907,
