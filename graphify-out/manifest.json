@@ -3,14 +3,6 @@
     "mtime": 1742642816.772445,
     "hash": "57dad652a48e33c588f9ea21e55e2d96"
   },
-  "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/db-init/alter-wal.sql": {
-    "mtime": 1766654303.3928623,
-    "hash": "3bdf0ce6d3227a5cdbe3b6f47634af19"
-  },
-  "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/db-init/create-publication.sql": {
-    "mtime": 1778286322.8286626,
-    "hash": "a910cc874a4a3662dffc683939a24175"
-  },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/k6/main.js": {
     "mtime": 1778692108.3489375,
     "hash": "fc109f1c3c914fac89b52f8b26d40479"
@@ -1727,13 +1719,9 @@
     "mtime": 1778691068.9927616,
     "hash": "3fff7f40c781f881ff1a05211ee042da"
   },
-  "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/TODO.md": {
-    "mtime": 1778694066.2862957,
-    "hash": "4ee5f2fa3dfad9e47604073f646fa1d1"
-  },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/README.md": {
-    "mtime": 1778611247.129907,
-    "hash": "c689b48381d7bc2bcf03f9bc0bf83c02"
+    "mtime": 1778697524.0956602,
+    "hash": "3b6da868a4b2bdce2623a6c92cebb883"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/docker-compose.perf.yml": {
     "mtime": 1778691408.254861,
