@@ -468,8 +468,8 @@
     "hash": "e181b9b6b51d91af9c70498518f91c74"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Common/Common.Infrastructure/Persistence/Setup.cs": {
-    "mtime": 1775569188.4454455,
-    "hash": "dfd782e5d5bc35d31f7bc8449e0e96f7"
+    "mtime": 1778854692.2492526,
+    "hash": "ee22e9e28701d2dc4f88a98a8a9c522c"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Common/Common.Infrastructure/Persistence/MigrationGuard.cs": {
     "mtime": 1775695839.0075634,
@@ -728,8 +728,8 @@
     "hash": "4227ffbdaaac915bf4f0338a9b8e3af9"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/Products/Products.Endpoints/ProductsModule.cs": {
-    "mtime": 1775644652.4419148,
-    "hash": "a19eb1d5b655c6a6f87b6fe6d4d054c0"
+    "mtime": 1778854702.490193,
+    "hash": "c8770972f37ed0af9719f093dad4cd66"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/Products/Products.Endpoints/IAssemblyReference.cs": {
     "mtime": 1742642816.800127,
@@ -998,6 +998,14 @@
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/Products/Products.Endpoints/Stores/v1/AuditLog/Endpoint.cs": {
     "mtime": 1778144739.8195877,
     "hash": "ab028685e22882a77f9075d9323c719c"
+  },
+  "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/Products/Products.Endpoints/Probe/Setup.cs": {
+    "mtime": 1778854198.7302144,
+    "hash": "4bda1e60c6f47bd53164923d35664254"
+  },
+  "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/Products/Products.Endpoints/Probe/v1/Endpoint.cs": {
+    "mtime": 1778854697.8952982,
+    "hash": "ad5542227bc594a8577b76e33ec41d17"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Modules/Products/Products.Domain/IAssemblyReference.cs": {
     "mtime": 1742642816.798905,
@@ -1731,9 +1739,13 @@
     "mtime": 1778691068.9927616,
     "hash": "3fff7f40c781f881ff1a05211ee042da"
   },
+  "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/docker-compose.split.yml": {
+    "mtime": 1778854237.6489944,
+    "hash": "613d5107333cc28876b68b805e9ef9a5"
+  },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/README.md": {
-    "mtime": 1778697524.0956602,
-    "hash": "3b6da868a4b2bdce2623a6c92cebb883"
+    "mtime": 1778854851.5047047,
+    "hash": "f3e8f40b8eac580d1bda175365692b0a"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/docker-compose.perf.yml": {
     "mtime": 1778691408.254861,
@@ -1750,5 +1762,9 @@
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/CLAUDE.md": {
     "mtime": 1778172885.058799,
     "hash": "3662220e6cd12ae018c56db247a5ae35"
+  },
+  "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/docs/split-deployment-poc.md": {
+    "mtime": 1778854796.0883384,
+    "hash": "71962bdb1e513e6a2684ce5b860a09eb"
   }
 }
