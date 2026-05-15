@@ -132,8 +132,8 @@
     "hash": "1cd4c8b97094eae28be9dcc69a168b4d"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Host/Host/Infrastructure/Setup.cs": {
-    "mtime": 1778676323.9258685,
-    "hash": "d5788d3fda8d758eca8113f343c43fc4"
+    "mtime": 1778849971.310206,
+    "hash": "16dcd6aaa7ea3526b0702bbaa1bbc907"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Host/Host/Infrastructure/Setup.MassTransit.cs": {
     "mtime": 1778676957.139489,
@@ -368,8 +368,8 @@
     "hash": "0c9b01406be0b32661ff6bb19273aa5c"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Common/Common.InterModuleRequests/Setup.cs": {
-    "mtime": 1778286073.627127,
-    "hash": "2ffd7a355c6ba1c7a075a4ecbff90554"
+    "mtime": 1778849968.53491,
+    "hash": "66a76e7736d06c9402bdb729e29a1721"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Common/Common.InterModuleRequests/IAssemblyReference.cs": {
     "mtime": 1766654266.265159,
@@ -387,13 +387,13 @@
     "mtime": 1742642816.7830684,
     "hash": "4188a671ba07a3e4e4d479e9678aa5c6"
   },
-  "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Common/Common.InterModuleRequests/Contracts/DirectInterModuleRequestClient.cs": {
-    "mtime": 1778286079.3358378,
-    "hash": "1ef7f25ea3b597664165f873e90714f2"
+  "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Common/Common.InterModuleRequests/Contracts/MassTransitInterModuleRequestClient.cs": {
+    "mtime": 1778849963.14975,
+    "hash": "8e86b6cff77692b6e75750848c576429"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Common/Common.InterModuleRequests/Contracts/InterModuleRequestHandler.cs": {
-    "mtime": 1778286424.7632782,
-    "hash": "2af272e265a3d18eb6e0a23f1673e6ee"
+    "mtime": 1778850463.5430825,
+    "hash": "06d783b3c57753fbc0bd8277d7c33ec5"
   },
   "/Users/baranacikgoz/Development/modular-monolith-ddd-vsa-webapi/src/Common/Common.InterModuleRequests/IAM/GetSeedUserIds.cs": {
     "mtime": 1766654244.7106998,
