@@ -1,12 +1,12 @@
 {
   "runs": [
     {
-      "date": "2026-05-06T23:32:02.802549+00:00",
-      "input_tokens": 12789,
-      "output_tokens": 6930,
-      "files": 405
+      "date": "2026-05-21T12:43:21.711759+00:00",
+      "input_tokens": 12500,
+      "output_tokens": 4200,
+      "files": 443
     }
   ],
-  "total_input_tokens": 12789,
-  "total_output_tokens": 6930
+  "total_input_tokens": 12500,
+  "total_output_tokens": 4200
 }
