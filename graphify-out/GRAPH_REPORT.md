@@ -1,7 +1,7 @@
 # Graph Report - modular-monolith-ddd-vsa-webapi  (2026-05-21)
 
 ## Corpus Check
-- 435 files · ~61,799 words
+- 435 files · ~61,825 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a47b92a3`
+- Built from commit: `6272e12e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -158,7 +158,7 @@
 - [[_COMMUNITY_Community 140|Community 140]]
 - [[_COMMUNITY_Community 141|Community 141]]
 - [[_COMMUNITY_Community 142|Community 142]]
-- [[_COMMUNITY_Community 143|Community 143]]
+- [[_COMMUNITY_Community 144|Community 144]]
 - [[_COMMUNITY_Community 145|Community 145]]
 - [[_COMMUNITY_Community 146|Community 146]]
 - [[_COMMUNITY_Community 147|Community 147]]
@@ -324,52 +324,48 @@ Cohesion: 0.08
 Nodes (12): decimal, Constants, int, IOtpService, PaginationRequestValidator, Constants, ProductTests, ProductTemplateId (+4 more)
 
 ### Community 10 - "Domain Entity Tests"
+Cohesion: 0.1
+Nodes (14): CustomActions, CustomResources, CustomClaims, FullTextSearch, Checkout, FeatureFlags, IAM, Notifications (+6 more)
+
+### Community 11 - "IAM Identity Localization"
 Cohesion: 0.09
 Nodes (6): IamModule, IModule, ICoreModule, IModule, NotificationsModule, ProductsModule
 
-### Community 11 - "IAM Identity Localization"
+### Community 12 - "IAM Module Registration"
 Cohesion: 0.12
 Nodes (6): double, ICaptchaService, CachedCaptchaService, DummyCaptchaService, ReCaptchaResponse, ReCaptchaService
 
-### Community 12 - "IAM Module Registration"
+### Community 13 - "Captcha Service"
 Cohesion: 0.12
 Nodes (10): AuditableEntityConfiguration, ApplicationRoleConfig, ApplicationUserConfig, IdentityRoleClaimConfig, IdentityUserClaimConfig, IdentityUserLoginConfig, IdentityUserRoleConfig, IdentityUserTokenConfig (+2 more)
 
-### Community 13 - "Captcha Service"
+### Community 14 - "EF Entity Configuration"
 Cohesion: 0.13
 Nodes (12): ActivitySource, Counter, RequireFeatureFilter, Histogram, long, Meter, ObservableGauge, BackgroundJobsTelemetry (+4 more)
 
-### Community 14 - "EF Entity Configuration"
+### Community 15 - "Host Test Factory"
+Cohesion: 0.1
+Nodes (12): RequestValidator, RequestValidator, CustomValidator, RequestValidator, DatabaseOptions, DatabaseOptionsValidator, SecurityHeadersOptions, SecurityHeadersOptionsValidator (+4 more)
+
+### Community 16 - "FluentValidation Requests"
 Cohesion: 0.1
 Nodes (6): HostTestFactory, IntegrationTestWebAppFactory, IntegrationTestFactory, OutboxTestWebAppFactory, IntegrationTestWebAppFactory, RabbitMqContainer
 
-### Community 15 - "Host Test Factory"
-Cohesion: 0.12
-Nodes (13): CustomActions, CustomResources, CustomClaims, Checkout, FeatureFlags, IAM, Notifications, Products (+5 more)
-
-### Community 16 - "FluentValidation Requests"
+### Community 17 - "Auth & Feature Flags"
 Cohesion: 0.17
 Nodes (3): BackgroundService, OutboxProcessor, DatabaseSeederOrchestrator
 
-### Community 17 - "Auth & Feature Flags"
+### Community 18 - "Outbox Processor"
 Cohesion: 0.16
 Nodes (4): IMiddleware, EnrichLogsWithUserInfoMiddleware, GlobalExceptionHandlingMiddleware, RequestResponseLoggingMiddleware
 
-### Community 18 - "Outbox Processor"
+### Community 19 - "HTTP Middleware"
 Cohesion: 0.16
 Nodes (6): AggregateTests, DateOnly, ApplicationUserTests, StoreTests, ProductTemplate, Uri
-
-### Community 20 - "Read Endpoints"
-Cohesion: 0.11
-Nodes (9): RequestValidator, RequestValidator, CustomValidator, RequestValidator, RequestValidator, RequestValidator, RequestValidator, RequestValidator (+1 more)
 
 ### Community 21 - "Background Jobs Module"
 Cohesion: 0.16
 Nodes (3): BackgroundJobsModule, ICoreModule, OutboxModule
-
-### Community 22 - "Module Integration Tests"
-Cohesion: 0.12
-Nodes (8): CaptchaErrors, AggregateTests, Error, IdentityErrors, OtpErrors, object, Result, TAggregate
 
 ### Community 23 - "Rate Limiting"
 Cohesion: 0.13
@@ -389,57 +385,65 @@ Nodes (5): AuditableEntityConfiguration, AuditLogEntryConfiguration, ProductConf
 
 ### Community 28 - "Module Assembly Loading"
 Cohesion: 0.15
-Nodes (4): Faker, GetTests, CreateTests, MeGetTests
+Nodes (4): Faker, CreateTests, MyGetTests, MeGetTests
 
 ### Community 29 - "Search Endpoints"
 Cohesion: 0.2
 Nodes (4): IOperationFilter, DefaultResponsesOperationFilter, RemoveDefaultResponseSchemaFilter, SwaggerDefaultValues
 
-### Community 33 - "Community 33"
+### Community 32 - "Community 32"
 Cohesion: 0.18
 Nodes (4): DbContext, IOutboxDbContext, OutboxDbContext, Setup
 
-### Community 35 - "Community 35"
+### Community 34 - "Community 34"
 Cohesion: 0.18
 Nodes (3): RequestValidator, PaginationRequestValidator, RequestValidator
 
-### Community 39 - "Community 39"
+### Community 38 - "Community 38"
 Cohesion: 0.22
 Nodes (5): DomainEventHandlerBase, SimulateSomeBusinessHandler, StoreCreatedIntegrationEventPublishingHandler, V1StoreCreatedDomainEventHandlers, V1UserRegisteredDomainEventHandler
 
-### Community 47 - "Community 47"
+### Community 46 - "Community 46"
 Cohesion: 0.28
 Nodes (4): RecurringBackgroundJobsServiceTests, IRecurringJobManagerV2, RecurringBackgroundJobsService, TimeProvider
 
-### Community 49 - "Community 49"
+### Community 48 - "Community 48"
 Cohesion: 0.25
 Nodes (3): HealthCheckTests, SanityTests, HttpClient
 
-### Community 52 - "Community 52"
+### Community 50 - "Community 50"
+Cohesion: 0.25
+Nodes (4): CaptchaErrors, Error, IdentityErrors, OtpErrors
+
+### Community 51 - "Community 51"
+Cohesion: 0.25
+Nodes (4): AggregateTests, object, Result, TAggregate
+
+### Community 53 - "Community 53"
 Cohesion: 0.29
 Nodes (3): IHealthCheck, ConditionalRabbitMqHealthCheck, Setup
 
-### Community 55 - "Community 55"
+### Community 56 - "Community 56"
 Cohesion: 0.25
 Nodes (4): PermissionPolicyProvider, PermissionRequirement, IAuthorizationPolicyProvider, IAuthorizationRequirement
 
-### Community 58 - "Community 58"
+### Community 59 - "Community 59"
 Cohesion: 0.32
 Nodes (3): BackgroundJobsServiceTests, BackgroundJobsService, IBackgroundJobClientV2
 
-### Community 61 - "Community 61"
+### Community 63 - "Community 63"
 Cohesion: 0.29
 Nodes (3): OtpServiceBase, DummyOtpService, OtpService
 
-### Community 68 - "Community 68"
+### Community 69 - "Community 69"
 Cohesion: 0.33
 Nodes (3): IAggregateRoot, AuditableEntity, IAuditableEntity
 
-### Community 69 - "Community 69"
+### Community 70 - "Community 70"
 Cohesion: 0.48
 Nodes (3): RequestBody, RequestBodyValidator, RequestValidator
 
-### Community 70 - "Community 70"
+### Community 71 - "Community 71"
 Cohesion: 0.29
 Nodes (3): IDatabaseSeeder, IamDatabaseSeeder, ProductsDatabaseSeeder
 
@@ -455,21 +459,21 @@ Nodes (4): CustomRoles, CustomPermissions, HashSet, IReadOnlySet
 Cohesion: 0.33
 Nodes (3): IClassFixture, OutboxBackoffTests, OutboxTestWebAppFactory
 
-### Community 88 - "Community 88"
-Cohesion: 0.27
-Nodes (4): OpenApiOptions, OpenApiOptionsValidator, ResxLocalizationOptions, ResxLocalizationOptionsValidator
-
-### Community 89 - "Community 89"
+### Community 87 - "Community 87"
 Cohesion: 0.33
 Nodes (5): CachingEntryDefaults, CachingOptions, CachingOptionsValidator, Redis, RedisValidator
 
-### Community 90 - "Community 90"
+### Community 89 - "Community 89"
 Cohesion: 0.33
 Nodes (3): IdentityDbContext, IIAMDbContext, IAMDbContext
 
-### Community 96 - "Community 96"
+### Community 95 - "Community 95"
 Cohesion: 0.4
 Nodes (3): DomainEventHandlerBase, IEventHandler, IEventHandlerWrapper
+
+### Community 103 - "Community 103"
+Cohesion: 0.4
+Nodes (4): CustomRateLimitingOptions, CustomRateLimitingOptionsValidator, FixedWindow, FixedWindowValidator
 
 ### Community 105 - "Community 105"
 Cohesion: 0.4
@@ -477,21 +481,17 @@ Nodes (4): OutboxCleanupSettings, OutboxCleanupSettingsValidator, OutboxOptions,
 
 ### Community 106 - "Community 106"
 Cohesion: 0.4
-Nodes (4): CustomRateLimitingOptions, CustomRateLimitingOptionsValidator, FixedWindow, FixedWindowValidator
+Nodes (3): RequestBody, RequestBodyValidator, RequestValidator
 
 ### Community 107 - "Community 107"
 Cohesion: 0.4
-Nodes (3): RequestBody, RequestBodyValidator, RequestValidator
+Nodes (3): BaseDbContext, IProductsDbContext, ProductsDbContext
 
 ### Community 108 - "Community 108"
 Cohesion: 0.4
-Nodes (3): BaseDbContext, IProductsDbContext, ProductsDbContext
-
-### Community 109 - "Community 109"
-Cohesion: 0.4
 Nodes (3): IDbContext, IIAMDbContext, IProductsDbContext
 
-### Community 126 - "Community 126"
+### Community 125 - "Community 125"
 Cohesion: 0.4
 Nodes (3): RecurringBackgroundJobsService, IRecurringBackgroundJobs, RecurringJobOptions
 
@@ -507,9 +507,9 @@ Nodes (3): CLAUDE.md — Claude Code Project Instructions, Dual AI Toolchain Syn
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `string` connect `Host Test Factory` to `Feature Flag & Activity Tests`, `Community 98`, `Community 132`, `k6 Load Testing`, `Product Domain Aggregate`, `Community 41`, `Community 171`, `Community 77`, `EF Entity Configuration`, `Community 78`, `Captcha Service`, `Auth & Feature Flags`, `Outbox Processor`, `Community 51`, `Community 52`, `Community 61`, `Community 62`?**
+- **Why does `string` connect `Domain Entity Tests` to `Feature Flag & Activity Tests`, `Community 96`, `Community 131`, `k6 Load Testing`, `Community 39`, `Product Domain Aggregate`, `Community 77`, `Community 78`, `EF Entity Configuration`, `FluentValidation Requests`, `Outbox Processor`, `HTTP Middleware`, `Community 52`, `Community 53`, `Community 62`, `Community 63`?**
   _High betweenness centrality (0.131) - this node is a cross-community bridge._
-- **Why does `ProductTests` connect `Product Domain Aggregate` to `Host Test Factory`?**
+- **Why does `ProductTests` connect `Product Domain Aggregate` to `Domain Entity Tests`?**
   _High betweenness centrality (0.061) - this node is a cross-community bridge._
 - **Why does `int` connect `Product Domain Aggregate` to `Test Utilities & Captcha`?**
   _High betweenness centrality (0.060) - this node is a cross-community bridge._
